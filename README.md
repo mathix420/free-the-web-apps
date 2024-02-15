@@ -17,9 +17,20 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
 
 ## How to install
 
+### Using the interactive CLI.
+
+> Rembember to always have a look at scripts before executing with sudo!
+
 ```bash
-curl https://ftwa.pulsar.dev/install.sh | sudo bash
+curl -s https://ftwa.pulsar.dev/install.sh | sudo bash
 ```
+
+### Manually
+
+1. Clone the repo
+2. Copy the `.desktop` file to `/usr/share/applications`
+3. Copy the `.png` file to `/usr/share/pixmaps`
+4. Eventually you can update the `.desktop` file to run with another chrome executable
 
 <!-- TODO: -->
 <!-- ```bash
