@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Youtube Music
+GenericName=Todo Manager
+Comment=A new music service with official albums, singles, videos, remixes, live performances and more for Android, iOS and desktop. It's all here.
+Exec=/usr/bin/google-chrome --app=https://music.youtube.com/
+Icon=youtube-music
+Terminal=false
+Categories=AudioVideo;Player;
+StartupNotify=true
+StartupWMClass=youtube-music

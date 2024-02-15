@@ -18,6 +18,11 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
 ## How to install
 
 ```bash
+curl https://ftwa.pulsar.dev/install.sh | sudo bash
+```
+
+<!-- TODO: -->
+<!-- ```bash
 curl https://mathix.ninja/ftwa.sh | sudo bash
 ```
 
@@ -27,4 +32,4 @@ Which web app would you like to install?
 > todomate
 
 DONE!
-```
+``` -->
