@@ -22,7 +22,7 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
 > Rembember to always have a look at scripts before executing with sudo!
 
 ```bash
-curl -s https://ftwa.pulsar.dev/install.sh | sudo bash
+curl -s https://ftwa.pulsar.dev/install.sh | sudo bash -s APP_NAME
 ```
 
 ### Manually
