@@ -2,6 +2,8 @@
 
 Collection of [`.desktop` files](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) allowing you to finally use web apps the way they were designed to be used.
 
+So you don't need to wait for Arc Browser on Linux to have great looking webapps!
+
 [Check the gallery!](#gallery)
 
 > [!NOTE]
