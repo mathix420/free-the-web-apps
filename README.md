@@ -1,6 +1,8 @@
 # Free the web apps
 
-> Collection of [`.desktop` files](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) allowing you to finally use web apps the way they were designed to be used.
+Collection of [`.desktop` files](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) allowing you to finally use web apps the way they were designed to be used.
+
+[Check the gallery!](#gallery)
 
 > [!NOTE]
 > Feel free to contribute and add web apps you find useful in this situation.
@@ -15,6 +17,8 @@
 ```bash
 curl -s https://ftwa.pulsar.dev/install.sh | sudo bash -s APP_NAME
 ```
+
+Get the app list [here](/apps).
 
 ### Manually
 
