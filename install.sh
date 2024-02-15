@@ -2,20 +2,36 @@
 
 valid_choices="notion todomate youtube-music"
 
-if [ $# -ne 1 ]; then
+if [ $# -gt 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
     echo "Usage: $0 {$(echo "$valid_choices" | tr ' ' '|')}"
     exit 1
 fi
 
-if [[ ! " $valid_choices " =~ " $1 " ]]; then
-    echo -e "Invalid app name: $1.\n"
-    echo "Please choose one of these:"
-    echo "- $(echo "$valid_choices" | sed -e 's/ /\n- /g')"
-    exit 1
+app_name="$1"
+
+if [ $# -eq 0 ]; then
+    clear
+    echo -n "Which app would you like to install? "
 fi
 
-pixmap_path="/usr/share/pixmaps/$1.png"
-app_path="/usr/share/applications/$1.desktop"
+while [[ ! " $valid_choices " =~ " $app_name " ]]; do
+    if [ "$app_name" != "" ]; then
+        clear
+        echo -e "Invalid app name: $app_name.\n"
+    fi
+
+    echo "Choose one of these apps:"
+    echo "- $(echo "$valid_choices" | sed -e 's/ /\n- /g')"
+
+    echo -ne "\n > "
+
+    read -r app_name
+done
+
+echo ""
+
+pixmap_path="/usr/share/pixmaps/$app_name.png"
+app_path="/usr/share/applications/$app_name.desktop"
 
 if [ -e "$pixmap_path" ]; then
     echo "File '$pixmap_path' already exists. Aborting."
@@ -27,8 +43,13 @@ if [ -e "$app_path" ]; then
     exit 1
 fi
 
-curl "https://raw.githubusercontent.com/mathix420/free-the-web-apps/master/apps/$1/$1.desktop" > /tmp/$1.desktop
-curl "https://raw.githubusercontent.com/mathix420/free-the-web-apps/master/apps/$1/$1.png" > /tmp/$1.png
+curl -s "https://raw.githubusercontent.com/mathix420/free-the-web-apps/master/apps/$app_name/$app_name.desktop" > "/tmp/$app_name.desktop"
+curl -s "https://raw.githubusercontent.com/mathix420/free-the-web-apps/master/apps/$app_name/$app_name.png" > "/tmp/$app_name.png"
 
-sudo cp /tmp/$1.desktop $app_path
-sudo cp /tmp/$1.png $pixmap_path
+sudo cp "/tmp/$app_name.desktop" "$app_path"
+sudo cp "/tmp/$app_name.png" "$pixmap_path"
+
+rm -f "/tmp/$app_name.desktop"
+rm -f "/tmp/$app_name.png"
+
+echo "Done!"
