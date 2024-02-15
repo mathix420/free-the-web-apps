@@ -17,7 +17,7 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
 
 ## How to install
 
-### Using the interactive CLI.
+### Using the util
 
 > Rembember to always have a look at scripts before executing with sudo!
 
