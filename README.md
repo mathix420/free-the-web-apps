@@ -11,7 +11,7 @@ So you don't need to wait for Arc Browser on Linux to have great looking webapps
 
 ## How to install
 
-Currently this will only work if you have a chromium browser installed. If you're not using `google-chrome` make sure to either edit the `.desktop` file to point to your executable, or make `google-chrome` an alias to your chromium browser.
+Currently this will only work if you have a chromium browser installed. If you're not using `google-chrome` make sure to either edit the `.desktop` file to point to your executable, or make `/usr/bin/google-chrome` an alias to your chromium browser.
 
 ### Using the util
 
