@@ -48,6 +48,9 @@ DONE!
 
 Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corner_radius: 12, blur_radius: 5)
 
+- Chrome, Todo Mate, YT Music (My current every-day setup)
+  ![image](https://github.com/mathix420/free-the-web-apps/assets/37625778/a286d765-7bda-4a06-8c20-4d3aec129d0a)
+
 - YouTube Music, Todo Mate, Notion
   ![image](https://github.com/mathix420/free-the-web-apps/assets/37625778/65fd1f2c-beb8-4e8f-a133-6acd5feae10f)
 
