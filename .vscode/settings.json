@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.tabSize": 2,
+    "[vue]": {
+        "editor.suggest.insertMode": "insert"
+    }
+}
