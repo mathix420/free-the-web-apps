@@ -5,6 +5,14 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  modules: [
+    "@nuxt/ui",
+    "@nuxt/eslint",
+    "@nuxt/image",
+    "@nuxthub/core",
+    "@nuxt/fonts",
+  ],
+
   eslint: {
     config: {
       stylistic: {
@@ -14,11 +22,9 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [
-    "@nuxt/ui",
-    "@nuxt/eslint",
-    "@nuxt/image",
-    "@nuxthub/core",
-    "@nuxt/fonts",
-  ],
+  runtimeConfig: {
+    public: {
+      remoteUrl: "http://localhost:3000",
+    },
+  },
 });

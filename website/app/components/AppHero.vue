@@ -28,7 +28,7 @@
                 Let's unchain your web apps!
               </h1>
               <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Let your web applications be free from your browser's frame. Free the web apps! (Because they deserve it)
+                Let your web applications be free from your browser's frame. Free the web apps, frontend engineers deserve it!
               </p>
               <div class="mt-10 flex items-center gap-x-6">
                 <UButton

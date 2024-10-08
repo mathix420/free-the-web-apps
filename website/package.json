@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@iconify-json/heroicons": "^1.2.0",
+    "@iconify-json/material-symbols": "^1.2.3",
     "@iconify-json/simple-icons": "^1.2.6",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint": "^0.5.7",
@@ -22,7 +23,11 @@
     "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.18.5",
     "@nuxthub/core": "^0.7.26",
+    "@types/web-app-manifest": "^1.0.8",
     "nuxt": "^3.12.4",
     "wrangler": "^3.80.1"
+  },
+  "dependencies": {
+    "node-html-parser": "^6.1.13"
   }
 }
