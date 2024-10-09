@@ -23,6 +23,7 @@
     "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.18.5",
     "@nuxthub/core": "^0.7.26",
+    "@nuxtjs/seo": "^2.0.0-rc.23",
     "@types/web-app-manifest": "^1.0.8",
     "nuxt": "^3.12.4",
     "wrangler": "^3.80.1"

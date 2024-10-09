@@ -11,7 +11,23 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxthub/core",
     "@nuxt/fonts",
+    "@nuxtjs/seo",
   ],
+
+  site: {
+    url: "https://ftwa.mathix.dev",
+    name: "FTWA - Free The Web Apps",
+    description: "Free the web apps from your browser's frame, because they deserve it.",
+    defaultLocale: "en",
+  },
+
+  ogImage: {
+    enabled: false,
+  },
+
+  sitemap: {
+    enabled: false,
+  },
 
   image: {
     provider: "ipx",
