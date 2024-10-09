@@ -23,11 +23,9 @@ useHead({
 <template>
   <Html lang="en-US">
     <Body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white pb-36">
-      <AppHero />
+      <NuxtPage />
 
-      <UContainer>
-        <AppUnchainer />
-      </UContainer>
+      <UNotifications />
     </Body>
   </Html>
 </template>

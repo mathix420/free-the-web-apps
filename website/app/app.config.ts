@@ -1,6 +1,6 @@
 export default defineAppConfig({
   ui: {
-    primary: "purple",
+    primary: "green",
     gray: "neutral",
     accordion: {
       default: {
@@ -15,6 +15,11 @@ export default defineAppConfig({
     button: {
       default: {
         size: "lg",
+      },
+      color: {
+        primary: {
+          ghost: "text-primary-500 dark:text-primary-400 hover:bg-primary-600/10 dark:hover:bg-primary-400/10",
+        },
       },
     },
     input: {

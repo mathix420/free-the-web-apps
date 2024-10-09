@@ -13,6 +13,14 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
   ],
 
+  image: {
+    provider: "ipx",
+  },
+
+  hub: {
+    kv: true,
+  },
+
   eslint: {
     config: {
       stylistic: {

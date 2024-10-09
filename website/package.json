@@ -28,6 +28,7 @@
     "wrangler": "^3.80.1"
   },
   "dependencies": {
+    "nanoid": "^5.0.7",
     "node-html-parser": "^6.1.13"
   }
 }

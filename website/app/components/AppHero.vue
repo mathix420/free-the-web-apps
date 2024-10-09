@@ -8,7 +8,7 @@
               <AppLogo button />
               <div class="mt-8 sm:mt-16 lg:mt-16">
                 <NuxtLink
-                  href="#"
+                  href="#gallery"
                   class="inline-flex space-x-6"
                 >
                   <span class="rounded-full bg-primary-600/10 dark:bg-primary-400/10 px-3 py-1 text-sm font-semibold leading-6 text-primary-600 dark:text-primary-400 ring-1 ring-inset ring-primary-600/10 dark:ring-primary-400/10">
@@ -34,7 +34,7 @@
                 <UButton
                   class="capitalize font-bold"
                   size="lg"
-                  to="#"
+                  to="#free-my-web-app"
                 >
                   Free a web app today!
                 </UButton>
