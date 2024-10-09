@@ -7,7 +7,7 @@
         id="free-my-web-app"
         class="uppercase py-10 font-title text-center font-black text-3xl sm:text-4xl"
       >
-        It's your turn to free a web app!
+        It's your turn
       </h2>
       <AppUnchainer class="mb-28" />
 
