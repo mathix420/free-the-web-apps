@@ -11,7 +11,7 @@
   "yt-music": {
     "id": "yt-music",
     "name": "YouTube Music",
-    "description": "A website to listen to music",
+    "description": "A website to listen music",
     "url": "https://music.youtube.com",
     "logo": "https://cdn.iconscout.com/icon/free/png-256/free-youtube-music-logo-icon-download-in-svg-png-gif-file-formats--social-network-media-pack-logos-icons-3357685.png",
     "screenshot": "/youtube-music-screenshot.png",
