@@ -1,44 +1,6 @@
 <script setup lang="ts">
 import type { TargetInfos, VerifiedWebsiteType } from "~~/types";
-
-const websites: VerifiedWebsiteType[] = [
-  {
-    id: "todomate",
-    name: "TodoMate",
-    description: "A simple todo app",
-    url: "https://todomate.net",
-    logo: "https://www.todomate.net/favicon.png",
-    screenshot: "/todomate-screenshot.png",
-    logoSize: 128,
-  },
-  {
-    id: "yt-music",
-    name: "YouTube Music",
-    description: "A website to listen to music",
-    url: "https://music.youtube.com",
-    logo: "https://cdn.iconscout.com/icon/free/png-256/free-youtube-music-logo-icon-download-in-svg-png-gif-file-formats--social-network-media-pack-logos-icons-3357685.png",
-    screenshot: "/youtube-music-screenshot.png",
-    logoSize: 256,
-  },
-  {
-    id: "svgl",
-    name: "SVGL",
-    description: "Beautiful website to pick SVGs",
-    url: "https://svgl.app",
-    logo: "https://github.com/pheralb/svgl/blob/main/static/images/logo.png?raw=true",
-    screenshot: "/svgl-screenshot.png",
-    logoSize: 512,
-  },
-  {
-    id: "figma",
-    name: "Figma",
-    description: "A website to design UI/UX",
-    url: "https://www.figma.com",
-    logo: "https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png",
-    screenshot: "/figma-screenshot.png",
-    logoSize: 512,
-  },
-];
+import websites from "~~/apps.json";
 
 const targetInfos = useState<TargetInfos>("target-infos");
 const { remoteUrl } = useRuntimeConfig().public;

@@ -1,5 +1,6 @@
 import type { TargetInfos, WebsiteType } from "~~/types";
 import templates from "~~/templates";
+import websites from "~~/apps.json";
 
 export default defineEventHandler(async (event) => {
   const { uid } = getRouterParams(event);
@@ -15,7 +16,7 @@ export default defineEventHandler(async (event) => {
     return "echo '\nERROR: Target unsupported (yet).'";
   }
 
-  const website = await hubKV().get<WebsiteType>(`unverified-website:${uid}`);
+  const website: WebsiteType = websites[uid];
 
   if (!website) {
     return `echo '\nERROR: Website not found.'
