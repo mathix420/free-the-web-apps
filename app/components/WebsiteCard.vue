@@ -7,7 +7,13 @@ const props = defineProps<{
 
 const route = useRoute();
 const appId = computed(() => `app-${props.website.id}`);
-const isCardSelected = computed(() => `#${appId.value}`.toLowerCase() === route.hash.toLowerCase());
+const isCardSelected = ref(false);
+
+onMounted(() => {
+  watchEffect(() => {
+    isCardSelected.value = `#${appId.value}`.toLowerCase() === route.hash.toLowerCase();
+  });
+});
 
 const targetInfos = useState<TargetInfos>("target-infos");
 const { remoteUrl } = useRuntimeConfig().public;
