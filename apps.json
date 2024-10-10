@@ -43,5 +43,41 @@
     "logo": "https://excalidraw.com/android-chrome-192x192.png",
     "screenshot": "/screenshot/excalidraw.png",
     "logoSize": 192
+  },
+  "discord": {
+    "id": "discord",
+    "name": "Discord",
+    "description": "A website to chat with friends",
+    "url": "https://discord.com/app",
+    "logo": "https://static-00.iconduck.com/assets.00/discord-icon-512x512-xtx725no.png",
+    "screenshot": "/screenshot/discord.png",
+    "logoSize": 512
+  },
+  "gmail": {
+    "id": "gmail",
+    "name": "Gmail",
+    "description": "A website to send emails",
+    "url": "https://mail.google.com",
+    "logo": "https://static-00.iconduck.com/assets.00/gmail-icon-512x385-4c4746h1.png",
+    "screenshot": "/screenshot/gmail.png",
+    "logoSize": 512
+  },
+  "netflix": {
+    "id": "netflix",
+    "name": "Netflix",
+    "description": "Tuduum",
+    "url": "https://www.netflix.com",
+    "logo": "https://static-00.iconduck.com/assets.00/apps-netflix-icon-512x512-gni9c4qs.png",
+    "screenshot": "/screenshot/netflix.png",
+    "logoSize": 512
+  },
+  "notion": {
+    "id": "notion",
+    "name": "Notion",
+    "description": "A website to take notes",
+    "url": "https://www.notion.so",
+    "logo": "https://static-00.iconduck.com/assets.00/notion-icon-492x512-9g5gr3fj.png",
+    "screenshot": "/screenshot/notion.png",
+    "logoSize": 512
   }
 }
