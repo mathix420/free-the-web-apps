@@ -27,12 +27,12 @@ function copyCode(website: VerifiedWebsiteType) {
 
   useRouter().replace({ hash: "#" });
 
-  copy(code, { title: "Copied!", description: "Paste on terminal to install the app." }, { title: "Failed to copy!" });
+  copy(code, { title: "Command copied!", description: "Paste on terminal to install the app." }, { title: "Failed to copy!" });
 }
 
 function copyLink(website: VerifiedWebsiteType) {
   const link = `${remoteUrl}/#app-${website.id}`;
-  copy(link, { title: "Copied!", description: "You can share this link with anyone." }, { title: "Failed to copy!" });
+  copy(link, { title: "Link copied!", description: "Share this link with anyone." }, { title: "Failed to copy!" });
 }
 </script>
 

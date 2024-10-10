@@ -10,8 +10,10 @@ So you don't need to wait for Arc Browser on Linux to have great looking webapps
 - **Support Extentions.** Apps keep browser data: cookies, storage, extentions, ...
 - **App Gallery.** Discover dozen of web apps that work especially well in a frameless browser.
 
-**[FTWA Website](https://ftwa.mathix.dev)** • **[How it works](#how-it-works)** • **[Suggest an app][suggest-app]**
+**[Apps Gallery](https://ftwa.mathix.dev/#gallery)** • **[How it works](#how-it-works)** • **[Suggest an app][suggest-app]**
 
+> [!NOTE]
+> Feel free to contribute and [suggest apps][suggest-app] you find useful!
 
 ## How it works
 
@@ -35,17 +37,12 @@ TODO: Not implemented yet. But will use shortcuts.
 
 TODO: Not implemented yet.
 
-[Check the gallery!](#gallery)
-
-> [!NOTE]
-> Feel free to contribute and [suggest apps][suggest-app] you find useful!
-
 ## How to install an app
 
 1. Make sure to select your environment options.
 
     ![settings](.github/assets/settings.png)
-2. Either create your own app or click the copy icon on any app from the gallery.
+2. Either [create your own app](https://ftwa.mathix.dev/#free-my-web-app) or click the copy icon on any app from the [gallery](https://ftwa.mathix.dev/#gallery).
 3. Paste the code in your terminal of choice.
     - It's good practice to check a script content before running it.
     - **Example:**

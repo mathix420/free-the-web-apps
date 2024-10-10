@@ -17,6 +17,12 @@
       >
         App gallery
       </h2>
+      <UCard
+        :ui="{ body: { padding: 'sm:p-3 p-3' } }"
+        class="mb-5 mx-auto max-w-[588px] xl:max-w-none "
+      >
+        <TargetSettings />
+      </UCard>
       <AppGallery />
 
       <!-- Suggest an app -->
