@@ -1,0 +1,49 @@
+name: "App suggestion"
+description: Suggest an app for the gallery
+title: "[APP] - "
+labels: ["app-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for suggesting an app!
+  - type: input
+    id: name
+    attributes:
+      label: App name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: App URL
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: App description
+    validations:
+      required: true
+  - type: input
+    id: logo
+    attributes:
+      label: App logo URL
+      description: Only square PNGs are supported. Minimum size 125px.
+    validations:
+      required: true
+  - type: input
+    id: logoSize
+    attributes:
+      label: Logo size (in px)
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Screenshots are also welcome!
+        1. Navigate to the website on your browser.
+        2. Inspect the page.
+        3. Click on the device preview icon.
+        4. Set dimension to responsive, set size to `1428x960`, DPR to `2.0`.
+        5. Hit `Ctrl+Shift+P` and type `Capture screenshot`, hit enter.
+        6. Upload the screenshot here, or in the comment section.
