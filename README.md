@@ -1,4 +1,4 @@
-<p align="center"><img alt="FTWA Screenshot" src="public/og.png"></p>
+<a href="https://ftwa.mathix.dev" target="_blank" align="center"><img alt="FTWA Screenshot" src="public/og.png"></a>
 
 # Free The Web Apps
 
