@@ -94,12 +94,13 @@ function copyLink(website: VerifiedWebsiteType) {
       </div>
     </div>
 
-    <NuxtImg
+    <NuxtPicture
+      format="avif,webp"
       :src="website.screenshot"
       :alt="website.name"
-      width="588px"
+      sizes="588px"
       loading="lazy"
-      class="w-full rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl"
+      :img-attrs="{ class: 'w-full rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl' }"
     />
   </UCard>
 </template>
