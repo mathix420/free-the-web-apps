@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 valid_choices="notion todomate youtube-music"
 
