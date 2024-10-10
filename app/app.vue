@@ -28,7 +28,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <Html lang="en-US">
+  <Html
+    lang="en-US"
+    class="scroll-pt-5"
+  >
     <Body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <NuxtPage />
 
