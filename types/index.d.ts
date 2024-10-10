@@ -12,7 +12,7 @@ export interface VerifiedWebsiteType extends WebsiteType {
 }
 
 export type OS = "windows" | "linux" | "macos";
-export type Browser = "chrome" | "firefox" | "edge" | "safari";
+export type Browser = "chrome" | "firefox" | "edge" | "safari" | "opera" | "brave";
 
 export interface TargetInfos {
   path: string;

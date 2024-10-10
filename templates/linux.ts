@@ -26,6 +26,8 @@ Icon=${fname}
 Terminal=false
 StartupNotify=true
 StartupWMClass=${fname}
+
+# This file was generated using FTWA (https://ftwa.mathix.dev)
 EOF
 
 icon_path="$tmpdir/${fname}.png";

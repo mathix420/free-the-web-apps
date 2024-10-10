@@ -11,7 +11,7 @@ export default defineEventHandler(async (event) => {
     return "echo '\nERROR: Missing target infos.'";
   }
 
-  if (!["linux"].includes(target.os) || !["chrome", "brave", "edge"].includes(target.bw)) {
+  if (!["linux"].includes(target.os) || !["chrome", "brave", "edge", "opera"].includes(target.bw)) {
     return "echo '\nERROR: Target unsupported (yet).'";
   }
 

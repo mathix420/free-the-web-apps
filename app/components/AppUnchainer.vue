@@ -59,6 +59,15 @@ const browsers: TBrowser[] = [{
   },
   icon: "simple-icons:microsoftedge",
 }, {
+  value: "opera",
+  label: "Opera",
+  defaultExecutablePath: {
+    linux: "/usr/bin/opera",
+    macos: "/Applications/Opera.app/Contents/MacOS/Opera",
+    windows: "C:\\Program Files\\Opera\\launcher.exe",
+  },
+  icon: "simple-icons:opera",
+}, {
   disabled: true,
   value: "firefox",
   label: "Firefox (to be implemented)",
