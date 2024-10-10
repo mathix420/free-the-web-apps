@@ -53,6 +53,7 @@ function copyLink(website: VerifiedWebsiteType) {
     <div class="px-5 py-4 flex justify-between">
       <div>
         <UButton
+          data-umami-event="Visit verified app"
           class="text-lg font-bold text-primary-500 dark:text-primary-400"
           variant="link"
           aria-label="Visit website"
@@ -76,6 +77,7 @@ function copyLink(website: VerifiedWebsiteType) {
       <div class="flex items-center gap-1">
         <UButton
           variant="ghost"
+          data-umami-event="Share verified app"
           icon="material-symbols:share"
           :ui="{ rounded: 'rounded-xl' }"
           aria-label="Share Web App"
@@ -83,6 +85,7 @@ function copyLink(website: VerifiedWebsiteType) {
         />
         <UButton
           variant="ghost"
+          data-umami-event="Copy verified code"
           icon="material-symbols:content-copy-outline-rounded"
           :ui="{ rounded: 'rounded-xl' }"
           aria-label="Copy code"

@@ -7,6 +7,7 @@ const colorMode = useColorMode();
     <div class="mx-auto max-w-7xl p-6 md:flex md:items-center md:justify-between lg:px-8">
       <div class="flex justify-center gap-2 md:order-2">
         <UButton
+          data-umami-event="Portfolio footer"
           icon="heroicons:globe-alt"
           target="_blank"
           :ui="{ rounded: 'rounded-xl' }"
@@ -16,6 +17,7 @@ const colorMode = useColorMode();
           variant="ghost"
         />
         <UButton
+          data-umami-event="Github link footer"
           icon="simple-icons:github"
           target="_blank"
           :ui="{ rounded: 'rounded-xl' }"
@@ -26,6 +28,7 @@ const colorMode = useColorMode();
         />
         <ClientOnly>
           <UButton
+            data-umami-event="Change theme"
             :icon="colorMode.value === 'dark' ? 'heroicons:moon-20-solid' : 'heroicons:sun-20-solid'"
             color="gray"
             :ui="{ rounded: 'rounded-xl' }"
@@ -43,6 +46,7 @@ const colorMode = useColorMode();
           Made by
           <NuxtLink
             target="_blank"
+            data-umami-event="Portfolio footer"
             to="https://mathix.dev"
           >
             Arnaud Gissinger
@@ -50,11 +54,13 @@ const colorMode = useColorMode();
           using
           <NuxtLink
             target="_blank"
+            data-umami-event="Stack link footer"
             to="https://ui.nuxt.com/"
           >
             Nuxt UI</NuxtLink>,
           <NuxtLink
             target="_blank"
+            data-umami-event="Stack link footer"
             to="https://tailwindui.com/"
           >
             Tailwind UI
@@ -62,6 +68,7 @@ const colorMode = useColorMode();
           and deployed with
           <NuxtLink
             target="_blank"
+            data-umami-event="Stack link footer"
             to="https://hub.nuxt.com/"
           >
             Nuxt Hub</NuxtLink>.

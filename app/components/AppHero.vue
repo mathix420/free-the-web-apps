@@ -8,6 +8,7 @@
               <AppLogo button />
               <div class="mt-8 sm:mt-16 lg:mt-16">
                 <NuxtLink
+                  data-umami-event="See Gallery"
                   href="#gallery"
                   class="inline-flex space-x-6"
                 >
@@ -34,6 +35,7 @@
                 <UButton
                   class="capitalize font-bold"
                   size="lg"
+                  data-umami-event="Free a web app today!"
                   to="#free-my-web-app"
                 >
                   Free a web app today!
@@ -42,6 +44,7 @@
                   size="lg"
                   color="primary"
                   variant="ghost"
+                  data-umami-event="Leave A Star"
                   icon="simple-icons:github"
                   target="_blank"
                   external

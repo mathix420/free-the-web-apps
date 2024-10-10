@@ -182,6 +182,7 @@ function copyCode() {
   <UCard>
     <div class="flex flex-col gap-4">
       <UAccordion
+        data-umami-event="Target Settings"
         variant="link"
         :items="[{
           label: `For ${browser?.label} on ${operatingSystem?.label}`,
@@ -294,6 +295,7 @@ function copyCode() {
 
       <UButton
         v-show="validUrl && validLogo && webAppInfos.logoSize !== 0 && webAppInfos.name"
+        data-umami-event="Free a web app"
         color="primary"
         :label="`Free ${webAppInfos.name}!`"
         class="mt-3 justify-center font-bold"
@@ -310,6 +312,7 @@ function copyCode() {
       >
         <template #hint>
           <UButton
+            data-umami-event="Check code link"
             variant="link"
             label="Check"
             icon="material-symbols:open-in-new"
@@ -321,6 +324,7 @@ function copyCode() {
 
         <UInput
           readonly
+          data-umami-event="Copy custom code"
           :model-value="execCode"
           :ui="{ icon: { trailing: { pointer: '' } } }"
           @focus="$event.target.select()"
@@ -329,6 +333,7 @@ function copyCode() {
           <template #trailing>
             <UButton
               color="gray"
+              data-umami-event="Copy custom code"
               variant="link"
               icon="material-symbols:content-copy-outline-rounded"
               :padded="false"
