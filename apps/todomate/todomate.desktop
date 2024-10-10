@@ -4,7 +4,7 @@ Type=Application
 Name=Todo Mate
 GenericName=Todo Manager
 Comment=Make your day perfect with the easy-to-use and pretty todo mate app.
-Exec=/usr/bin/google-chrome --app=https://todomate.net
+Exec=$(which google-chrome-stable) --app=https://todomate.net
 Icon=todomate
 Terminal=false
 Categories=Utility;

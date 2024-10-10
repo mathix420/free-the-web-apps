@@ -35,7 +35,7 @@ const browsers: TBrowser[] = [{
   value: "chrome",
   label: "Chrome",
   defaultExecutablePath: {
-    linux: "/usr/bin/google-chrome-stable",
+    linux: "$(which google-chrome-stable)",
     macos: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     windows: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
   },
@@ -44,7 +44,7 @@ const browsers: TBrowser[] = [{
   value: "brave",
   label: "Brave",
   defaultExecutablePath: {
-    linux: "/usr/bin/brave",
+    linux: "$(which brave)",
     macos: "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
     windows: "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
   },
@@ -53,7 +53,7 @@ const browsers: TBrowser[] = [{
   value: "edge",
   label: "Edge",
   defaultExecutablePath: {
-    linux: "/usr/bin/microsoft-edge",
+    linux: "$(which microsoft-edge)",
     macos: "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge",
     windows: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
   },
@@ -63,7 +63,7 @@ const browsers: TBrowser[] = [{
   value: "firefox",
   label: "Firefox (to be implemented)",
   defaultExecutablePath: {
-    linux: "/usr/bin/firefox",
+    linux: "$(which firefox)",
     macos: "/Applications/Firefox.app/Contents/MacOS/firefox",
     windows: "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
   },

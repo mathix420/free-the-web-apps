@@ -4,7 +4,7 @@ Type=Application
 Name=Notion
 GenericName=Notes
 Comment=A new tool that blends your everyday work apps into one.
-Exec=/usr/bin/google-chrome --app=https://notion.so/
+Exec=$(which google-chrome-stable) --app=https://notion.so/
 Icon=notion
 Terminal=false
 Categories=Utility;
