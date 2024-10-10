@@ -2,7 +2,7 @@
   "todomate": {
     "id": "todomate",
     "name": "TodoMate",
-    "description": "A simple todo app",
+    "description": "A social todo app",
     "url": "https://todomate.net",
     "logo": "https://www.todomate.net/favicon.png",
     "screenshot": "/screenshot/todomate.png",
