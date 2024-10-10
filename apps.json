@@ -79,5 +79,23 @@
     "logo": "https://static-00.iconduck.com/assets.00/notion-icon-492x512-9g5gr3fj.png",
     "screenshot": "/screenshot/notion.png",
     "logoSize": 512
+  },
+  "cyber-chef": {
+    "id": "cyber-chef",
+    "name": "CyberChef",
+    "description": "The Cyber Swiss Army Knife",
+    "url": "https://gchq.github.io/CyberChef",
+    "logo": "https://github.com/gchq/CyberChef/blob/master/src/web/static/images/logo/cyberchef_hat_512.png?raw=true",
+    "screenshot": "/screenshot/cyber-chef.png",
+    "logoSize": 512
+  },
+  "chat-gpt": {
+    "id": "chat-gpt",
+    "name": "ChatGPT",
+    "description": "A website to chat with AI",
+    "url": "https://chatgpt.com/",
+    "logo": "https://static-00.iconduck.com/assets.00/openai-icon-505x512-pr6amibw.png",
+    "screenshot": "/screenshot/chat-gpt.png",
+    "logoSize": 512
   }
 }
