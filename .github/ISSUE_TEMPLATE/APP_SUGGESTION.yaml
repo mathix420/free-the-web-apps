@@ -46,4 +46,11 @@ body:
         3. Click on the device preview icon.
         4. Set dimension to responsive, set size to `1428x960`, DPR to `2.0`.
         5. Hit `Ctrl+Shift+P` and type `Capture screenshot`, hit enter.
-        6. Upload the screenshot here, or in the comment section.
+        6. Upload the screenshot below, or in the comment section.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag and drop screenshot here
+    validations:
+      required: false
