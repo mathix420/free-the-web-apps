@@ -2,7 +2,7 @@
   "name": "ftwa-website",
   "private": true,
   "version": "0.0.1",
-  "packageManager": "bun@1.1.29",
+  "packageManager": "bun@1.1.30",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -14,19 +14,19 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@iconify-json/heroicons": "^1.2.0",
+    "@iconify-json/heroicons": "^1.2.1",
     "@iconify-json/material-symbols": "^1.2.3",
-    "@iconify-json/simple-icons": "^1.2.6",
+    "@iconify-json/simple-icons": "^1.2.7",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint": "^0.5.7",
     "@nuxt/fonts": "^0.10.0",
     "@nuxt/image": "^1.8.1",
-    "@nuxt/ui": "^2.18.5",
+    "@nuxt/ui": "^2.18.7",
     "@nuxthub/core": "^0.7.26",
     "@nuxtjs/seo": "^2.0.0-rc.23",
     "@types/web-app-manifest": "^1.0.8",
-    "nuxt": "^3.12.4",
-    "wrangler": "^3.80.1"
+    "nuxt": "^3.13.2",
+    "wrangler": "^3.80.2"
   },
   "dependencies": {
     "nanoid": "^5.0.7",
