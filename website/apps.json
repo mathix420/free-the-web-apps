@@ -34,5 +34,14 @@
     "logo": "https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png",
     "screenshot": "/screenshot/figma.png",
     "logoSize": 512
+  },
+  "excalidraw": {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "description": "A website to draw cool diagrams",
+    "url": "https://excalidraw.com",
+    "logo": "https://excalidraw.com/android-chrome-192x192.png",
+    "screenshot": "/screenshot/excalidraw.png",
+    "logoSize": 192
   }
 }
