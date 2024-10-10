@@ -1,4 +1,4 @@
-<p align="center"><img alt="FTWA Screenshot" src="/website/public/og.png"></p>
+<p align="center"><img alt="FTWA Screenshot" src="public/og.png"></p>
 
 # Free The Web Apps
 
