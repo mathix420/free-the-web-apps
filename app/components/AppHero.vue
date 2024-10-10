@@ -40,9 +40,8 @@
                 </UButton>
                 <UButton
                   size="lg"
-                  color="black"
-                  class="hover:bg-primary-600/10"
-                  variant="soft"
+                  color="primary"
+                  variant="ghost"
                   icon="simple-icons:github"
                   target="_blank"
                   external

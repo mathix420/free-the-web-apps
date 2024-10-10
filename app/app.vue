@@ -4,12 +4,12 @@ useHead({
     {
       name: "theme-color",
       media: "(prefers-color-scheme: dark)",
-      content: "#24182d",
+      content: "#211830",
     },
     {
       name: "theme-color",
       media: "(prefers-color-scheme: light)",
-      content: "#fdfaff",
+      content: "#fbfafe",
     },
   ],
   script: [

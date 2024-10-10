@@ -13,6 +13,7 @@ export default defineAppConfig({
       },
     },
     button: {
+      base: "focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 transition-colors",
       default: {
         size: "lg",
       },
