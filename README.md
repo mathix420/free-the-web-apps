@@ -49,7 +49,7 @@ TODO: Not implemented yet.
       ```bash
       sh -c "$(curl -fsSL 'https://ftwa.mathix.dev/v/excalidraw?os=linux&bw=chrome&path=%2Fusr%2Fbin%2Fgoogle-chrome-stable')"
       ```
-      Just curl the link or open it in a browser to see the script content.
+      Just curl the link or [open it in a browser](https://ftwa.mathix.dev/v/excalidraw?os=linux&bw=chrome&path=%2Fusr%2Fbin%2Fgoogle-chrome-stable) to see the script content.
       ```bash
       curl -fsSL 'https://ftwa.mathix.dev/v/excalidraw?os=linux&bw=chrome&path=%2Fusr%2Fbin%2Fgoogle-chrome-stable'
       ```
