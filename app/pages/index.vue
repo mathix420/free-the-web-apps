@@ -18,6 +18,20 @@
         App gallery
       </h2>
       <AppGallery />
+
+      <!-- Suggest an app -->
+      <div class="flex justify-center mt-20">
+        <UButton
+          size="xl"
+          :ui="{ rounded: 'rounded-full' }"
+          variant="outline"
+          target="_blank"
+          label="Suggest an app"
+          leading-icon="heroicons:plus-circle"
+          external
+          to="https://github.com/mathix420/free-the-web-apps/issues/new?assignees=&labels=app-suggestion&projects=&template=APP_SUGGESTION.yaml&title=%5BAPP%5D+-+"
+        />
+      </div>
     </UContainer>
   </main>
 </template>
