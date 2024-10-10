@@ -76,4 +76,43 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
   ![image](https://github.com/mathix420/free-the-web-apps/assets/37625778/d04f03fb-254b-4216-8ee0-66574e75abc8)
 
 
+## Web Dev
+
+Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction), [Nuxt UI](https://ui.nuxt.com), [Nuxt Hub](https://hub.nuxt.com) and [Tailwind UI](https://tailwindui.com/) to learn more.
+
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+bun run dev
+# or
+bun run dev --host
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
 [suggest-app]: https://github.com/mathix420/free-the-web-apps/issues/new?assignees=&labels=app-suggestion&projects=&template=APP_SUGGESTION.yaml&title=%5BAPP%5D+-+
