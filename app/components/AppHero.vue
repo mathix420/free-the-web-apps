@@ -69,9 +69,10 @@
               />
               <div class="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
                 <div class="mx-auto max-w-2xl md:mx-0 md:max-w-none">
-                  <NuxtPicture
+                  <NuxtImg
                     src="/screenshot/todomate.png"
                     alt="Screenshot of TodoMate"
+                    width="672px"
                     :img-attrs="{
                       class: 'w-screen overflow-hidden rounded-t-lg sm:rounded-t-xl md:rounded-tr-none',
                     }"

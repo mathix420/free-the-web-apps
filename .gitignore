@@ -23,3 +23,5 @@ logs
 .env
 .env.*
 !.env.example
+
+.wrangler

@@ -33,6 +33,13 @@ export default defineNuxtConfig({
     provider: "ipx",
   },
 
+  nitro: {
+    prerender: {
+      routes: ["/"],
+      crawlLinks: true,
+    },
+  },
+
   hub: {
     kv: true,
   },
