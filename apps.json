@@ -97,5 +97,14 @@
     "logo": "https://static-00.iconduck.com/assets.00/openai-icon-505x512-pr6amibw.png",
     "screenshot": "/screenshot/chat-gpt.png",
     "logoSize": 512
+  },
+  "superlist": {
+    "id": "superlist",
+    "name": "Superlist",
+    "description": "Home to all your lists",
+    "url": "https://app.superlist.com/inbox",
+    "logo": "https://cdn.prod.website-files.com/625593a881b8ebd169835ca5/663f2f66c6546b588a916dcc_icon.png",
+    "screenshot": "/screenshot/superlist.png",
+    "logoSize": 308
   }
 }
