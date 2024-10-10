@@ -73,9 +73,7 @@
                     src="/screenshot/todomate.png"
                     alt="Screenshot of TodoMate"
                     width="672px"
-                    :img-attrs="{
-                      class: 'w-screen overflow-hidden rounded-t-lg sm:rounded-t-xl md:rounded-tr-none',
-                    }"
+                    class="w-screen overflow-hidden rounded-t-lg sm:rounded-t-xl md:rounded-tr-none"
                   />
                 </div>
                 <div
