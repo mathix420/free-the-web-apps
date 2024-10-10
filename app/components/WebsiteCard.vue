@@ -25,6 +25,8 @@ function copyCode(website: VerifiedWebsiteType) {
     + `&bw=${targetInfos.value.bw}`
     + `&path=${encodeURIComponent(targetInfos.value.path)}')"`;
 
+  useRouter().replace({ hash: "#" });
+
   copy(code, { title: "Copied!", description: "Paste on terminal to install the app." }, { title: "Failed to copy!" });
 }
 
