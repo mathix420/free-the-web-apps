@@ -12,6 +12,17 @@ useHead({
       content: "#fbfafe",
     },
   ],
+  link: [
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      href: "/apple-touch-icon.png",
+    },
+    {
+      rel: "icon",
+      href: "/favicon.png",
+    },
+  ],
   script: [
     {
       "src": "https://cloud.umami.is/script.js",
