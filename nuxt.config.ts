@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   site: {
     url: "https://ftwa.mathix.dev",
     name: "FTWA - Free The Web Apps",
-    description: "Free the web apps from your browser's frame, because they deserve it.",
+    description: "Turn any website into an app in seconds! Let websites be free from your browser's frame, Free The Web Apps!",
     defaultLocale: "en",
   },
 
