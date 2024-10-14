@@ -42,7 +42,7 @@ Creating a `.app` folder in `/Applications` containing an Icon (`.icns`) and a b
 1. Make sure to select your environment options.
 
     ![settings](.github/assets/settings.png)
-2. Either [create your own app](https://ftwa.mathix.dev/#free-my-web-app) or click the copy icon on any app from the [gallery](https://ftwa.mathix.dev/#gallery).
+2. Either [create your own app](https://ftwa.mathix.dev/#create-web-app) or click the copy icon on any app from the [gallery](https://ftwa.mathix.dev/#gallery).
 3. Paste the code in your terminal of choice.
     - It's good practice to check a script content before running it.
     - **Example:**

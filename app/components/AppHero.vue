@@ -33,24 +33,24 @@
               </p>
               <div class="mt-10 flex items-center gap-x-6">
                 <UButton
-                  class="capitalize font-bold"
-                  size="lg"
-                  data-umami-event="Free a web app today!"
-                  to="#free-my-web-app"
+                  class="font-bold"
+                  size="xl"
+                  data-umami-event="Free a web app"
+                  to="#create-web-app"
                 >
-                  Free a web app today!
+                  Free a web app!
                 </UButton>
                 <UButton
-                  size="lg"
+                  size="xl"
                   color="primary"
                   variant="ghost"
-                  data-umami-event="Leave A Star"
+                  data-umami-event="Open Source"
                   icon="simple-icons:github"
                   target="_blank"
                   external
                   to="https://github.com/mathix420/free-the-web-apps?utm_source=ftwa.mathix.dev&utm_medium=hero-btn"
                 >
-                  Leave A Star
+                  Open Source
                 </UButton>
               </div>
             </div>
