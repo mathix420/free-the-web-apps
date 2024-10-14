@@ -16,7 +16,7 @@ export function linux({
 # Exit on error
 set -e;
 
-echo "\nCreating desktop entry...";
+echo "\\nCreating desktop entry...";
 tmpdir="$(mktemp -d)";
 tmp_desktop_file="$tmpdir/${fname}.desktop";
 

@@ -27,7 +27,7 @@ export function macos({
 # Exit on error
 set -e;
 
-echo "\nCreating desktop entry...";
+echo "\\nCreating desktop entry...";
 
 # Creating a temporary directory
 tmpdir="$(mktemp -d)";
