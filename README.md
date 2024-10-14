@@ -34,9 +34,9 @@ When choosing linux as target OS, FTWA generate a shell script that will create 
 
 TODO: Not implemented yet. But will use shortcuts.
 
-### On Macos *(ALPHA)*
+### On Macos
 
-Creating a `.app` folder in `/Applications` containing an Icon (`.icns`) and a bash script that run the browser command.
+Creating a `.app` folder in `/Applications` containing an icon (`.icns`) and a bash script that run the browser command.
 
 ## How to install an app
 
