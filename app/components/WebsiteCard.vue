@@ -20,7 +20,7 @@ const { remoteUrl } = useRuntimeConfig().public;
 const { copy } = useCopyToClipboard();
 
 function copyCode(website: VerifiedWebsiteType) {
-  const code = `sh -c "$(curl -fsSL '${remoteUrl}/v/${website.id}`
+  const code = `sh -ec "$(curl -fsSL '${remoteUrl}/v/${website.id}`
     + `?os=${targetInfos.value.os}`
     + `&bw=${targetInfos.value.bw}`
     + `&path=${encodeURIComponent(targetInfos.value.path)}')"`;

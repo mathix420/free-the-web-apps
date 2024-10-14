@@ -33,9 +33,9 @@ When choosing linux as target OS, FTWA generate a shell script that will create 
 
 TODO: Not implemented yet. But will use shortcuts.
 
-### On Macos
+### On Macos *(ALPHA)*
 
-TODO: Not implemented yet.
+Creating a `.app` folder in `/Applications` containing an Icon (`.icns`) and a bash script that run the browser command.
 
 ## How to install an app
 
@@ -47,7 +47,7 @@ TODO: Not implemented yet.
     - It's good practice to check a script content before running it.
     - **Example:**
       ```bash
-      sh -c "$(curl -fsSL 'https://ftwa.mathix.dev/v/excalidraw?os=linux&bw=chrome&path=%2Fusr%2Fbin%2Fgoogle-chrome-stable')"
+      sh -ec "$(curl -fsSL 'https://ftwa.mathix.dev/v/excalidraw?os=linux&bw=chrome&path=%2Fusr%2Fbin%2Fgoogle-chrome-stable')"
       ```
       Just curl the link or [open it in a browser](https://ftwa.mathix.dev/v/excalidraw?os=linux&bw=chrome&path=%2Fusr%2Fbin%2Fgoogle-chrome-stable) to see the script content.
       ```bash

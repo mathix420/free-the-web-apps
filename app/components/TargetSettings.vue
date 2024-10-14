@@ -26,9 +26,8 @@ const operatingSystems: OperatingSystem[] = [{
   label: "Windows (to be implemented)",
   icon: "simple-icons:windows",
 }, {
-  disabled: true,
   value: "macos",
-  label: "macOS (to be implemented)",
+  label: "macOS 🚨 ALPHA! 🚨",
   icon: "simple-icons:apple",
 }];
 const browsers: TBrowser[] = [{

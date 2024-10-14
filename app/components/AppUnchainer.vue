@@ -54,7 +54,7 @@ async function submitWebsite() {
     });
     if (data.value?.uid) {
       websiteId.value = data.value.uid;
-      execCode.value = `sh -c "$(curl -fsSL '${remoteUrl}/u/${data.value?.uid}`
+      execCode.value = `sh -ec "$(curl -fsSL '${remoteUrl}/u/${data.value?.uid}`
       + `?os=${targetInfos.value.os}`
       + `&bw=${targetInfos.value.bw}`
       + `&path=${encodeURIComponent(targetInfos.value.path)}')"`;
