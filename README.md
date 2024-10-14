@@ -23,7 +23,8 @@ FTWA uses the `--app='https://app.example'` parameter with Chromium-based browse
 
 ### Firefox
 
-TODO: Not implemented yet. Previously `--ssb` parameter (Site Specific Browser) was available in firefox, but was discontinued in 2021. Will need to find alternatives.
+Previously the `--ssb` parameter (Site Specific Browser) provided similar behavior as `--app` in chrome, but it was discontinued in 2021.
+FTWA create a new firefox profile with custom CSS and settings, inspired by [this reddit comment](https://www.reddit.com/r/firefox/comments/li2lqg/now_that_mozilla_killed_the_ssb_feature_what/).
 
 ### On linux
 
