@@ -6,7 +6,6 @@ import type { TargetInfos, WebsiteType } from "~~/types";
 // https://apple.stackexchange.com/a/402653
 // https://xuk.ai/blog/mac-apps-for-terminal.html
 
-// https://www.reddit.com/r/firefox/comments/li2lqg/now_that_mozilla_killed_the_ssb_feature_what/
 // https://support.mozilla.org/en-US/questions/1097623
 function firefoxSetup(target: TargetInfos) {
   if (target.bw !== "firefox") return "# Firefox setup skipped";

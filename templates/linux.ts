@@ -2,7 +2,6 @@ import userChromeCss from "./files/userChrome.css";
 import userJs from "./files/user.js.txt";
 import type { TargetInfos, WebsiteType } from "~~/types";
 
-// https://www.reddit.com/r/firefox/comments/li2lqg/now_that_mozilla_killed_the_ssb_feature_what/
 function firefoxSetup(target: TargetInfos) {
   if (target.bw !== "firefox") return "# Firefox setup skipped";
 
