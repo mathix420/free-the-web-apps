@@ -1,0 +1,17 @@
+TabsToolbar {
+  visibility: collapse;
+}
+
+:root:not([customizing]) #navigator-toolbox {
+  max-height: 1px;
+  min-height: calc(0px);
+  overflow: hidden;
+}
+
+#navigator-toolbox::after {
+  display: none !important;
+}
+
+#main-window[sizemode="maximized"] #content-deck {
+  padding-top: 8px;
+}

@@ -22,7 +22,7 @@ const operatingSystems: OperatingSystem[] = [{
   icon: "simple-icons:linux",
 }, {
   value: "macos",
-  label: "macOS 🚨 ALPHA! 🚨",
+  label: "macOS (BETA)",
   icon: "simple-icons:apple",
 }, {
   disabled: true,
@@ -67,9 +67,8 @@ const browsers: TBrowser[] = [{
   },
   icon: "simple-icons:opera",
 }, {
-  disabled: true,
   value: "firefox",
-  label: "Firefox (to be implemented)",
+  label: "Firefox (BETA)",
   defaultExecutablePath: {
     linux: "/usr/bin/firefox",
     macos: "/Applications/Firefox.app/Contents/MacOS/firefox",
@@ -89,8 +88,8 @@ const browsers: TBrowser[] = [{
 }];
 
 const targetInfos = useState<TargetInfos>("target-infos", () => ({
-  bw: getUserBrowser(browsers.filter(x => x.disabled).map(x => x.value)),
-  os: getUserOS(operatingSystems.filter(x => x.disabled).map(x => x.value)),
+  bw: "chrome",
+  os: "linux",
   path: "",
 }));
 
