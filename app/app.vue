@@ -26,7 +26,7 @@ useHead({
 });
 
 useScript({
-  "src": "https://cloud.umami.is/script.js",
+  "src": "https://cloud.umami.dev/script.js",
   "defer": true,
   "async": true,
   "data-website-id": "5e1460d0-4669-4652-8079-17d5602c9abd",
