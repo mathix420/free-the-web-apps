@@ -25,7 +25,7 @@
                   </span>
                 </NuxtLink>
               </div>
-              <h1 class="mt-10 text-4xl font-title font-black italic tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">
+              <h1 class="mt-10 text-4xl font-title font-black italic tracking-tight sm:text-6xl">
                 Let's unchain your web apps!
               </h1>
               <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">

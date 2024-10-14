@@ -4,12 +4,21 @@
 
     <UContainer>
       <h2
+        id="why-ftwa"
+        class="uppercase py-10 font-title text-center font-black text-3xl sm:text-4xl"
+      >
+        Why FTWA?
+      </h2>
+
+      <AppFeatures />
+
+      <h2
         id="create-web-app"
         class="uppercase py-10 font-title text-center font-black text-3xl sm:text-4xl"
       >
         It's your turn
       </h2>
-      <AppUnchainer class="mb-28" />
+      <AppUnchainer class="mb-28 mx-auto md:max-w-[720px] lg:max-w-[920px] xl:max-w-none" />
 
       <h2
         id="gallery"
@@ -19,7 +28,7 @@
       </h2>
       <UCard
         :ui="{ body: { padding: 'sm:p-3 p-3' } }"
-        class="mb-5 mx-auto max-w-[588px] xl:max-w-none "
+        class="mb-5 mx-auto max-w-[588px] xl:max-w-none"
       >
         <TargetSettings />
       </UCard>
