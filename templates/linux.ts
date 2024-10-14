@@ -13,6 +13,9 @@ export function linux({
 # /u/ links are only available for 24h
 # Check the gallery to find more apps: https://ftwa.mathix.dev/#gallery
 
+# Exit on error
+set -e;
+
 echo "\nCreating desktop entry...";
 tmpdir="$(mktemp -d)";
 tmp_desktop_file="$tmpdir/${fname}.desktop";

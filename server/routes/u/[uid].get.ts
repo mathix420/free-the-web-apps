@@ -5,13 +5,13 @@ export default defineEventHandler(async (event) => {
   const { uid } = getRouterParams(event);
   const target = getQuery<Partial<TargetInfos>>(event);
 
-  setHeader(event, "Content-Type", "text/plain");
+  setHeader(event, "Content-Type", "text/x-shellscript");
 
   if (!target.path || !target.os || !target.bw || !target.path) {
     return "echo '\nERROR: Missing target infos.'";
   }
 
-  if (!["linux"].includes(target.os) || !["chrome", "brave", "edge", "opera"].includes(target.bw)) {
+  if (!["linux", "macos"].includes(target.os) || !["chrome", "brave", "edge", "opera"].includes(target.bw)) {
     return "echo '\nERROR: Target unsupported (yet).'";
   }
 
