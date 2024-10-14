@@ -90,8 +90,8 @@ const browsers: TBrowser[] = [{
 
 // TODO: detect browser and OS from user agent (or client hints)
 const targetInfos = useState<TargetInfos>("target-infos", () => ({
-  bw: "chrome",
-  os: "linux",
+  bw: getUserBrowser(browsers.filter(x => x.disabled).map(x => x.value)),
+  os: getUserOS(operatingSystems.filter(x => x.disabled).map(x => x.value)),
   path: "",
 }));
 

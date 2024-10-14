@@ -24,6 +24,7 @@
     "@nuxt/scripts": "^0.9.4",
     "@nuxt/ui": "^2.18.7",
     "@nuxthub/core": "^0.7.26",
+    "@nuxtjs/device": "^3.2.4",
     "@nuxtjs/seo": "^2.0.0-rc.23",
     "@types/web-app-manifest": "^1.0.8",
     "nuxt": "^3.13.2",
