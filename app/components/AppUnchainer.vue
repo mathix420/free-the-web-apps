@@ -65,7 +65,7 @@ async function submitWebsite() {
 
 const { copy } = useCopyToClipboard();
 function copyCode() {
-  copy(execCode.value, { title: "Copied!" }, { title: "Failed!" });
+  copy(execCode.value, { title: "Command copied!", description: "Paste in terminal to install the app." }, { title: "Failed to copy!" });
 }
 </script>
 
@@ -150,11 +150,14 @@ function copyCode() {
         <p v-else-if="!validLogo">
           Invalid logo URL.
         </p>
-        <p v-else-if="!webAppInfos.logo.includes('.png')">
-          Make sure your image a PNG.
-        </p>
         <p v-else-if="webAppInfos.logoSize === 0">
           Invalid logo.
+        </p>
+        <p v-else-if="webAppInfos.logoSize < 1024 && targetInfos.os === 'macos'">
+          Logo needs to be at least 1024px for macOS.
+        </p>
+        <p v-else-if="!webAppInfos.logo.includes('.png')">
+          Make sure your image a PNG.
         </p>
       </template>
 

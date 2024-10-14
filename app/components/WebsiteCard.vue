@@ -27,7 +27,7 @@ function copyCode(website: VerifiedWebsiteType) {
 
   useRouter().replace({ hash: "#" });
 
-  copy(code, { title: "Command copied!", description: "Paste on terminal to install the app." }, { title: "Failed to copy!" });
+  copy(code, { title: "Command copied!", description: "Paste in terminal to install the app." }, { title: "Failed to copy!" });
 }
 
 function copyLink(website: VerifiedWebsiteType) {
