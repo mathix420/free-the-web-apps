@@ -13,9 +13,9 @@
     "name": "YouTube Music",
     "description": "A website to listen music",
     "url": "https://music.youtube.com",
-    "logo": "https://cdn.iconscout.com/icon/free/png-256/free-youtube-music-logo-icon-download-in-svg-png-gif-file-formats--social-network-media-pack-logos-icons-3357685.png",
+    "logo": "https://i.ibb.co/1mSgbsX/youtube-music-social-network-song-multimedia-icon-192250-1.png",
     "screenshot": "/screenshot/youtube-music.png",
-    "logoSize": 256
+    "logoSize": 1024
   },
   "svgl": {
     "id": "svgl",
