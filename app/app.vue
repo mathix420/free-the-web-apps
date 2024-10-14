@@ -23,14 +23,15 @@ useHead({
       href: "/favicon.png",
     },
   ],
-  script: [
-    {
-      "src": "https://cloud.umami.is/script.js",
-      "defer": true,
-      "async": true,
-      "data-website-id": "5e1460d0-4669-4652-8079-17d5602c9abd",
-    },
-  ],
+});
+
+useScript({
+  "src": "https://cloud.umami.is/script.js",
+  "defer": true,
+  "async": true,
+  "data-website-id": "5e1460d0-4669-4652-8079-17d5602c9abd",
+}, {
+  trigger: onMounted,
 });
 
 useSeoMeta({

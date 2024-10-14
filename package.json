@@ -21,6 +21,7 @@
     "@nuxt/eslint": "^0.5.7",
     "@nuxt/fonts": "^0.10.0",
     "@nuxt/image": "^1.8.1",
+    "@nuxt/scripts": "^0.9.4",
     "@nuxt/ui": "^2.18.7",
     "@nuxthub/core": "^0.7.26",
     "@nuxtjs/seo": "^2.0.0-rc.23",

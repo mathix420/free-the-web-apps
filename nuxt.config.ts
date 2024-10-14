@@ -5,14 +5,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: [
-    "@nuxt/ui",
-    "@nuxt/eslint",
-    "@nuxt/image",
-    "@nuxthub/core",
-    "@nuxt/fonts",
-    "@nuxtjs/seo",
-  ],
+  modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxt/image", "@nuxthub/core", "@nuxt/fonts", "@nuxtjs/seo", "@nuxt/scripts"],
 
   site: {
     url: "https://ftwa.mathix.dev",

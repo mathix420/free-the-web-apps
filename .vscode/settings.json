@@ -6,5 +6,9 @@
     "editor.tabSize": 2,
     "[vue]": {
         "editor.suggest.insertMode": "insert"
-    }
+    },
+    "conventionalCommits.scopes": [
+        "website",
+        "apps"
+    ]
 }
