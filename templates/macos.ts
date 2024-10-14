@@ -1,6 +1,6 @@
 import userChromeCss from "./files/userChrome.css";
 import userJs from "./files/user.js.txt";
-import type { TargetInfos, WebsiteType } from "~~/types";
+import type { TargetInfos, VerifiedWebsiteType, WebsiteType } from "~~/types";
 
 // Thanks to:
 // https://apple.stackexchange.com/a/402653
@@ -35,15 +35,15 @@ export function macos({
   website,
   target,
 }: {
-  website: WebsiteType;
+  website: WebsiteType | VerifiedWebsiteType;
   target: TargetInfos;
 }) {
   const formattedName = website?.name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   const pascalCaseName = formattedName.replace(/-?(\w)(\w*)/g,
     (_, g1, g2) => g1.toUpperCase() + g2.toLowerCase());
-  const safeLogo = website.logo.replace(/'/g, "%27");
+  const safeLogo = (website?.macLogo || website.logo).replace(/'/g, "%27");
 
-  if (website?.logoSize < 1024) {
+  if (website?.logoSize < 1024 && !website?.macLogo) {
     return `echo 'This logo is too small for macOS. Please provide a 1024x1024px logo.';`;
   }
 
@@ -115,6 +115,7 @@ EOF
 # Creating the executable file
 cat > '/Applications/${pascalCaseName}.app/Contents/MacOS/${pascalCaseName}.sh' << EOF
 #!/usr/bin/env bash
+# This file was generated using FTWA (https://ftwa.mathix.dev)
 ${target.path} ${commandOpts}
 EOF
 

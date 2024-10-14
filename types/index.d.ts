@@ -9,6 +9,7 @@ export interface WebsiteType {
 export interface VerifiedWebsiteType extends WebsiteType {
   description: string;
   screenshot: string;
+  macLogo?: string;
 }
 
 export type OS = "windows" | "linux" | "macos";

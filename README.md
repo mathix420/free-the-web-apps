@@ -74,6 +74,12 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
   ![image](https://github.com/mathix420/free-the-web-apps/assets/37625778/d04f03fb-254b-4216-8ee0-66574e75abc8)
 
 
+## Ressources to find logos
+
+- https://macosicons.com/
+- https://icon-icons.com/
+- https://simpleicons.org/
+
 ## Web Dev
 
 Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction), [Nuxt UI](https://ui.nuxt.com), [Nuxt Hub](https://hub.nuxt.com) and [Tailwind UI](https://tailwindui.com/) to learn more.
