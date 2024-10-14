@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { TargetInfos } from "~~/types";
+
 useHead({
   meta: [
     {
@@ -34,6 +36,16 @@ useScript({
   trigger: onMounted,
 });
 
+onMounted(() => {
+  const targetInfos = useState<TargetInfos>("target-infos", () => ({
+    bw: "chrome",
+    os: "linux",
+    path: "",
+  }));
+  targetInfos.value.bw = getUserBrowser(["safari"]);
+  targetInfos.value.os = getUserOS(["windows"]);
+});
+
 useSeoMeta({
   ogImage: "/og.png",
 });
@@ -44,7 +56,7 @@ useSeoMeta({
     lang="en-US"
     class="scroll-pt-5"
   >
-    <Body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+    <Body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
       <NuxtPage />
 
       <AppFooter class="mt-36" />
