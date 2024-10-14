@@ -1,11 +1,14 @@
 import type { OS } from "~~/types";
 
 export default function (exclude: OS[]): OS {
-  const { isWindows, isMacOS } = useDevice();
-  if (isWindows && !exclude.includes("windows")) {
+  const { isWindows, isMacOS, isAndroid, isApple } = useDevice();
+  if (isAndroid) {
+    return "linux";
+  }
+  else if (isWindows && !exclude.includes("windows")) {
     return "windows";
   }
-  else if (isMacOS && !exclude.includes("macos")) {
+  else if ((isMacOS || isApple) && !exclude.includes("macos")) {
     return "macos";
   }
   return "linux";

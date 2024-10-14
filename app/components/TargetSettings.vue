@@ -21,14 +21,14 @@ const operatingSystems: OperatingSystem[] = [{
   label: "Linux",
   icon: "simple-icons:linux",
 }, {
+  value: "macos",
+  label: "macOS 🚨 ALPHA! 🚨",
+  icon: "simple-icons:apple",
+}, {
   disabled: true,
   value: "windows",
   label: "Windows (to be implemented)",
   icon: "simple-icons:windows",
-}, {
-  value: "macos",
-  label: "macOS 🚨 ALPHA! 🚨",
-  icon: "simple-icons:apple",
 }];
 const browsers: TBrowser[] = [{
   value: "chrome",
@@ -88,7 +88,6 @@ const browsers: TBrowser[] = [{
   icon: "simple-icons:safari",
 }];
 
-// TODO: detect browser and OS from user agent (or client hints)
 const targetInfos = useState<TargetInfos>("target-infos", () => ({
   bw: getUserBrowser(browsers.filter(x => x.disabled).map(x => x.value)),
   os: getUserOS(operatingSystems.filter(x => x.disabled).map(x => x.value)),
