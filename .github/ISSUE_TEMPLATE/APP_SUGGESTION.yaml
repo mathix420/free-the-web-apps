@@ -24,13 +24,27 @@ body:
       label: App description
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        **App logo**
+        - Only square PNGs are supported.
+        - Minimum size 125px for linux and windows. Min 1024px for macOS.
+
+        Some sources for logos:
+        - https://macosicons.com/
+        - https://icon-icons.com/
+        - https://simpleicons.org/
   - type: input
     id: logo
     attributes:
       label: App logo URL
-      description: Only square PNGs are supported. Minimum size 125px.
     validations:
       required: true
+  - type: input
+    id: macLogo
+    attributes:
+      label: Mac App logo URL
   - type: input
     id: logoSize
     attributes:
