@@ -19,7 +19,7 @@ export default defineAppConfig({
       },
       color: {
         primary: {
-          ghost: "text-primary-500 dark:text-primary-400 hover:bg-primary-600/10 dark:hover:bg-primary-400/10",
+          ghost: "text-primary-500 dark:text-primary-400 hover:bg-primary-600/10 dark:hover:bg-primary-400/10 focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400",
         },
       },
     },

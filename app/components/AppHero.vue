@@ -5,7 +5,7 @@
         <div class="px-6 lg:px-0 lg:pt-4">
           <div class="mx-auto max-w-2xl">
             <div class="max-w-lg">
-              <AppLogo button />
+              <AppLogo />
               <div class="mt-8 sm:mt-16 lg:mt-16">
                 <NuxtLink
                   data-umami-event="See Gallery"
@@ -42,15 +42,23 @@
                 </UButton>
                 <UButton
                   size="xl"
+                  class="text-gray-900 black:text-white"
+                  :ui="{
+                    color: {
+                      primary: {
+                        ghost: 'text-gray-900 dark:text-white hover:bg-primary-600/10 dark:hover:bg-primary-400/10 focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',
+                      },
+                    },
+                  }"
                   color="primary"
                   variant="ghost"
-                  data-umami-event="Open Source"
+                  data-umami-event="Leave a Star"
                   icon="simple-icons:github"
                   target="_blank"
                   external
                   to="https://github.com/mathix420/free-the-web-apps?utm_source=ftwa.mathix.dev&utm_medium=hero-btn"
                 >
-                  Open Source
+                  Leave a Star
                 </UButton>
               </div>
             </div>
