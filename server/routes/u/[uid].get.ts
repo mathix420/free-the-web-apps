@@ -1,5 +1,5 @@
 import type { TargetInfos, WebsiteType } from "~~/types";
-import templates from "~~/templates";
+import templates from "~~/server/templates";
 
 export default defineEventHandler(async (event) => {
   const { uid } = getRouterParams(event);

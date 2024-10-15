@@ -1,5 +1,5 @@
 import type { TargetInfos, WebsiteType } from "~~/types";
-import templates from "~~/templates";
+import templates from "~~/server/templates";
 import websites from "~~/apps.json";
 
 export default defineEventHandler(async (event) => {

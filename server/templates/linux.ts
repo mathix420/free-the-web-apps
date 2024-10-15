@@ -7,7 +7,7 @@ function firefoxSetup(target: TargetInfos) {
 
   return `echo "\nSetting up Firefox...";
 # create FTWA profile
-${target.path} -CreateProfile FTWA;
+${escapePath(target.path)} -CreateProfile FTWA;
 
 # locate the profile folder
 profile_folder=$(find ~/.mozilla/firefox -maxdepth 1 -type d -name "*.FTWA");
@@ -62,7 +62,7 @@ cat > $tmp_desktop_file <<EOF
 [Desktop Entry]
 Type=Application
 Name=${website.name}
-Exec=${target.path} ${commandOpts}
+Exec=${escapePath(target.path)} ${commandOpts}
 Icon=${fname}
 Terminal=false
 StartupNotify=true

@@ -12,7 +12,7 @@ function firefoxSetup(target: TargetInfos) {
 
   return `echo "\nSetting up Firefox...";
 # create FTWA profile
-${target.path} -CreateProfile FTWA;
+${escapePath(target.path)} -CreateProfile FTWA;
 
 # locate the profile folder
 profile_folder=$(find ~/Library/Application\\ Support/Firefox/Profiles -name "*.FTWA");
@@ -116,7 +116,7 @@ EOF
 cat > '/Applications/${pascalCaseName}.app/Contents/MacOS/${pascalCaseName}.sh' << EOF
 #!/usr/bin/env bash
 # This file was generated using FTWA (https://ftwa.mathix.dev)
-${target.path} ${commandOpts}
+${escapePath(target.path)} ${commandOpts}
 EOF
 
 # Making the file executable
