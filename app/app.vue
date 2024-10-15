@@ -16,6 +16,12 @@ useHead({
   ],
   link: [
     {
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon-48x48.png",
+      sizes: "48x48",
+    },
+    {
       rel: "apple-touch-icon",
       sizes: "180x180",
       href: "/apple-touch-icon.png",
