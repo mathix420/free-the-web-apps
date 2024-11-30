@@ -2,6 +2,10 @@ TabsToolbar {
   visibility: collapse;
 }
 
+#nav-bar {
+  visibility: collapse;
+}
+
 :root:not([customizing]) #navigator-toolbox {
   max-height: 1px;
   min-height: calc(0px);
