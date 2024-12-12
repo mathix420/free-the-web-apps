@@ -25,30 +25,15 @@ const filterData = computed(() => {
 </script>
 
 <template>
-  <div>
-    <header class="z-10 px-5 py-3 flex justify-center gap-2 items-center sticky top-0 inset-x-0 shadow dark:bg-black/5 bg-white/20 backdrop-brightness-150 dark:backdrop-brightness-50 backdrop-blur-xl">
-      <NuxtLink
-        to="/"
-        class="flex gap-2 items-center absolute left-5 inset-y-0"
-      >
-        <NuxtImg
-          src="/favicon.png"
-          class="size-10 drop-shadow-md"
-          alt="FTWA Logo"
-        />
-        <p class="font-black sm:not-sr-only sr-only font-title text-3xl italic uppercase">
-          FTWA
-        </p>
-      </NuxtLink>
-
-      <p class="font-black font-title text-3xl italic uppercase">
-        App Store
-      </p>
-    </header>
-
+  <div class="pt-5 sm:pt-16">
     <UContainer class="py-10 space-y-5 sm:space-y-10">
-      <h1 class="font-title text-4xl text-center sm:text-5xl font-black uppercase">
-        App Store
+      <h1 class="group font-title text-4xl text-center sm:text-5xl font-black uppercase">
+        <NuxtLink
+          to="/"
+          class="italic hidden sm:inline group-hover:text-primary-500 transition-colors"
+        >
+          FTWA /
+        </NuxtLink> App Store
       </h1>
 
       <div class="flex gap-2 justify-center items-center flex-wrap">
@@ -64,10 +49,28 @@ const filterData = computed(() => {
         />
       </div>
 
+      <UCard
+        :ui="{ body: { padding: 'sm:p-3 p-3' } }"
+        class="mb-5 mx-auto max-w-[588px] xl:max-w-none"
+      >
+        <TargetSettings />
+      </UCard>
+
       <AppGallery
         v-if="filterData"
         :websites="filterData"
       />
+
+      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center !mt-20">
+        <UButton
+          size="xl"
+          :ui="{ rounded: 'rounded-full' }"
+          variant="outline"
+          label="Go Back to FTWA Home"
+          leading-icon="heroicons:arrow-left"
+          to="/"
+        />
+      </div>
     </UContainer>
   </div>
 </template>
