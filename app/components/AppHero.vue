@@ -9,14 +9,14 @@
               <div class="mt-8 sm:mt-16 lg:mt-16">
                 <NuxtLink
                   data-umami-event="See Gallery"
-                  href="#gallery"
+                  href="/store"
                   class="inline-flex space-x-6"
                 >
                   <span class="rounded-full bg-primary-600/10 dark:bg-primary-400/10 px-3 py-1 text-sm font-semibold leading-6 text-primary-600 dark:text-primary-400 ring-1 ring-inset ring-primary-600/10 dark:ring-primary-400/10">
-                    Freed Apps
+                    App Store
                   </span>
                   <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600 dark:text-gray-400">
-                    <span>Discover newly freed apps</span>
+                    <span>Discover all the freed apps</span>
                     <Icon
                       name="heroicons:chevron-right-20-solid"
                       class="h-5 w-5 text-gray-400 dark:text-gray-600"

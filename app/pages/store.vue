@@ -27,7 +27,10 @@ const filterData = computed(() => {
 <template>
   <div>
     <header class="z-10 px-5 py-3 flex justify-center gap-2 items-center sticky top-0 inset-x-0 shadow dark:bg-black/5 bg-white/20 backdrop-brightness-150 dark:backdrop-brightness-50 backdrop-blur-xl">
-      <div class="flex gap-2 items-center absolute left-5 inset-y-0">
+      <NuxtLink
+        to="/"
+        class="flex gap-2 items-center absolute left-5 inset-y-0"
+      >
         <NuxtImg
           src="/favicon.png"
           class="size-10 drop-shadow-md"
@@ -36,7 +39,7 @@ const filterData = computed(() => {
         <p class="font-black sm:not-sr-only sr-only font-title text-3xl italic uppercase">
           FTWA
         </p>
-      </div>
+      </NuxtLink>
 
       <p class="font-black font-title text-3xl italic uppercase">
         App Store
