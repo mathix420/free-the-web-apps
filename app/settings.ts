@@ -28,7 +28,7 @@ export const operatingSystems: OperatingSystem[] = [{
   icon: "simple-icons:linux",
 }, {
   value: "macos",
-  label: "macOS (BETA)",
+  label: "macOS",
   icon: "simple-icons:apple",
 }, {
   disabled: true,
@@ -75,7 +75,7 @@ export const browsers: TBrowser[] = [{
   icon: "simple-icons:opera",
 }, {
   value: "firefox",
-  label: "Firefox (BETA)",
+  label: "Firefox",
   defaultExecutablePath: {
     linux: "/usr/bin/firefox",
     macos: "/Applications/Firefox.app/Contents/MacOS/firefox",
