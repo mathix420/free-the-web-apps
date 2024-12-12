@@ -1,0 +1,10 @@
+{
+  "id": "volta",
+  "name": "Volta",
+  "description": "Supercharged GitHub Experience",
+  "url": "https://volta.net/inbox",
+  "logo": "https://volta.net/mac/icon.png",
+  "screenshot": "/screenshot/volta.png",
+  "tags": ["git", "programming", "tool"],
+  "logoSize": 512
+}
