@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TargetInfos, VerifiedWebsiteType } from "~~/types";
+import type { VerifiedWebsiteType } from "~~/types";
 
 const props = defineProps<{
   website: VerifiedWebsiteType;
@@ -14,26 +14,6 @@ onMounted(() => {
     isCardSelected.value = `#${appId.value}`.toLowerCase() === route.hash.toLowerCase();
   });
 });
-
-const targetInfos = useState<TargetInfos>("target-infos");
-const { remoteUrl } = useRuntimeConfig().public;
-const { copy } = useCopyToClipboard();
-
-function copyCode(website: VerifiedWebsiteType) {
-  const code = `sh -ec "$(curl -fsSL '${remoteUrl}/v/${website.id}`
-    + `?os=${targetInfos.value.os}`
-    + `&bw=${targetInfos.value.bw}`
-    + `&path=${encodeURIComponent(targetInfos.value.path)}')"`;
-
-  useRouter().replace({ hash: "#" });
-
-  copy(code, { title: "Command copied!", description: "Paste in terminal to install the app." }, { title: "Failed to copy!" });
-}
-
-function copyLink(website: VerifiedWebsiteType) {
-  const link = `${remoteUrl}${route.path}#app-${website.id}`;
-  copy(link, { title: "Link copied!", description: "Share this link with anyone." }, { title: "Failed to copy!" });
-}
 </script>
 
 <template>
@@ -57,12 +37,9 @@ function copyLink(website: VerifiedWebsiteType) {
           class="text-lg font-bold text-primary-500 dark:text-primary-400"
           variant="link"
           aria-label="Visit website"
-          :to="website.url"
+          :to="`/app/${website.id}`"
           :label="website.name"
-          target="_blank"
           :padded="false"
-          external
-          trailing-icon="material-symbols:open-in-new"
         />
 
         <p

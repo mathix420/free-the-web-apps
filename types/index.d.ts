@@ -6,6 +6,7 @@ export interface WebsiteType {
   url: string;
   name: string;
   logo: string;
+  tags: string[];
   logoSize: number;
 }
 

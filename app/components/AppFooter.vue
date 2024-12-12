@@ -23,6 +23,7 @@ const colorMode = useColorMode();
           :ui="{ rounded: 'rounded-xl' }"
           color="gray"
           aria-label="View source code"
+          rel="nofollow"
           to="https://github.com/mathix420/free-the-web-apps?utm_source=ftwa.mathix.dev&utm_medium=footer-btn"
           variant="ghost"
         />
@@ -54,12 +55,14 @@ const colorMode = useColorMode();
           using
           <NuxtLink
             target="_blank"
+            rel="nofollow"
             data-umami-event="Stack link footer"
             to="https://ui.nuxt.com/"
           >
             Nuxt UI</NuxtLink>,
           <NuxtLink
             target="_blank"
+            rel="nofollow"
             data-umami-event="Stack link footer"
             to="https://tailwindui.com/"
           >
@@ -68,6 +71,7 @@ const colorMode = useColorMode();
           and deployed with
           <NuxtLink
             target="_blank"
+            rel="nofollow"
             data-umami-event="Stack link footer"
             to="https://hub.nuxt.com/"
           >

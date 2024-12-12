@@ -4,6 +4,7 @@
   "description": "Supercharged GitHub Experience",
   "url": "https://volta.net/inbox",
   "logo": "https://volta.net/mac/icon.png",
+  "macLogo": "https://i.ibb.co/bzsTMcG/volta-transformed.png",
   "screenshot": "/screenshot/volta.png",
   "tags": ["git", "programming", "tool"],
   "logoSize": 512

@@ -56,6 +56,7 @@
                   icon="simple-icons:github"
                   target="_blank"
                   external
+                  rel="nofollow"
                   to="https://github.com/mathix420/free-the-web-apps?utm_source=ftwa.mathix.dev&utm_medium=hero-btn"
                 >
                   Leave a Star
