@@ -31,7 +31,7 @@ function copyCode(website: VerifiedWebsiteType) {
 }
 
 function copyLink(website: VerifiedWebsiteType) {
-  const link = `${remoteUrl}/#app-${website.id}`;
+  const link = `${remoteUrl}${route.path}#app-${website.id}`;
   copy(link, { title: "Link copied!", description: "Share this link with anyone." }, { title: "Failed to copy!" });
 }
 </script>
