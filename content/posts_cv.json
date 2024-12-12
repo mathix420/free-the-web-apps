@@ -1,0 +1,11 @@
+{
+  "id": "posts_cv",
+  "name": "Posts.CV",
+  "description": "New corner of the world wide web",
+  "url": "https://posts.cv/",
+  "logo": "https://read.cv/google-touch-icon-posts.png",
+  "macLogo": "https://i.ibb.co/GpPFs1k/posts-cv.png",
+  "screenshot": "/screenshot/posts_cv.png",
+  "tags": ["ui", "ux", "social"],
+  "logoSize": 512
+}
