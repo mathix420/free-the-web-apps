@@ -16,6 +16,7 @@ defineProps<{
           alt="FTWA Logo"
           width="40"
           height="40"
+          densities="1,2,3"
           class="mx-auto size-7 rounded-[8px] shadow sm:size-10 sm:rounded-[11px]"
         />
         <p
@@ -35,6 +36,7 @@ defineProps<{
       <UButton
         variant="ghost"
         color="white"
+        aria-label="GitHub Repository"
         icon="simple-icons:github"
         rel="nofollow"
         to="https://github.com/mathix420/free-the-web-apps?utm_source=ftwa-header"
