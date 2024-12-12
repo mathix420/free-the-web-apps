@@ -33,12 +33,12 @@ const filterData = computed(() => {
   <main>
     <AppStickyHeader title="App Store" />
 
-    <UContainer class="py-10 space-y-5 sm:space-y-10">
-      <h1 class="font-title text-4xl text-center sm:text-5xl font-black uppercase">
+    <UContainer class="space-y-5 py-10 sm:space-y-10">
+      <h1 class="text-center font-title text-4xl font-black uppercase sm:text-5xl">
         App Store
       </h1>
 
-      <div class="flex gap-2 justify-center items-center flex-wrap">
+      <div class="flex flex-wrap items-center justify-center gap-2">
         <UButton
           v-for="tag in tags.sort((a, b) => a.name.localeCompare(b.name))"
           :key="tag.name"
@@ -53,7 +53,7 @@ const filterData = computed(() => {
 
       <UCard
         :ui="{ body: { padding: 'sm:p-3 p-3' } }"
-        class="mb-5 mx-auto max-w-[588px] xl:max-w-none"
+        class="mx-auto mb-5 max-w-[588px] xl:max-w-none"
       >
         <TargetSettings />
       </UCard>
@@ -63,7 +63,7 @@ const filterData = computed(() => {
         :websites="filterData"
       />
 
-      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center !mt-20">
+      <div class="!mt-20 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <UButton
           size="xl"
           :ui="{ rounded: 'rounded-full' }"

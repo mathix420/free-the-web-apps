@@ -5,10 +5,10 @@ defineProps<{
 </script>
 
 <template>
-  <header class="flex sticky top-0 inset-x-0 z-10 backdrop-blur items-center justify-center border-b border-black/5 dark:border-white/5 bg-white/30 dark:bg-black/30">
-    <div class="w-full px-4 gap-1 sm:px-6 lg:px-8 max-w-7xl flex py-3 items-center">
+  <header class="sticky inset-x-0 top-0 z-10 flex items-center justify-center border-b border-black/5 bg-white/30 backdrop-blur dark:border-white/5 dark:bg-black/30">
+    <div class="flex w-full max-w-7xl items-center gap-1 px-4 py-3 sm:px-6 lg:px-8">
       <NuxtLink
-        class="group flex-shrink overflow-hidden flex gap-3 items-center mr-auto"
+        class="group mr-auto flex shrink items-center gap-3 overflow-hidden"
         to="/"
       >
         <NuxtImg
@@ -16,12 +16,12 @@ defineProps<{
           alt="FTWA Logo"
           width="40"
           height="40"
-          class="mx-auto size-7 sm:size-10 rounded-[8px] sm:rounded-[11px]"
+          class="mx-auto size-7 rounded-[8px] sm:size-10 sm:rounded-[11px]"
         />
         <p
-          class="font-title whitespace-nowrap italic text-xl sm:text-2xl text-center font-black uppercase"
+          class="whitespace-nowrap text-center font-title text-xl font-black uppercase italic sm:text-2xl"
         >
-          FTWA <span class="opacity-60 group-hover:opacity-80 transition-opacity">/ {{ title }}</span>
+          FTWA <span class="opacity-60 transition-opacity group-hover:opacity-80">/ {{ title }}</span>
         </p>
       </NuxtLink>
 

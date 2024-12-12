@@ -42,7 +42,7 @@ const colorMode = useColorMode();
         </ClientOnly>
       </div>
       <div class="mt-4 md:order-1 md:mt-0">
-        <p class="text-xs text-center md:text-left text-gray-500">
+        <p class="text-center text-xs text-gray-500 md:text-left">
           Made by
           <NuxtLink
             target="_blank"

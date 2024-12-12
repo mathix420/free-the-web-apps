@@ -39,7 +39,7 @@ function copyLink(website: VerifiedWebsiteType) {
 <template>
   <UCard
     :id="appId"
-    class="max-w-[588px] w-full"
+    class="w-full max-w-[588px]"
     :ui="{
       background: 'bg-primary-600/5 dark:bg-primary-400/5',
       rounded: 'rounded-2xl sm:rounded-2xl',
@@ -50,7 +50,7 @@ function copyLink(website: VerifiedWebsiteType) {
       divide: '',
     }"
   >
-    <div class="px-5 py-4 flex justify-between">
+    <div class="flex justify-between px-5 py-4">
       <div>
         <UButton
           data-umami-event="Visit verified app"

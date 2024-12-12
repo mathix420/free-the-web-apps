@@ -29,6 +29,7 @@
     "@nuxtjs/device": "^3.2.4",
     "@nuxtjs/seo": "^2.0.0-rc.23",
     "@types/web-app-manifest": "^1.0.8",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "nuxt": "^3.13.2",
     "wrangler": "^3.81.0"
   },

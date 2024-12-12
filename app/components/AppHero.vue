@@ -12,20 +12,20 @@
                   href="/store"
                   class="inline-flex space-x-6"
                 >
-                  <span class="rounded-full bg-primary-600/10 dark:bg-primary-400/10 px-3 py-1 text-sm font-semibold leading-6 text-primary-600 dark:text-primary-400 ring-1 ring-inset ring-primary-600/10 dark:ring-primary-400/10">
+                  <span class="rounded-full bg-primary-600/10 px-3 py-1 text-sm font-semibold leading-6 text-primary-600 ring-1 ring-inset ring-primary-600/10 dark:bg-primary-400/10 dark:text-primary-400 dark:ring-primary-400/10">
                     App Store
                   </span>
                   <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600 dark:text-gray-400">
                     <span>Discover all the freed apps</span>
                     <Icon
                       name="heroicons:chevron-right-20-solid"
-                      class="h-5 w-5 text-gray-400 dark:text-gray-600"
+                      class="size-5 text-gray-400 dark:text-gray-600"
                       aria-hidden="true"
                     />
                   </span>
                 </NuxtLink>
               </div>
-              <h1 class="mt-10 text-4xl font-title font-black italic tracking-tight sm:text-6xl">
+              <h1 class="mt-10 font-title text-4xl font-black italic tracking-tight sm:text-6xl">
                 Let's unchain your web apps!
               </h1>
               <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
@@ -42,7 +42,7 @@
                 </UButton>
                 <UButton
                   size="xl"
-                  class="text-gray-900 black:text-white"
+                  class="black:text-white text-gray-900"
                   :ui="{
                     color: {
                       primary: {
@@ -66,13 +66,13 @@
         </div>
         <div class="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
           <div
-            class="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] shadow-xl shadow-primary-600/10 dark:shadow-primary-400/10 ring-1 ring-primary-50 dark:ring-primary-950 md:-mr-20 lg:-mr-36"
+            class="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] shadow-xl shadow-primary-600/10 ring-1 ring-primary-50 dark:shadow-primary-400/10 dark:ring-primary-950 md:-mr-20 lg:-mr-36"
             aria-hidden="true"
           />
           <div class="shadow-lg md:rounded-3xl">
             <div class="bg-primary-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))]">
               <div
-                class="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-primary-100 dark:bg-primary-900 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36"
+                class="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-primary-100 opacity-20 ring-1 ring-inset ring-white dark:bg-primary-900 md:ml-20 lg:ml-36"
                 aria-hidden="true"
               />
               <div class="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">

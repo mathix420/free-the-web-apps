@@ -11,7 +11,7 @@ const { data } = await useAsyncData("app-samples", () => queryContent<VerifiedWe
     <UContainer>
       <h2
         id="why-ftwa"
-        class="uppercase py-10 font-title text-center font-black text-3xl sm:text-4xl"
+        class="py-10 text-center font-title text-3xl font-black uppercase sm:text-4xl"
       >
         Why FTWA?
       </h2>
@@ -20,21 +20,21 @@ const { data } = await useAsyncData("app-samples", () => queryContent<VerifiedWe
 
       <h2
         id="create-web-app"
-        class="uppercase py-10 font-title text-center font-black text-3xl sm:text-4xl"
+        class="py-10 text-center font-title text-3xl font-black uppercase sm:text-4xl"
       >
         It's your turn
       </h2>
-      <AppUnchainer class="mb-28 mx-auto md:max-w-[720px] lg:max-w-[920px] xl:max-w-none" />
+      <AppUnchainer class="mx-auto mb-28 md:max-w-[720px] lg:max-w-[920px] xl:max-w-none" />
 
       <h2
         id="gallery"
-        class="uppercase py-10 font-title text-center font-black text-3xl sm:text-4xl"
+        class="py-10 text-center font-title text-3xl font-black uppercase sm:text-4xl"
       >
         App gallery
       </h2>
       <UCard
         :ui="{ body: { padding: 'sm:p-3 p-3' } }"
-        class="mb-5 mx-auto max-w-[588px] xl:max-w-none"
+        class="mx-auto mb-5 max-w-[588px] xl:max-w-none"
       >
         <TargetSettings />
       </UCard>
@@ -44,7 +44,7 @@ const { data } = await useAsyncData("app-samples", () => queryContent<VerifiedWe
       />
 
       <!-- Suggest an app -->
-      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center mt-20">
+      <div class="mt-20 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <UButton
           size="xl"
           :ui="{ rounded: 'rounded-full' }"

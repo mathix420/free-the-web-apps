@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap justify-center gap-3 md:gap-5 mb-28">
+  <div class="mb-28 flex flex-wrap justify-center gap-3 md:gap-5">
     <FeatureCard
       class="w-full md:w-[350px] lg:w-[450px] xl:w-[392px]"
       icon="heroicons:magnifying-glass"
@@ -15,7 +15,7 @@
     />
 
     <FeatureCard
-      class="w-full hidden md:block md:w-[350px] lg:w-[450px] xl:w-[392px]"
+      class="hidden w-full md:block md:w-[350px] lg:w-[450px] xl:w-[392px]"
       icon="heroicons:server"
       title="Almost no disk space"
       description="FTWAs just use a few kilobytes of disk space. They are just link shortcuts."
@@ -29,7 +29,7 @@
     />
 
     <FeatureCard
-      class="w-full hidden md:block md:w-[350px] lg:w-[450px] xl:w-[392px]"
+      class="hidden w-full md:block md:w-[350px] lg:w-[450px] xl:w-[392px]"
       icon="heroicons:face-smile"
       title="Better than Electron"
       description="Forget about the memory-hogging Electron apps. A browser tab is way lighter."

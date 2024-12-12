@@ -32,7 +32,7 @@ const kind = computed(() => {
     :is="kind"
     to="/"
     :aria-labelledby="`title-label-${id}`"
-    class="flex flex-col font-title select-none text-5xl font-black italic"
+    class="flex select-none flex-col font-title text-5xl font-black italic"
   >
     FTWA
     <span
