@@ -1,5 +1,5 @@
 name: "🤠 App suggestion"
-description: Suggest an app for the gallery
+description: Suggest an app for the app store
 title: "[APP] - "
 labels: ["app-suggestion"]
 body:

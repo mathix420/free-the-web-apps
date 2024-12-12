@@ -8,9 +8,9 @@ So you don't need to wait for Arc Browser on Linux to have great looking webapps
 - **Native Feel.** Don't wait for native desktop apps, most frontend developpers already did an amazing job.
 - **Quick Access.** Find your apps in the App Launcher, Rofi, Wofi, dmenu, Spotlight and more.
 - **Support Extentions.** Apps keep browser data: cookies, storage, extentions, ...
-- **App Gallery.** Discover dozen of web apps that work especially well in a frameless browser.
+- **App Store.** Discover dozen of web apps that work especially well in a frameless browser.
 
-**[Apps Gallery](https://ftwa.mathix.dev/#gallery)** • **[How it works](#how-it-works)** • **[Suggest an app][suggest-app]**
+**[Apps Store](https://ftwa.mathix.dev/store)** • **[How it works](#how-it-works)** • **[Suggest an app][suggest-app]**
 
 > [!NOTE]
 > Feel free to contribute and [suggest apps][suggest-app] you find useful!
@@ -43,7 +43,7 @@ Creating a `.app` folder in `/Applications` containing an icon (`.icns`) and a b
 1. Make sure to select your environment options.
 
     ![settings](.github/assets/settings.png)
-2. Either [create your own app](https://ftwa.mathix.dev/#create-web-app) or click the copy icon on any app from the [gallery](https://ftwa.mathix.dev/#gallery).
+2. Either [create your own app](https://ftwa.mathix.dev/#create-web-app) or click the copy icon on any app from the [gallery](https://ftwa.mathix.dev/#gallery) or [app store](https://ftwa.mathix.dev/store).
 3. Paste the code in your terminal of choice.
     - It's good practice to check a script content before running it.
     - **Example:**
