@@ -117,6 +117,7 @@ function copyCode() {
             aria-label="Search logo"
             :padded="false"
             icon="heroicons:magnifying-glass"
+            rel="nofollow"
             :to="`https://www.google.com/search?imgsz=i&udm=2&as_q=${webAppInfos.name} logo`"
             target="_blank"
           />

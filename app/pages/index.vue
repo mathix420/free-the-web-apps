@@ -64,6 +64,7 @@ const { data } = await useAsyncData("app-samples", () => queryContent<VerifiedWe
           label="Suggest an app"
           leading-icon="heroicons:plus-circle"
           external
+          rel="nofollow"
           to="https://github.com/mathix420/free-the-web-apps/issues/new?assignees=&labels=app-suggestion&projects=&template=APP_SUGGESTION.yaml&title=%5BAPP%5D+-+"
         />
       </div>

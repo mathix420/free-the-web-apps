@@ -37,12 +37,9 @@ onMounted(() => {
           class="text-lg font-bold text-primary-500 dark:text-primary-400"
           variant="link"
           aria-label="Visit website"
-          :to="website.url"
+          :to="`/app/${website.id}`"
           :label="website.name"
-          target="_blank"
           :padded="false"
-          external
-          trailing-icon="material-symbols:open-in-new"
         />
 
         <p

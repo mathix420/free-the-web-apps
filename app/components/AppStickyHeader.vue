@@ -36,6 +36,7 @@ defineProps<{
         variant="ghost"
         color="white"
         icon="simple-icons:github"
+        rel="nofollow"
         to="https://github.com/mathix420/free-the-web-apps?utm_source=ftwa-header"
         target="_blank"
       />

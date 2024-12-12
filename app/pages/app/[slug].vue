@@ -156,6 +156,7 @@ const config = computed(() => [
           label="Edit this page"
           leading-icon="simpleicons:github"
           external
+          rel="nofollow"
           :to="`https://github.com/mathix420/free-the-web-apps/tree/master/content/${app._file}`"
         />
       </div>
