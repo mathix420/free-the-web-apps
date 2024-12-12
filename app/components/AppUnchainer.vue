@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { SubmitWebsite, TargetInfos } from "~~/types";
 
-const { remoteUrl } = useRuntimeConfig().public;
 const targetInfos = useState<TargetInfos>("target-infos");
 
 const autofillLoading = ref(false);
@@ -54,10 +53,8 @@ async function submitWebsite() {
     });
     if (data.value?.uid) {
       websiteId.value = data.value.uid;
-      execCode.value = `sh -ec "$(curl -fsSL '${remoteUrl}/u/${data.value?.uid}`
-      + `?os=${targetInfos.value.os}`
-      + `&bw=${targetInfos.value.bw}`
-      + `&path=${encodeURIComponent(targetInfos.value.path)}')"`;
+      const installUrl = getInstallURL({ id: data.value.uid });
+      execCode.value = `sh -ec "$(curl -fsSL '${installUrl}')"`;
     }
     submitLoading.value = false;
   }
@@ -186,6 +183,7 @@ function copyCode() {
             icon="material-symbols:open-in-new"
             :padded="false"
             target="_blank"
+            external
             :to="`/u/${websiteId}?os=${targetInfos.os}&bw=${targetInfos.bw}&path=${encodeURIComponent(targetInfos.path)}`"
           />
         </template>
