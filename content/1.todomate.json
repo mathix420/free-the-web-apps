@@ -4,6 +4,7 @@
   "description": "A social todo app",
   "url": "https://todomate.net",
   "logo": "https://www.todomate.net/favicon.png",
+  "macLogo": "https://i.ibb.co/crQmyjZ/1024-mac.webp",
   "screenshot": "/screenshot/todomate.png",
   "tags": ["todo", "social", "tool"],
   "logoSize": 128
