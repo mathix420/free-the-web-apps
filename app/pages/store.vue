@@ -16,6 +16,11 @@ watchEffect(() => {
   }
 });
 
+useSeoMeta({
+  title: "App Store",
+  description: "Discover, explore and install the best free web apps on the internet.",
+});
+
 const selectedTags = computed(() => tags.value.filter(x => x.selected).map(x => x.name));
 
 const filterData = computed(() => {
@@ -25,20 +30,17 @@ const filterData = computed(() => {
 </script>
 
 <template>
-  <div class="pt-5 sm:pt-16">
+  <main>
+    <AppStickyHeader title="App Store" />
+
     <UContainer class="py-10 space-y-5 sm:space-y-10">
-      <h1 class="group font-title text-4xl text-center sm:text-5xl font-black uppercase">
-        <NuxtLink
-          to="/"
-          class="italic hidden sm:inline group-hover:text-primary-500 transition-colors"
-        >
-          FTWA /
-        </NuxtLink> App Store
+      <h1 class="font-title text-4xl text-center sm:text-5xl font-black uppercase">
+        App Store
       </h1>
 
       <div class="flex gap-2 justify-center items-center flex-wrap">
         <UButton
-          v-for="tag in tags"
+          v-for="tag in tags.sort((a, b) => a.name.localeCompare(b.name))"
           :key="tag.name"
           size="lg"
           :ui="{ rounded: 'rounded-full' }"
@@ -72,5 +74,5 @@ const filterData = computed(() => {
         />
       </div>
     </UContainer>
-  </div>
+  </main>
 </template>
