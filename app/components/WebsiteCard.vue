@@ -100,7 +100,7 @@ function copyLink(website: VerifiedWebsiteType) {
       :alt="website.name"
       sizes="588px"
       loading="lazy"
-      :img-attrs="{ class: 'w-full min-h-[395px] rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl' }"
+      :img-attrs="{ class: 'w-full aspect-card-img rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl' }"
     />
   </UCard>
 </template>

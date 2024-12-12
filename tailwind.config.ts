@@ -6,6 +6,9 @@ export default <Partial<Config>>{
       fontFamily: {
         title: ["Archivo", "sans-serif"],
       },
+      aspectRatio: {
+        "card-img": "2856 / 1920",
+      },
     },
   },
 };
