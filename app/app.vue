@@ -62,7 +62,7 @@ useSeoMeta({
     lang="en-US"
     class="scroll-pt-5"
   >
-    <Body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
+    <Body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-white">
       <NuxtPage />
 
       <AppFooter class="mt-36" />

@@ -16,6 +16,11 @@ watchEffect(() => {
   }
 });
 
+useSeoMeta({
+  title: "App Store",
+  description: "Discover, explore and install the best free web apps on the internet.",
+});
+
 const selectedTags = computed(() => tags.value.filter(x => x.selected).map(x => x.name));
 
 const filterData = computed(() => {
@@ -25,20 +30,17 @@ const filterData = computed(() => {
 </script>
 
 <template>
-  <div class="pt-5 sm:pt-16">
-    <UContainer class="py-10 space-y-5 sm:space-y-10">
-      <h1 class="group font-title text-4xl text-center sm:text-5xl font-black uppercase">
-        <NuxtLink
-          to="/"
-          class="italic hidden sm:inline group-hover:text-primary-500 transition-colors"
-        >
-          FTWA /
-        </NuxtLink> App Store
+  <main>
+    <AppStickyHeader title="App Store" />
+
+    <UContainer class="space-y-5 py-10 sm:space-y-10">
+      <h1 class="text-center font-title text-4xl font-black uppercase sm:text-5xl">
+        App Store
       </h1>
 
-      <div class="flex gap-2 justify-center items-center flex-wrap">
+      <div class="flex flex-wrap items-center justify-center gap-2">
         <UButton
-          v-for="tag in tags"
+          v-for="tag in tags.sort((a, b) => a.name.localeCompare(b.name))"
           :key="tag.name"
           size="lg"
           :ui="{ rounded: 'rounded-full' }"
@@ -51,7 +53,7 @@ const filterData = computed(() => {
 
       <UCard
         :ui="{ body: { padding: 'sm:p-3 p-3' } }"
-        class="mb-5 mx-auto max-w-[588px] xl:max-w-none"
+        class="mx-auto mb-5 max-w-[588px] xl:max-w-none"
       >
         <TargetSettings />
       </UCard>
@@ -61,7 +63,7 @@ const filterData = computed(() => {
         :websites="filterData"
       />
 
-      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center !mt-20">
+      <div class="!mt-20 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <UButton
           size="xl"
           :ui="{ rounded: 'rounded-full' }"
@@ -72,5 +74,5 @@ const filterData = computed(() => {
         />
       </div>
     </UContainer>
-  </div>
+  </main>
 </template>
