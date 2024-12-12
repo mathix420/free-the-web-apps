@@ -1,11 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  future: { compatibilityVersion: 4 },
-  compatibilityDate: "2024-10-08",
+
+  modules: [
+    "@nuxt/ui",
+    "@nuxt/eslint",
+    "@nuxt/image",
+    "@nuxthub/core",
+    "@nuxt/fonts",
+    "@nuxtjs/seo",
+    "@nuxt/scripts",
+    "@nuxtjs/device",
+    "@nuxt/content",
+    "@nuxthq/studio",
+  ],
 
   devtools: { enabled: true },
-
-  modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxt/image", "@nuxthub/core", "@nuxt/fonts", "@nuxtjs/seo", "@nuxt/scripts", "@nuxtjs/device"],
 
   site: {
     url: "https://ftwa.mathix.dev",
@@ -14,19 +23,13 @@ export default defineNuxtConfig({
     defaultLocale: "en",
   },
 
-  ogImage: {
-    enabled: false,
+  runtimeConfig: {
+    public: {
+      remoteUrl: "http://localhost:3000",
+    },
   },
-
-  sitemap: {
-    enabled: false,
-  },
-
-  image: {
-    provider: "ipx",
-    quality: 100,
-    formats: ["webp", "avif"],
-  },
+  future: { compatibilityVersion: 4 },
+  compatibilityDate: "2024-10-08",
 
   nitro: {
     prerender: {
@@ -48,9 +51,17 @@ export default defineNuxtConfig({
     },
   },
 
-  runtimeConfig: {
-    public: {
-      remoteUrl: "http://localhost:3000",
-    },
+  image: {
+    provider: "ipx",
+    quality: 100,
+    formats: ["webp", "avif"],
+  },
+
+  ogImage: {
+    enabled: false,
+  },
+
+  sitemap: {
+    enabled: false,
   },
 });

@@ -1,6 +1,5 @@
-import type { TargetInfos, WebsiteType } from "~~/types";
+import type { TargetInfos, VerifiedWebsiteContent } from "~~/types";
 import templates from "~~/server/templates";
-import websites from "~~/apps.json";
 
 export default defineEventHandler(async (event) => {
   const { uid } = getRouterParams(event);
@@ -16,7 +15,11 @@ export default defineEventHandler(async (event) => {
     return "echo '\nERROR: Target unsupported (yet).'";
   }
 
-  const website: WebsiteType = websites[uid];
+  const website = (await $fetch("/api/_content/query", {
+    query: {
+      _params: { where: { id: uid }, limit: 1 },
+    },
+  }))?.[0] as VerifiedWebsiteContent;
 
   if (!website) {
     return `echo '\nERROR: Website not found.'

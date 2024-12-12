@@ -39,7 +39,7 @@ function copyLink(website: VerifiedWebsiteType) {
 <template>
   <UCard
     :id="appId"
-    class="max-w-[588px]"
+    class="max-w-[588px] w-full"
     :ui="{
       background: 'bg-primary-600/5 dark:bg-primary-400/5',
       rounded: 'rounded-2xl sm:rounded-2xl',
@@ -100,7 +100,7 @@ function copyLink(website: VerifiedWebsiteType) {
       :alt="website.name"
       sizes="588px"
       loading="lazy"
-      :img-attrs="{ class: 'w-full rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl' }"
+      :img-attrs="{ class: 'w-full min-h-[395px] rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl' }"
     />
   </UCard>
 </template>

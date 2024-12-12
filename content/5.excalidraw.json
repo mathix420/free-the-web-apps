@@ -1,0 +1,11 @@
+{
+  "id": "excalidraw",
+  "name": "Excalidraw",
+  "description": "A website to draw cool diagrams",
+  "url": "https://excalidraw.com",
+  "logo": "https://excalidraw.com/android-chrome-192x192.png",
+  "macLogo": "https://i.ibb.co/pnnS5Bv/Frame-6.png",
+  "screenshot": "/screenshot/excalidraw.png",
+  "tags": ["diagram", "drawing", "tool"],
+  "logoSize": 192
+}

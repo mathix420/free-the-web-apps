@@ -1,0 +1,10 @@
+{
+  "id": "cyber-chef",
+  "name": "CyberChef",
+  "description": "The Cyber Swiss Army Knife",
+  "url": "https://gchq.github.io/CyberChef",
+  "logo": "https://github.com/gchq/CyberChef/blob/master/src/web/static/images/logo/cyberchef_hat_512.png?raw=true",
+  "screenshot": "/screenshot/cyber-chef.png",
+  "tags": ["security", "tool"],
+  "logoSize": 512
+}

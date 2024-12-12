@@ -1,0 +1,11 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "description": "A website to design UI/UX",
+  "url": "https://www.figma.com",
+  "logo": "https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png",
+  "macLogo": "https://github.com/elrumo/macOS_Big_Sur_icons_replacements/blob/8aefce9d7d2bef27dccfdcf5913f7b861ed11e1c/Other/icons/png/high-res/Figma.png?raw=true",
+  "screenshot": "/screenshot/figma.png",
+  "tags": ["design", "ui", "ux", "tool"],
+  "logoSize": 512
+}

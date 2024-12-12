@@ -1,0 +1,11 @@
+{
+  "id": "hackernews",
+  "name": "Hacker News",
+  "description": "News for hackers and entrepreneurs",
+  "url": "https://hackerweb.app/",
+  "logo": "https://cdn.icon-icons.com/icons2/2108/PNG/512/hackernews_icon_130915.png",
+  "macLogo": "https://i.ibb.co/cN8Bmvm/ycomb.png",
+  "screenshot": "/screenshot/hackernews.png",
+  "tags": ["news", "tech", "programming", "entrepreneurship"],
+  "logoSize": 512
+}

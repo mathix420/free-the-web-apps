@@ -1,0 +1,10 @@
+{
+  "id": "todomate",
+  "name": "TodoMate",
+  "description": "A social todo app",
+  "url": "https://todomate.net",
+  "logo": "https://www.todomate.net/favicon.png",
+  "screenshot": "/screenshot/todomate.png",
+  "tags": ["todo", "social", "tool"],
+  "logoSize": 128
+}

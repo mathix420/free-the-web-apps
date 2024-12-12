@@ -1,0 +1,11 @@
+{
+  "id": "spotify",
+  "name": "Spotify",
+  "description": "Listen to your favorite music",
+  "url": "https://open.spotify.com/",
+  "logo": "https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png",
+  "macLogo": "https://i.ibb.co/XW7CTVr/376599870-d3d1d16d-e781-432c-9c73-a0a83f25f544.png",
+  "screenshot": "/screenshot/spotify.png",
+  "tags": ["music", "streaming", "audio"],
+  "logoSize": 300
+}

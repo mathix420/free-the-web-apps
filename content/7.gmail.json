@@ -1,0 +1,11 @@
+{
+  "id": "gmail",
+  "name": "Gmail",
+  "description": "A website to send emails",
+  "url": "https://mail.google.com",
+  "logo": "https://static-00.iconduck.com/assets.00/gmail-icon-512x385-4c4746h1.png",
+  "macLogo": "https://i.ibb.co/D8WsNz4/79fcce8afc269430bfc2d855d632f09a-Gmail-1024x1024x32.png",
+  "screenshot": "/screenshot/gmail.png",
+  "tags": ["email", "communication"],
+  "logoSize": 512
+}

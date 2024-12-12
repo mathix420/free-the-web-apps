@@ -1,0 +1,10 @@
+{
+  "id": "claude",
+  "name": "Claude AI",
+  "description": "A website to chat with AI",
+  "url": "https://claude.ai/chat",
+  "logo": "https://i.ibb.co/YW0wgq4/377114602-556fda8f-6a64-41ac-8e79-68f9065134d0.png",
+  "screenshot": "/screenshot/claude.png",
+  "logoSize": 1024,
+  "tags": ["ai", "chat", "tool"]
+}

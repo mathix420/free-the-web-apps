@@ -1,3 +1,6 @@
+import type { ParsedContent } from "@nuxt/content";
+import type { VerifiedWebsiteType } from "~~/types";
+
 export interface WebsiteType {
   id: string;
   url: string;
@@ -11,6 +14,8 @@ export interface VerifiedWebsiteType extends WebsiteType {
   screenshot: string;
   macLogo?: string;
 }
+
+export interface VerifiedWebsiteContent extends ParsedContent, VerifiedWebsiteType {};
 
 export type OS = "windows" | "linux" | "macos";
 export type Browser = "chrome" | "firefox" | "edge" | "safari" | "opera" | "brave";

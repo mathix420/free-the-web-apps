@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import type { VerifiedWebsiteContent } from "~~/types";
+
+const { data } = await useAsyncData("app-samples", () => queryContent<VerifiedWebsiteContent>().limit(12).find());
+</script>
+
 <template>
   <main>
     <AppHero />
@@ -32,10 +38,24 @@
       >
         <TargetSettings />
       </UCard>
-      <AppGallery />
+      <AppGallery
+        v-if="data"
+        :websites="data"
+      />
 
       <!-- Suggest an app -->
-      <div class="flex justify-center mt-20">
+      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center mt-20">
+        <UButton
+          size="xl"
+          :ui="{ rounded: 'rounded-full' }"
+          variant="outline"
+          label="Visit App Store"
+          leading-icon="heroicons:rectangle-stack"
+          to="/store"
+        />
+
+        <p>OR</p>
+
         <UButton
           size="xl"
           :ui="{ rounded: 'rounded-full' }"

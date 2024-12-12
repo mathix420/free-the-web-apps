@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import websites from "~~/apps.json";
+import type { VerifiedWebsiteContent } from "~~/types";
+
+defineProps<{ websites: VerifiedWebsiteContent[] }>();
 </script>
 
 <template>

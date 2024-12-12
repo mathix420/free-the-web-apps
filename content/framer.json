@@ -1,0 +1,11 @@
+{
+  "id": "framer",
+  "name": "Framer",
+  "description": "Create websites without coding",
+  "url": "https://framer.com/projects/",
+  "logo": "https://framer.com/s/icon-192.png",
+  "macLogo": "https://framerusercontent.com/images/pREE9VLSuqkzsJO1BtrMWy4WVVI.png",
+  "screenshot": "/screenshot/framer.png",
+  "tags": ["design", "prototyping", "ui", "ux", "tool"],
+  "logoSize": 192
+}

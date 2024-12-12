@@ -1,0 +1,11 @@
+{
+  "id": "discord",
+  "name": "Discord",
+  "description": "A website to chat with friends",
+  "url": "https://discord.com/app",
+  "logo": "https://static-00.iconduck.com/assets.00/discord-icon-512x512-xtx725no.png",
+  "macLogo": "https://i.ibb.co/fYV8zJ2/a085f07d7625f29263e32b12dbf0ffac-Discord-1024x1024x32.png",
+  "screenshot": "/screenshot/discord.png",
+  "tags": ["chat", "communication"],
+  "logoSize": 512
+}

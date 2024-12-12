@@ -1,0 +1,11 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "description": "A website to take notes",
+  "url": "https://www.notion.so",
+  "logo": "https://static-00.iconduck.com/assets.00/notion-icon-492x512-9g5gr3fj.png",
+  "macLogo": "https://i.ibb.co/k93HV8x/4ca46ffaa97d7152d051c6df48f73c81-77a-K166-XPo-1024x1024x32.png",
+  "screenshot": "/screenshot/notion.png",
+  "tags": ["notes", "tool"],
+  "logoSize": 512
+}

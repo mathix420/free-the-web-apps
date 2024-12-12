@@ -1,0 +1,11 @@
+{
+  "id": "chat-gpt",
+  "name": "ChatGPT",
+  "description": "A website to chat with AI",
+  "url": "https://chatgpt.com/",
+  "logo": "https://static-00.iconduck.com/assets.00/openai-icon-505x512-pr6amibw.png",
+  "macLogo": "https://i.ibb.co/FYVgS7J/5dbfd47a3102e5dbab92d329fdad468d-Chat-GPT-1024x1024x32.png",
+  "screenshot": "/screenshot/chat-gpt.png",
+  "tags": ["ai", "chat", "tool"],
+  "logoSize": 512
+}

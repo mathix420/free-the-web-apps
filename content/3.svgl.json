@@ -1,0 +1,11 @@
+{
+  "id": "svgl",
+  "name": "SVGL",
+  "description": "Beautiful website to pick SVGs",
+  "url": "https://svgl.app",
+  "logo": "https://github.com/pheralb/svgl/blob/main/static/images/logo.png?raw=true",
+  "macLogo": "https://i.ibb.co/6W3sc3P/Frame-5.png",
+  "screenshot": "/screenshot/svgl.png",
+  "tags": ["svg", "design", "tool"],
+  "logoSize": 512
+}

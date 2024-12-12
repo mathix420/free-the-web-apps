@@ -1,0 +1,11 @@
+{
+  "id": "yt-music",
+  "name": "YouTube Music",
+  "description": "A website to listen music",
+  "url": "https://music.youtube.com",
+  "logo": "https://cdn.icon-icons.com/icons2/3132/PNG/512/youtube_music_social_network_song_multimedia_icon_192250.png",
+  "macLogo": "https://i.ibb.co/1mSgbsX/youtube-music-social-network-song-multimedia-icon-192250-1.png",
+  "screenshot": "/screenshot/youtube-music.png",
+  "tags": ["music", "video", "entertainment"],
+  "logoSize": 512
+}
