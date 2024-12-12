@@ -154,7 +154,7 @@ const config = computed(() => [
           variant="outline"
           target="_blank"
           label="Edit this page"
-          leading-icon="simpleicons:github"
+          leading-icon="simple-icons:github"
           external
           rel="nofollow"
           :to="`https://github.com/mathix420/free-the-web-apps/tree/master/content/${app._file}`"
