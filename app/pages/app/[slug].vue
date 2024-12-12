@@ -72,6 +72,7 @@ const config = computed(() => [
             icon="material-symbols:download"
             :ui="{ rounded: 'rounded-xl' }"
             aria-label="Install Web App"
+            @click="copyCode(app)"
           />
           <UButton
             variant="ghost"
@@ -110,8 +111,8 @@ const config = computed(() => [
 
         <div class="space-y-2 px-4 py-5 sm:px-6">
           <p>1. Make sure to choose the right OS and Browser in the config section above.</p>
-          <p class="inline-flex items-center gap-1">
-            2.  <UButton
+          <p class="inline-flex flex-wrap items-center gap-1 whitespace-normal">
+            <span>2. </span> <UButton
               variant="link"
               size="sm"
               :padded="false"
@@ -119,7 +120,7 @@ const config = computed(() => [
               icon="material-symbols:content-copy-outline-rounded"
               label="Copy this code snipet"
               @click="copyCode(app)"
-            /> and don't hesitate to <UButton
+            /> <span>and don't hesitate to</span> <UButton
               variant="link"
               size="sm"
               :padded="false"
