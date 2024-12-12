@@ -38,8 +38,10 @@ export function macos({
   website: WebsiteType | VerifiedWebsiteType;
   target: TargetInfos;
 }) {
-  const formattedName = website?.name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-  const pascalCaseName = formattedName.replace(/-?(\w)(\w*)/g,
+  const validAppName = website?.name.replace(/\//g, "");
+  const baseFolder = `/Applications/${validAppName}.app/Contents`;
+  const uriName = website?.name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  const pascalCaseName = uriName.replace(/-?(\w)(\w*)/g,
     (_, g1, g2) => g1.toUpperCase() + g2.toLowerCase());
   const safeLogo = (website?.macLogo || website.logo).replace(/'/g, "%27");
 
@@ -91,10 +93,10 @@ cp $icon_path "$tmpdir/${pascalCaseName}.iconset/icon_512x512@2x.png";
 iconutil -c icns "$tmpdir/${pascalCaseName}.iconset";
 
 # Creating the .app folder
-mkdir -p '/Applications/${pascalCaseName}.app/Contents/MacOS' '/Applications/${pascalCaseName}.app/Contents/Resources';
+mkdir -p '${baseFolder}/MacOS' '${baseFolder}/Resources';
 
 # Creating the Info.plist file
-cat > '/Applications/${pascalCaseName}.app/Contents/Info.plist' << EOF
+cat > '${baseFolder}/Info.plist' << EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- Created by FTWA (https://ftwa.mathix.dev) -->
@@ -107,23 +109,23 @@ cat > '/Applications/${pascalCaseName}.app/Contents/Info.plist' << EOF
       <key>CFBundleIconFile</key>
       <string>${pascalCaseName}</string>
       <key>CFBundleIdentifier</key>
-      <string>dev.mathix.ftwa.${formattedName}</string>
+      <string>dev.mathix.ftwa.${uriName}</string>
   </dict>
 </plist>
 EOF
 
 # Creating the executable file
-cat > '/Applications/${pascalCaseName}.app/Contents/MacOS/${pascalCaseName}.sh' << EOF
+cat > '${baseFolder}/MacOS/${pascalCaseName}.sh' << EOF
 #!/usr/bin/env bash
 # This file was generated using FTWA (https://ftwa.mathix.dev)
 ${escapePath(target.path)} ${commandOpts}
 EOF
 
 # Making the file executable
-chmod +x '/Applications/${pascalCaseName}.app/Contents/MacOS/${pascalCaseName}.sh';
+chmod +x '${baseFolder}/MacOS/${pascalCaseName}.sh';
 
 # Moving the icon
-mv "$tmpdir/${pascalCaseName}.icns" '/Applications/${pascalCaseName}.app/Contents/Resources/';
+mv "$tmpdir/${pascalCaseName}.icns" '${baseFolder}/Resources/';
 
 # Cleaning up
 rm -r "$tmpdir";
