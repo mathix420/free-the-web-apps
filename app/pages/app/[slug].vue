@@ -10,11 +10,28 @@ if (!app.value || error.value) {
   });
 }
 
+const websiteBaseURL = useSiteConfig().url;
+const fullImageURL = `${websiteBaseURL}${app.value.screenshot}`;
+
 useSeoMeta({
   title: app.value.name,
   description: `Install ${app.value.name} as desktop app on your Mac, Windows or Linux device.`,
-  ogImage: app.value.screenshot,
+  ogImage: fullImageURL,
 });
+
+useSchemaOrg([
+  defineSoftwareApp({
+    name: app.value.name,
+    applicationCategory: "BrowserApplication",
+    operatingSystem: "MacOS, Windows, Linux",
+    image: fullImageURL,
+    aggregateRating: {
+      bestRating: 5,
+      ratingValue: 5,
+      ratingCount: 1,
+    },
+  }),
+]);
 
 const config = computed(() => [
   {
@@ -68,7 +85,7 @@ const config = computed(() => [
           <UButton
             variant="ghost"
             to="#install"
-            data-umami-event="Install btn"
+            data-umami-event="Install verified app"
             icon="material-symbols:download"
             :ui="{ rounded: 'rounded-xl' }"
             aria-label="Install Web App"
@@ -124,7 +141,7 @@ const config = computed(() => [
               variant="link"
               size="sm"
               :padded="false"
-              data-umami-event="Copy verified code"
+              data-umami-event="Check verified app"
               icon="material-symbols:open-in-new"
               label="check it's content."
               target="_blank"

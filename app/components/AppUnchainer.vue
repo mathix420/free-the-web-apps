@@ -132,7 +132,7 @@ function copyCode() {
         height="64"
         class="mx-auto"
         @load="webAppInfos.logoSize = $event?.target?.naturalWidth || 0"
-      />
+      >
 
       <!-- Hints -->
       <template v-if="webAppInfos.url">

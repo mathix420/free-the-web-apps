@@ -1,15 +1,15 @@
-import tailwind from "eslint-plugin-tailwindcss";
+// @ts-check
+// @ts-ignore
+import cfg from "@mathix420/nuxt-layer/eslint.config.mjs";
 import withNuxt from "./.nuxt/eslint.config.mjs";
 
-export default withNuxt({
-  rules: {
-    "vue/html-self-closing": "off",
-  },
-}, ...tailwind.configs["flat/recommended"],
-{
-  settings: {
-    tailwindcss: {
-      config: "./.nuxt/tailwind.config.cjs",
+export default withNuxt(
+  cfg,
+  {
+    settings: {
+      tailwindcss: {
+        config: "./.nuxt/tailwind.config.cjs",
+      },
     },
   },
-});
+);

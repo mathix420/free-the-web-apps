@@ -19,8 +19,7 @@ const props = withDefaults(
 const kind = computed(() => {
   if (props.link) {
     return NuxtLink;
-  }
-  else if (props.button) {
+  } else if (props.button) {
     return "button";
   }
   return "div";

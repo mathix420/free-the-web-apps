@@ -17,24 +17,21 @@
     "@iconify-json/heroicons": "^1.2.1",
     "@iconify-json/material-symbols": "^1.2.4",
     "@iconify-json/simple-icons": "^1.2.8",
-    "@nuxt/content": "^2.13.4",
     "@nuxt/devtools": "latest",
-    "@nuxt/eslint": "^0.6.0",
-    "@nuxt/fonts": "^0.10.0",
-    "@nuxt/image": "^1.8.1",
-    "@nuxt/scripts": "^0.9.5",
     "@nuxt/ui": "^2.18.7",
     "@nuxthq/studio": "2.2.1",
     "@nuxthub/core": "^0.7.33",
     "@nuxtjs/device": "^3.2.4",
-    "@nuxtjs/seo": "^2.0.0-rc.23",
     "@types/web-app-manifest": "^1.0.8",
-    "eslint-plugin-tailwindcss": "^3.17.5",
     "nuxt": "^3.13.2",
     "wrangler": "^3.81.0"
   },
   "dependencies": {
+    "@mathix420/nuxt-layer": "^1.4.3",
     "nanoid": "^5.0.7",
     "node-html-parser": "^6.1.13"
-  }
+  },
+  "trustedDependencies": [
+    "@mathix420/nuxt-layer"
+  ]
 }

@@ -3,9 +3,16 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
-    "editor.tabSize": 2,
+    "editor.rulers": [100, 120],
+    "editor.indentSize": 2,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
     "[vue]": {
         "editor.suggest.insertMode": "insert"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
     },
     "tailwindCSS.experimental.configFile": ".nuxt/tailwind.config.cjs",
     "conventionalCommits.scopes": [

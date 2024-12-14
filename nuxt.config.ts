@@ -1,16 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  extends: ["@mathix420/nuxt-layer"],
 
   modules: [
     "@nuxt/ui",
-    "@nuxt/eslint",
-    "@nuxt/image",
     "@nuxthub/core",
-    "@nuxt/fonts",
-    "@nuxtjs/seo",
-    "@nuxt/scripts",
     "@nuxtjs/device",
-    "@nuxt/content",
     "@nuxthq/studio",
   ],
 
@@ -28,6 +23,7 @@ export default defineNuxtConfig({
       remoteUrl: "http://localhost:3000",
     },
   },
+
   future: { compatibilityVersion: 4 },
   compatibilityDate: "2024-10-08",
 
@@ -62,6 +58,8 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    enabled: false,
+    sources: [
+      "/api/__sitemap__/urls",
+    ],
   },
 });

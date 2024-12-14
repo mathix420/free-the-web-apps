@@ -53,8 +53,7 @@ export function macos({
 
   if (target.bw === "firefox") {
     commandOpts = `--name='${website.name}' --no-remote -P "FTWA" '${website.url}'`;
-  }
-  else if (["chrome", "opera", "brave", "edge"].includes(target.bw)) {
+  } else if (["chrome", "opera", "brave", "edge"].includes(target.bw)) {
     commandOpts = `--app='${website.url}'`;
   }
 
