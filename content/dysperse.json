@@ -1,0 +1,11 @@
+{
+    "id": "dysperse",
+    "name": "Dysperse",
+    "description": "Productivity for humans",
+    "url": "https://app.dysperse.com",
+    "logo": "https://s6.imgcdn.dev/pUmiL.png",
+    "macLogo": "https://s6.imgcdn.dev/pUmiL.png",
+    "screenshot": "/screenshot/dysperse.png",
+    "logoSize": 1024,
+    "tags": ["productivity", "tool"]
+  }
