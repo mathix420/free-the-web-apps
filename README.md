@@ -73,6 +73,21 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
 - Notion, ~~Cron~~ *Notion* Calendar
   ![image](https://github.com/mathix420/free-the-web-apps/assets/37625778/d04f03fb-254b-4216-8ee0-66574e75abc8)
 
+## How to uninstall
+
+### Linux
+
+Installed apps are located in one of these locations, just remove the ftwa-*.desktop file you don't want anymore.
+
+```bash
+ls -lAh ~/.local/share/applications
+# OR
+ls -lAh /usr/share/applications
+```
+
+### Macos
+
+You can uninstall apps like any other one, just move the `.app` folder to the trash.
 
 ## Ressources to find logos
 
@@ -84,7 +99,7 @@ Using [swayfx](https://github.com/WillPower3309/swayfx) as window manager (corne
 
 Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction), [Nuxt UI](https://ui.nuxt.com), [Nuxt Hub](https://hub.nuxt.com) and [Tailwind UI](https://tailwindui.com/) to learn more.
 
-## Setup
+### Setup
 
 Make sure to install the dependencies:
 
@@ -92,7 +107,7 @@ Make sure to install the dependencies:
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -102,7 +117,7 @@ bun run dev
 bun run dev --host
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
