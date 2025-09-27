@@ -89,11 +89,20 @@ ls -lAh /usr/share/applications
 
 You can uninstall apps like any other one, just move the `.app` folder to the trash.
 
-## Ressources to find logos
+## Resources to find logos
 
 - https://macosicons.com/
 - https://icon-icons.com/
 - https://simpleicons.org/
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+### Icon License Exception
+
+> [!IMPORTANT]
+> The icons and logos located in `/public/icons/` are the property of their respective owners and are **NOT** covered by the GPL-3.0 license. These assets are used for identification purposes only. All rights to these icons belong to the respective app developers and companies. See `/public/icons/LICENSE` for more information.
 
 ## Web Dev
 
