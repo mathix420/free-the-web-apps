@@ -9,6 +9,22 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
   ],
 
+  $development: {
+    runtimeConfig: {
+      public: {
+        remoteUrl: "http://localhost:3000",
+      },
+    },
+  },
+
+  $production: {
+    runtimeConfig: {
+      public: {
+        remoteUrl: "https://ftwa.mathix.dev",
+      },
+    },
+  },
+
   devtools: { enabled: true },
 
   site: {
@@ -16,12 +32,6 @@ export default defineNuxtConfig({
     name: "FTWA - Free The Web Apps",
     description: "Turn any website into an app in seconds! Let websites be free from your browser's frame, Free The Web Apps!",
     defaultLocale: "en",
-  },
-
-  runtimeConfig: {
-    public: {
-      remoteUrl: "http://localhost:3000",
-    },
   },
 
   future: { compatibilityVersion: 4 },
