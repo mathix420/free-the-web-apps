@@ -24,6 +24,10 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    "/umami/**": { proxy: "https://cloud.umami.is/**" },
+  },
+
   future: { compatibilityVersion: 4 },
   compatibilityDate: "2024-10-08",
 
