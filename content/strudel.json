@@ -1,0 +1,15 @@
+{
+  "id": "strudel",
+  "name": "Strudel",
+  "description": "Live music coding environment for the browser",
+  "url": "https://strudel.cc/",
+  "logo": "https://ftwa.mathix.dev/icons/strudel/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/strudel/regular.png",
+  "screenshot": "/screenshot/strudel.png",
+  "logoSize": 512,
+  "tags": [
+    "tool",
+    "music",
+    "programming"
+  ]
+}

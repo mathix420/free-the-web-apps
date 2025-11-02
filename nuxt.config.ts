@@ -9,6 +9,22 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
   ],
 
+  $development: {
+    runtimeConfig: {
+      public: {
+        remoteUrl: "http://localhost:3000",
+      },
+    },
+  },
+
+  $production: {
+    runtimeConfig: {
+      public: {
+        remoteUrl: "https://ftwa.mathix.dev",
+      },
+    },
+  },
+
   devtools: { enabled: true },
 
   site: {

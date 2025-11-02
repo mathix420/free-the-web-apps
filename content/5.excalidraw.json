@@ -3,9 +3,13 @@
   "name": "Excalidraw",
   "description": "A website to draw cool diagrams",
   "url": "https://excalidraw.com",
-  "logo": "https://excalidraw.com/android-chrome-192x192.png",
-  "macLogo": "https://i.ibb.co/pnnS5Bv/Frame-6.png",
+  "logo": "https://ftwa.mathix.dev/icons/excalidraw/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/excalidraw/mac.png",
   "screenshot": "/screenshot/excalidraw.png",
-  "tags": ["diagram", "drawing", "tool"],
+  "tags": [
+    "diagram",
+    "drawing",
+    "tool"
+  ],
   "logoSize": 192
 }

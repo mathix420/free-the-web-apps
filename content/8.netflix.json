@@ -3,9 +3,12 @@
   "name": "Netflix",
   "description": "Tuduum",
   "url": "https://www.netflix.com",
-  "logo": "https://static-00.iconduck.com/assets.00/apps-netflix-icon-512x512-gni9c4qs.png",
-  "macLogo": "https://i.ibb.co/PC7fryJ/f9ce10a56eed4c8323fcbcab7599a96b-tvuzyrdm-PE-1024x1024x32.png",
+  "logo": "https://ftwa.mathix.dev/icons/netflix/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/netflix/mac.png",
   "screenshot": "/screenshot/netflix.png",
-  "tags": ["streaming", "entertainment"],
+  "tags": [
+    "streaming",
+    "entertainment"
+  ],
   "logoSize": 512
 }

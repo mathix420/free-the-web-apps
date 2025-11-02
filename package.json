@@ -25,6 +25,8 @@
     "@nuxtjs/device": "^3.2.4",
     "@types/web-app-manifest": "^1.0.8",
     "nuxt": "^3.14.1592",
+    "puppeteer": "^24.22.3",
+    "sharp": "^0.34.4",
     "wrangler": "^3.95.0"
   },
   "dependencies": {
@@ -34,6 +36,9 @@
   },
   "trustedDependencies": [
     "@mathix420/nuxt-layer",
-    "sharp"
+    "esbuild",
+    "sharp",
+    "vue-demi",
+    "workerd"
   ]
 }
