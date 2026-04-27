@@ -1,0 +1,14 @@
+{
+  "id": "wikiwand",
+  "name": "Wikiwand",
+  "description": "Modernized reading interface for Wikipedia articles",
+  "url": "https://www.wikiwand.com/",
+  "logo": "https://ftwa.mathix.dev/icons/wikiwand/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/wikiwand/mac.png",
+  "screenshot": "/screenshot/wikiwand.png",
+  "tags": [
+    "news",
+    "tool"
+  ],
+  "logoSize": 512
+}
