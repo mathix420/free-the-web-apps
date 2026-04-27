@@ -1,0 +1,15 @@
+{
+  "id": "soundcloud",
+  "name": "SoundCloud",
+  "description": "Music and audio streaming platform with creator uploads",
+  "url": "https://soundcloud.com/",
+  "logo": "/icons/soundcloud/regular.png",
+  "macLogo": "/icons/soundcloud/mac.png",
+  "screenshot": "/screenshot/soundcloud.png",
+  "tags": [
+    "music",
+    "audio",
+    "social"
+  ],
+  "logoSize": 512
+}
