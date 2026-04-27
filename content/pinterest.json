@@ -1,0 +1,14 @@
+{
+  "id": "pinterest",
+  "name": "Pinterest",
+  "description": "Visual discovery platform for ideas and inspiration boards",
+  "url": "https://www.pinterest.com/",
+  "logo": "https://ftwa.mathix.dev/icons/pinterest/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/pinterest/mac.png",
+  "screenshot": "/screenshot/pinterest.png",
+  "tags": [
+    "social",
+    "design"
+  ],
+  "logoSize": 512
+}
