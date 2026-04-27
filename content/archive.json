@@ -1,0 +1,14 @@
+{
+  "id": "archive",
+  "name": "Internet Archive",
+  "description": "Library of historical web pages, books, audio and video",
+  "url": "https://archive.org/",
+  "logo": "https://ftwa.mathix.dev/icons/archive/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/archive/mac.png",
+  "screenshot": "/screenshot/archive.png",
+  "tags": [
+    "news",
+    "tool"
+  ],
+  "logoSize": 512
+}
