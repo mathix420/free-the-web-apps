@@ -1,0 +1,15 @@
+{
+  "id": "replit",
+  "name": "Replit",
+  "description": "Browser IDE with AI agents for building apps",
+  "url": "https://replit.com/",
+  "logo": "/icons/replit/regular.png",
+  "macLogo": "/icons/replit/mac.png",
+  "screenshot": "/screenshot/replit.png",
+  "tags": [
+    "programming",
+    "ai",
+    "tool"
+  ],
+  "logoSize": 512
+}
