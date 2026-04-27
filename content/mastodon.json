@@ -1,0 +1,14 @@
+{
+  "id": "mastodon",
+  "name": "Mastodon",
+  "description": "Federated, open-source social network",
+  "url": "https://mastodon.social/",
+  "logo": "https://ftwa.mathix.dev/icons/mastodon/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/mastodon/mac.png",
+  "screenshot": "/screenshot/mastodon.png",
+  "tags": [
+    "social",
+    "communication"
+  ],
+  "logoSize": 512
+}
