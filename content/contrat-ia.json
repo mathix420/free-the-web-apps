@@ -1,0 +1,16 @@
+{
+  "id": "contrat-ia",
+  "name": "Contrat IA",
+  "description": "Generate legal contracts in seconds with AI",
+  "url": "https://contrat-ia.com",
+  "logo": "/icons/contrat-ia/regular.png",
+  "macLogo": "/icons/contrat-ia/mac.png",
+  "screenshot": "/screenshot/contrat-ia.png",
+  "tags": [
+    "ai",
+    "productivity",
+    "tool",
+    "entrepreneurship"
+  ],
+  "logoSize": 512
+}
