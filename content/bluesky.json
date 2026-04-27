@@ -1,0 +1,14 @@
+{
+  "id": "bluesky",
+  "name": "Bluesky",
+  "description": "Decentralized microblogging social network on the AT protocol",
+  "url": "https://bsky.app/",
+  "logo": "https://ftwa.mathix.dev/icons/bluesky/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/bluesky/mac.png",
+  "screenshot": "/screenshot/bluesky.png",
+  "tags": [
+    "social",
+    "news"
+  ],
+  "logoSize": 512
+}
