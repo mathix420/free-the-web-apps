@@ -18,6 +18,17 @@ const { data } = await useAsyncData("app-samples", () => queryContent<VerifiedWe
 
       <AppFeatures />
 
+      <div class="-mt-16 mb-12 flex justify-center">
+        <UButton
+          size="xl"
+          :ui="{ rounded: 'rounded-full' }"
+          variant="outline"
+          label="Read the manifesto"
+          leading-icon="heroicons:newspaper"
+          to="/why"
+        />
+      </div>
+
       <h2
         id="create-web-app"
         class="py-10 text-center font-title text-3xl font-black uppercase sm:text-4xl"

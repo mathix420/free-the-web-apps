@@ -49,7 +49,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: "cloudflare-module",
     prerender: {
-      routes: ["/"],
+      routes: ["/", "/sitemap.xml"],
       crawlLinks: true,
     },
   },

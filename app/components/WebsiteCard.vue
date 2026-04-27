@@ -77,7 +77,11 @@ onMounted(() => {
       :alt="website.name"
       sizes="588px"
       loading="lazy"
-      :img-attrs="{ class: 'w-full aspect-card-img rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl' }"
+      :img-attrs="{
+        loading: 'lazy',
+        decoding: 'async',
+        class: 'w-full aspect-card-img rounded-lg sm:rounded-xl rounded-b-2xl sm:rounded-b-2xl',
+      }"
     />
   </UCard>
 </template>
