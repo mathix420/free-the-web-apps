@@ -1,0 +1,14 @@
+{
+  "id": "duolingo",
+  "name": "Duolingo",
+  "description": "Free language learning with gamified lessons",
+  "url": "https://www.duolingo.com/",
+  "logo": "https://ftwa.mathix.dev/icons/duolingo/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/duolingo/mac.png",
+  "screenshot": "/screenshot/duolingo.png",
+  "tags": [
+    "entertainment",
+    "productivity"
+  ],
+  "logoSize": 512
+}
