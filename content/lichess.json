@@ -1,0 +1,15 @@
+{
+  "id": "lichess",
+  "name": "Lichess",
+  "description": "Free, open-source online chess server",
+  "url": "https://lichess.org/",
+  "logo": "https://ftwa.mathix.dev/icons/lichess/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/lichess/mac.png",
+  "screenshot": "/screenshot/lichess.png",
+  "tags": [
+    "entertainment",
+    "social",
+    "tool"
+  ],
+  "logoSize": 1024
+}
