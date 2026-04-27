@@ -1,0 +1,14 @@
+{
+  "id": "airtable",
+  "name": "Airtable",
+  "description": "Spreadsheet-database hybrid for collaborative data work",
+  "url": "https://airtable.com/",
+  "logo": "https://ftwa.mathix.dev/icons/airtable/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/airtable/mac.png",
+  "screenshot": "/screenshot/airtable.png",
+  "tags": [
+    "productivity",
+    "tool"
+  ],
+  "logoSize": 192
+}
