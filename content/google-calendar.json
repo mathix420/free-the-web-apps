@@ -1,0 +1,14 @@
+{
+  "id": "google-calendar",
+  "name": "Google Calendar",
+  "description": "Calendar and scheduling for events and meetings",
+  "url": "https://calendar.google.com/",
+  "logo": "https://ftwa.mathix.dev/icons/google-calendar/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/google-calendar/mac.png",
+  "screenshot": "/screenshot/google-calendar.png",
+  "tags": [
+    "productivity",
+    "todo"
+  ],
+  "logoSize": 512
+}
