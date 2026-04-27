@@ -31,9 +31,8 @@ export const operatingSystems: OperatingSystem[] = [{
   label: "macOS",
   icon: "simple-icons:apple",
 }, {
-  disabled: true,
   value: "windows",
-  label: "Windows (to be implemented)",
+  label: "Windows",
   icon: "simple-icons:windows",
 }];
 
@@ -85,7 +84,7 @@ export const browsers: TBrowser[] = [{
 }, {
   disabled: true,
   value: "safari",
-  label: "Safari (to be implemented)",
+  label: "Safari (cannot be implemented)",
   defaultExecutablePath: {
     linux: null,
     macos: "/Applications/Safari.app/Contents/MacOS/Safari",

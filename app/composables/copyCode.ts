@@ -3,8 +3,7 @@ import type { VerifiedWebsiteType } from "~~/types";
 export function copyCode(website: VerifiedWebsiteType) {
   const { copy } = useCopyToClipboard();
 
-  const installURL = getInstallURL(website);
-  const code = `sh -ec "$(curl -fsSL '${installURL}')"`;
+  const code = getInstallCommand(website);
 
   useRouter().replace({ hash: "#" });
 

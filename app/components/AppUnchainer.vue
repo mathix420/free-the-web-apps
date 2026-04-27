@@ -53,8 +53,7 @@ async function submitWebsite() {
     });
     if (data.value?.uid) {
       websiteId.value = data.value.uid;
-      const installUrl = getInstallURL({ id: data.value.uid }, false);
-      execCode.value = `sh -ec "$(curl -fsSL '${installUrl}')"`;
+      execCode.value = getInstallCommand({ id: data.value.uid }, false);
     }
     submitLoading.value = false;
   }

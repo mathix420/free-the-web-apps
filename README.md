@@ -32,7 +32,7 @@ When choosing linux as target OS, FTWA generate a shell script that will create 
 
 ### On Windows
 
-TODO: Not implemented yet. But will use shortcuts.
+FTWA generates a PowerShell script that downloads the icon, wraps it as an `.ico`, and creates a Start Menu `.lnk` shortcut (via `WScript.Shell`) pointing at the browser executable with the right `--app=` / Firefox profile arguments. The shortcut shows up in Start Menu search.
 
 ### On Macos
 

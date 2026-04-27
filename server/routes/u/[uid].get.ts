@@ -11,7 +11,7 @@ export default defineEventHandler(async (event) => {
     return "echo '\nERROR: Missing target infos.'";
   }
 
-  if (["windows"].includes(target.os) || ["safari"].includes(target.bw)) {
+  if (["safari"].includes(target.bw)) {
     return "echo '\nERROR: Target unsupported (yet).'";
   }
 

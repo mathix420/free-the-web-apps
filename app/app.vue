@@ -49,7 +49,7 @@ onMounted(() => {
     path: "",
   }));
   targetInfos.value.bw = getUserBrowser(["safari"]);
-  targetInfos.value.os = getUserOS(["windows"]);
+  targetInfos.value.os = getUserOS([]);
 });
 
 useSeoMeta({
