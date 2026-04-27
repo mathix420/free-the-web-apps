@@ -1,0 +1,14 @@
+{
+  "id": "slack",
+  "name": "Slack",
+  "description": "Team chat and collaboration platform for work",
+  "url": "https://app.slack.com/",
+  "logo": "https://ftwa.mathix.dev/icons/slack/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/slack/mac.png",
+  "screenshot": "/screenshot/slack.png",
+  "tags": [
+    "communication",
+    "chat"
+  ],
+  "logoSize": 400
+}

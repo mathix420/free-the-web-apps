@@ -1,0 +1,15 @@
+{
+  "id": "twitch",
+  "name": "Twitch",
+  "description": "Live streaming platform for gaming, entertainment, sports and music",
+  "url": "https://www.twitch.tv/",
+  "logo": "https://ftwa.mathix.dev/icons/twitch/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/twitch/mac.png",
+  "screenshot": "/screenshot/twitch.png",
+  "tags": [
+    "streaming",
+    "video",
+    "entertainment"
+  ],
+  "logoSize": 512
+}

@@ -1,0 +1,14 @@
+{
+  "id": "photopea",
+  "name": "Photopea",
+  "description": "Free in-browser photo editor and Photoshop alternative",
+  "url": "https://www.photopea.com/",
+  "logo": "https://ftwa.mathix.dev/icons/photopea/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/photopea/mac.png",
+  "screenshot": "/screenshot/photopea.png",
+  "tags": [
+    "design",
+    "tool"
+  ],
+  "logoSize": 512
+}

@@ -1,0 +1,14 @@
+{
+  "id": "perplexity",
+  "name": "Perplexity",
+  "description": "AI-powered answer engine for real-time questions and research",
+  "url": "https://www.perplexity.ai/",
+  "logo": "https://ftwa.mathix.dev/icons/perplexity/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/perplexity/mac.png",
+  "screenshot": "/screenshot/perplexity.png",
+  "tags": [
+    "ai",
+    "tool"
+  ],
+  "logoSize": 180
+}

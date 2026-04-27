@@ -1,0 +1,15 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "description": "Issue tracking and project planning system for product teams",
+  "url": "https://linear.app/",
+  "logo": "https://ftwa.mathix.dev/icons/linear/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/linear/mac.png",
+  "screenshot": "/screenshot/linear.png",
+  "tags": [
+    "productivity",
+    "programming",
+    "tool"
+  ],
+  "logoSize": 180
+}

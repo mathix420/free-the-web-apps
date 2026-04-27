@@ -1,0 +1,14 @@
+{
+  "id": "cal-com",
+  "name": "Cal.com",
+  "description": "Open-source scheduling platform for booking meetings",
+  "url": "https://cal.com/",
+  "logo": "https://ftwa.mathix.dev/icons/cal-com/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/cal-com/mac.png",
+  "screenshot": "/screenshot/cal-com.png",
+  "tags": [
+    "productivity",
+    "tool"
+  ],
+  "logoSize": 1024
+}

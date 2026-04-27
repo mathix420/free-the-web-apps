@@ -1,0 +1,15 @@
+{
+  "id": "tldraw",
+  "name": "tldraw",
+  "description": "Free collaborative whiteboard for sketching, diagrams and infinite canvas notes",
+  "url": "https://www.tldraw.com/",
+  "logo": "https://ftwa.mathix.dev/icons/tldraw/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/tldraw/mac.png",
+  "screenshot": "/screenshot/tldraw.png",
+  "tags": [
+    "drawing",
+    "design",
+    "diagram"
+  ],
+  "logoSize": 512
+}

@@ -1,0 +1,14 @@
+{
+  "id": "stackblitz",
+  "name": "StackBlitz",
+  "description": "Online IDE for instant web development environments in the browser",
+  "url": "https://stackblitz.com/",
+  "logo": "https://ftwa.mathix.dev/icons/stackblitz/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/stackblitz/mac.png",
+  "screenshot": "/screenshot/stackblitz.png",
+  "tags": [
+    "programming",
+    "tool"
+  ],
+  "logoSize": 512
+}
