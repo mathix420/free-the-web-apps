@@ -521,7 +521,7 @@ const pwaStack = [
                   150–300 MB
                 </td>
                 <td class="py-4 pr-4">
-                  ~ 1 MB cache
+                  5–50 MB cache
                 </td>
                 <td class="py-4 pr-4 font-bold text-primary-600 dark:text-primary-400">
                   ≈ 1.5 KB
