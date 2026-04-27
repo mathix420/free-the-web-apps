@@ -1,0 +1,14 @@
+{
+  "id": "hey",
+  "name": "HEY",
+  "description": "Opinionated email service by 37signals",
+  "url": "https://app.hey.com/",
+  "logo": "https://ftwa.mathix.dev/icons/hey/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/hey/mac.png",
+  "screenshot": "/screenshot/hey.png",
+  "tags": [
+    "email",
+    "productivity"
+  ],
+  "logoSize": 512
+}
