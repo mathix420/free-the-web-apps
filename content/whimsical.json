@@ -1,0 +1,15 @@
+{
+  "id": "whimsical",
+  "name": "Whimsical",
+  "description": "Wireframes, flowcharts, mind maps and visual collaboration",
+  "url": "https://whimsical.com",
+  "logo": "https://ftwa.mathix.dev/icons/whimsical/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/whimsical/mac.png",
+  "screenshot": "/screenshot/whimsical.png",
+  "tags": [
+    "design",
+    "diagram",
+    "prototyping"
+  ],
+  "logoSize": 512
+}
