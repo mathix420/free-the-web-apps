@@ -1,0 +1,15 @@
+{
+  "id": "youtube",
+  "name": "YouTube",
+  "description": "Video sharing and streaming platform",
+  "url": "https://www.youtube.com/",
+  "logo": "https://ftwa.mathix.dev/icons/youtube/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/youtube/mac.png",
+  "screenshot": "/screenshot/youtube.png",
+  "tags": [
+    "video",
+    "streaming",
+    "entertainment"
+  ],
+  "logoSize": 512
+}
