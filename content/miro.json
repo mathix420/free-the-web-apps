@@ -1,0 +1,15 @@
+{
+  "id": "miro",
+  "name": "Miro",
+  "description": "Collaborative online whiteboard for diagramming and brainstorming",
+  "url": "https://miro.com/",
+  "logo": "https://ftwa.mathix.dev/icons/miro/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/miro/mac.png",
+  "screenshot": "/screenshot/miro.png",
+  "tags": [
+    "design",
+    "diagram",
+    "productivity"
+  ],
+  "logoSize": 1024
+}
