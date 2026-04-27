@@ -1,0 +1,15 @@
+{
+  "id": "loom",
+  "name": "Loom",
+  "description": "Async video messaging for work and team communication",
+  "url": "https://www.loom.com/",
+  "logo": "https://ftwa.mathix.dev/icons/loom/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/loom/mac.png",
+  "screenshot": "/screenshot/loom.png",
+  "tags": [
+    "video",
+    "communication",
+    "productivity"
+  ],
+  "logoSize": 192
+}
