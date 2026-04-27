@@ -1,0 +1,15 @@
+{
+  "id": "suno",
+  "name": "Suno",
+  "description": "AI music generation from text prompts",
+  "url": "https://suno.com/",
+  "logo": "/icons/suno/regular.png",
+  "macLogo": "/icons/suno/mac.png",
+  "screenshot": "/screenshot/suno.png",
+  "tags": [
+    "ai",
+    "music",
+    "audio"
+  ],
+  "logoSize": 512
+}
