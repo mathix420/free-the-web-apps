@@ -1,0 +1,15 @@
+{
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "description": "AI/ML model hub, datasets and spaces for the open community",
+  "url": "https://huggingface.co/",
+  "logo": "https://ftwa.mathix.dev/icons/hugging-face/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/hugging-face/mac.png",
+  "screenshot": "/screenshot/hugging-face.png",
+  "tags": [
+    "ai",
+    "programming",
+    "tool"
+  ],
+  "logoSize": 512
+}
