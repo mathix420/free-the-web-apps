@@ -3,8 +3,8 @@
   "name": "ChatGPT",
   "description": "A website to chat with AI",
   "url": "https://chatgpt.com/",
-  "logo": "https://ftwa.mathix.dev/icons/chat-gpt/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/chat-gpt/mac.png",
+  "logo": "/icons/chat-gpt/regular.png",
+  "macLogo": "/icons/chat-gpt/mac.png",
   "screenshot": "/screenshot/chat-gpt.png",
   "tags": [
     "ai",

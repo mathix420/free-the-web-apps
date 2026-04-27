@@ -3,8 +3,8 @@
   "name": "DuckDuckGo",
   "description": "Privacy-first search engine with no tracking",
   "url": "https://duckduckgo.com/",
-  "logo": "https://ftwa.mathix.dev/icons/duckduckgo/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/duckduckgo/mac.png",
+  "logo": "/icons/duckduckgo/regular.png",
+  "macLogo": "/icons/duckduckgo/mac.png",
   "screenshot": "/screenshot/duckduckgo.png",
   "tags": ["security", "tool"],
   "logoSize": 512

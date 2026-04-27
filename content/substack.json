@@ -3,8 +3,8 @@
   "name": "Substack",
   "description": "Newsletter and subscription publishing platform",
   "url": "https://substack.com/",
-  "logo": "https://ftwa.mathix.dev/icons/substack/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/substack/mac.png",
+  "logo": "/icons/substack/regular.png",
+  "macLogo": "/icons/substack/mac.png",
   "screenshot": "/screenshot/substack.png",
   "tags": [
     "news",

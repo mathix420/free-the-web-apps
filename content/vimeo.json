@@ -3,8 +3,8 @@
   "name": "Vimeo",
   "description": "Professional video hosting and streaming platform",
   "url": "https://vimeo.com/",
-  "logo": "https://ftwa.mathix.dev/icons/vimeo/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/vimeo/mac.png",
+  "logo": "/icons/vimeo/regular.png",
+  "macLogo": "/icons/vimeo/mac.png",
   "screenshot": "/screenshot/vimeo.png",
   "tags": [
     "video",

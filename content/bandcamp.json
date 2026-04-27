@@ -3,8 +3,8 @@
   "name": "Bandcamp",
   "description": "Independent music and merchandise direct from artists",
   "url": "https://bandcamp.com/",
-  "logo": "https://ftwa.mathix.dev/icons/bandcamp/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/bandcamp/mac.png",
+  "logo": "/icons/bandcamp/regular.png",
+  "macLogo": "/icons/bandcamp/mac.png",
   "screenshot": "/screenshot/bandcamp.png",
   "tags": [
     "music",

@@ -3,8 +3,8 @@
   "name": "Framer",
   "description": "Create websites without coding",
   "url": "https://framer.com/projects/",
-  "logo": "https://ftwa.mathix.dev/icons/framer/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/framer/mac.png",
+  "logo": "/icons/framer/regular.png",
+  "macLogo": "/icons/framer/mac.png",
   "screenshot": "/screenshot/framer.png",
   "tags": [
     "design",

@@ -3,8 +3,8 @@
   "name": "Wikipedia",
   "description": "Free collaborative encyclopedia with millions of articles",
   "url": "https://www.wikipedia.org/",
-  "logo": "https://ftwa.mathix.dev/icons/wikipedia/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/wikipedia/mac.png",
+  "logo": "/icons/wikipedia/regular.png",
+  "macLogo": "/icons/wikipedia/mac.png",
   "screenshot": "/screenshot/wikipedia.png",
   "tags": [
     "news",

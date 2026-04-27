@@ -3,8 +3,8 @@
   "name": "Discord",
   "description": "A website to chat with friends",
   "url": "https://discord.com/app",
-  "logo": "https://ftwa.mathix.dev/icons/discord/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/discord/mac.png",
+  "logo": "/icons/discord/regular.png",
+  "macLogo": "/icons/discord/mac.png",
   "screenshot": "/screenshot/discord.png",
   "tags": [
     "chat",

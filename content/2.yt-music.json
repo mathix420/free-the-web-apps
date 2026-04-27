@@ -3,8 +3,8 @@
   "name": "YouTube Music",
   "description": "A website to listen music",
   "url": "https://music.youtube.com",
-  "logo": "https://ftwa.mathix.dev/icons/yt-music/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/yt-music/mac.png",
+  "logo": "/icons/yt-music/regular.png",
+  "macLogo": "/icons/yt-music/mac.png",
   "screenshot": "/screenshot/youtube-music.png",
   "tags": [
     "music",

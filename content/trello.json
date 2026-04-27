@@ -3,8 +3,8 @@
   "name": "Trello",
   "description": "Visual kanban-style project management boards",
   "url": "https://trello.com/",
-  "logo": "https://ftwa.mathix.dev/icons/trello/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/trello/mac.png",
+  "logo": "/icons/trello/regular.png",
+  "macLogo": "/icons/trello/mac.png",
   "screenshot": "/screenshot/trello.png",
   "tags": [
     "productivity",

@@ -3,7 +3,7 @@
   "name": "Superlist",
   "description": "Home to all your lists",
   "url": "https://app.superlist.com/inbox",
-  "logo": "https://ftwa.mathix.dev/icons/superlist/regular.png",
+  "logo": "/icons/superlist/regular.png",
   "screenshot": "/screenshot/superlist.png",
   "tags": [
     "todo",

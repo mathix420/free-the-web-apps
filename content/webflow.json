@@ -3,8 +3,8 @@
   "name": "Webflow",
   "description": "Visual web design and no-code development platform",
   "url": "https://webflow.com/",
-  "logo": "https://ftwa.mathix.dev/icons/webflow/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/webflow/mac.png",
+  "logo": "/icons/webflow/regular.png",
+  "macLogo": "/icons/webflow/mac.png",
   "screenshot": "/screenshot/webflow.png",
   "tags": [
     "design",

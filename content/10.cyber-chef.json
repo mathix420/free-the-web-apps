@@ -3,7 +3,7 @@
   "name": "CyberChef",
   "description": "The Cyber Swiss Army Knife",
   "url": "https://gchq.github.io/CyberChef",
-  "logo": "https://ftwa.mathix.dev/icons/cyber-chef/regular.png",
+  "logo": "/icons/cyber-chef/regular.png",
   "screenshot": "/screenshot/cyber-chef.png",
   "tags": [
     "security",

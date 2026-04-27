@@ -3,8 +3,8 @@
   "name": "Hacker News",
   "description": "News for hackers and entrepreneurs",
   "url": "https://hackerweb.app/",
-  "logo": "https://ftwa.mathix.dev/icons/hackernews/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/hackernews/mac.png",
+  "logo": "/icons/hackernews/regular.png",
+  "macLogo": "/icons/hackernews/mac.png",
   "screenshot": "/screenshot/hackernews.png",
   "tags": [
     "news",

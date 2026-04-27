@@ -3,8 +3,8 @@
   "name": "Excalidraw",
   "description": "A website to draw cool diagrams",
   "url": "https://excalidraw.com",
-  "logo": "https://ftwa.mathix.dev/icons/excalidraw/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/excalidraw/mac.png",
+  "logo": "/icons/excalidraw/regular.png",
+  "macLogo": "/icons/excalidraw/mac.png",
   "screenshot": "/screenshot/excalidraw.png",
   "tags": [
     "diagram",

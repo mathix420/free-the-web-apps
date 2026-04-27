@@ -3,8 +3,8 @@
   "name": "Bitwarden",
   "description": "Open-source password manager and secure vault",
   "url": "https://vault.bitwarden.com/",
-  "logo": "https://ftwa.mathix.dev/icons/bitwarden/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/bitwarden/mac.png",
+  "logo": "/icons/bitwarden/regular.png",
+  "macLogo": "/icons/bitwarden/mac.png",
   "screenshot": "/screenshot/bitwarden.png",
   "tags": [
     "security",

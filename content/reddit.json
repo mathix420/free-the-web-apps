@@ -3,8 +3,8 @@
   "name": "Reddit",
   "description": "Social link aggregator with communities, discussions and forums",
   "url": "https://www.reddit.com/",
-  "logo": "https://ftwa.mathix.dev/icons/reddit/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/reddit/mac.png",
+  "logo": "/icons/reddit/regular.png",
+  "macLogo": "/icons/reddit/mac.png",
   "screenshot": "/screenshot/reddit.png",
   "tags": [
     "social",

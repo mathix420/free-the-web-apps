@@ -3,8 +3,8 @@
   "name": "Le Chat",
   "description": "AI assistant by Mistral with open-weights models",
   "url": "https://chat.mistral.ai/",
-  "logo": "https://ftwa.mathix.dev/icons/mistral/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/mistral/mac.png",
+  "logo": "/icons/mistral/regular.png",
+  "macLogo": "/icons/mistral/mac.png",
   "screenshot": "/screenshot/mistral.png",
   "tags": [
     "ai",

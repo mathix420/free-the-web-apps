@@ -3,8 +3,8 @@
   "name": "Stripe Dashboard",
   "description": "Payments management and business operations",
   "url": "https://dashboard.stripe.com/",
-  "logo": "https://ftwa.mathix.dev/icons/stripe/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/stripe/mac.png",
+  "logo": "/icons/stripe/regular.png",
+  "macLogo": "/icons/stripe/mac.png",
   "screenshot": "/screenshot/stripe.png",
   "tags": [
     "entrepreneurship",

@@ -3,8 +3,8 @@
   "name": "SVGL",
   "description": "Beautiful website to pick SVGs",
   "url": "https://svgl.app",
-  "logo": "https://ftwa.mathix.dev/icons/svgl/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/svgl/mac.png",
+  "logo": "/icons/svgl/regular.png",
+  "macLogo": "/icons/svgl/mac.png",
   "screenshot": "/screenshot/svgl.png",
   "tags": [
     "svg",

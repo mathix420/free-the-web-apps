@@ -3,8 +3,8 @@
   "name": "Figma",
   "description": "A website to design UI/UX",
   "url": "https://www.figma.com",
-  "logo": "https://ftwa.mathix.dev/icons/figma/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/figma/mac.png",
+  "logo": "/icons/figma/regular.png",
+  "macLogo": "/icons/figma/mac.png",
   "screenshot": "/screenshot/figma.png",
   "tags": [
     "design",

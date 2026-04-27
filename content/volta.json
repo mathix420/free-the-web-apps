@@ -3,8 +3,8 @@
   "name": "Volta",
   "description": "Supercharged GitHub Experience",
   "url": "https://volta.net/inbox",
-  "logo": "https://ftwa.mathix.dev/icons/volta/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/volta/mac.png",
+  "logo": "/icons/volta/regular.png",
+  "macLogo": "/icons/volta/mac.png",
   "screenshot": "/screenshot/volta.png",
   "tags": [
     "git",

@@ -3,8 +3,8 @@
   "name": "TodoMate",
   "description": "A social todo app",
   "url": "https://todomate.net",
-  "logo": "https://ftwa.mathix.dev/icons/todomate/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/todomate/mac.webp",
+  "logo": "/icons/todomate/regular.png",
+  "macLogo": "/icons/todomate/mac.webp",
   "screenshot": "/screenshot/todomate.png",
   "tags": [
     "todo",

@@ -3,8 +3,8 @@
   "name": "Zoom",
   "description": "Video meetings and conferencing",
   "url": "https://app.zoom.us/",
-  "logo": "https://ftwa.mathix.dev/icons/zoom/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/zoom/mac.png",
+  "logo": "/icons/zoom/regular.png",
+  "macLogo": "/icons/zoom/mac.png",
   "screenshot": "/screenshot/zoom.png",
   "tags": [
     "video",

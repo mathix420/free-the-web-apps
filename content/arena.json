@@ -3,8 +3,8 @@
   "name": "Are.na",
   "description": "Visual research network for collaborative idea collecting",
   "url": "https://www.are.na/",
-  "logo": "https://ftwa.mathix.dev/icons/arena/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/arena/mac.png",
+  "logo": "/icons/arena/regular.png",
+  "macLogo": "/icons/arena/mac.png",
   "screenshot": "/screenshot/arena.png",
   "tags": [
     "design",

@@ -3,7 +3,7 @@
   "name": "Claude AI",
   "description": "A website to chat with AI",
   "url": "https://claude.ai/chat",
-  "logo": "https://ftwa.mathix.dev/icons/claude/regular.png",
+  "logo": "/icons/claude/regular.png",
   "screenshot": "/screenshot/claude.png",
   "logoSize": 1024,
   "tags": [

@@ -3,8 +3,8 @@
   "name": "v0",
   "description": "AI-powered UI generation by Vercel",
   "url": "https://v0.app/",
-  "logo": "https://ftwa.mathix.dev/icons/v0/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/v0/mac.png",
+  "logo": "/icons/v0/regular.png",
+  "macLogo": "/icons/v0/mac.png",
   "screenshot": "/screenshot/v0.png",
   "tags": [
     "ai",

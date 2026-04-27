@@ -3,8 +3,8 @@
   "name": "Element",
   "description": "Decentralized chat client built on the Matrix protocol",
   "url": "https://app.element.io/",
-  "logo": "https://ftwa.mathix.dev/icons/element/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/element/mac.png",
+  "logo": "/icons/element/regular.png",
+  "macLogo": "/icons/element/mac.png",
   "screenshot": "/screenshot/element.png",
   "tags": [
     "chat",

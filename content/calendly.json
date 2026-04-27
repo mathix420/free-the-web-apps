@@ -3,8 +3,8 @@
   "name": "Calendly",
   "description": "Meeting scheduling and booking links",
   "url": "https://calendly.com",
-  "logo": "https://ftwa.mathix.dev/icons/calendly/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/calendly/mac.png",
+  "logo": "/icons/calendly/regular.png",
+  "macLogo": "/icons/calendly/mac.png",
   "screenshot": "/screenshot/calendly.png",
   "tags": ["productivity", "tool"],
   "logoSize": 512

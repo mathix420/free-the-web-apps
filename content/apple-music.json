@@ -3,8 +3,8 @@
   "name": "Apple Music",
   "description": "Music streaming with editorial playlists and lossless audio",
   "url": "https://music.apple.com",
-  "logo": "https://ftwa.mathix.dev/icons/apple-music/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/apple-music/mac.png",
+  "logo": "/icons/apple-music/regular.png",
+  "macLogo": "/icons/apple-music/mac.png",
   "screenshot": "/screenshot/apple-music.png",
   "tags": ["music", "audio"],
   "logoSize": 512

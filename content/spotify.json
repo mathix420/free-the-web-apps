@@ -3,8 +3,8 @@
   "name": "Spotify",
   "description": "Listen to your favorite music",
   "url": "https://open.spotify.com/",
-  "logo": "https://ftwa.mathix.dev/icons/spotify/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/spotify/mac.png",
+  "logo": "/icons/spotify/regular.png",
+  "macLogo": "/icons/spotify/mac.png",
   "screenshot": "/screenshot/spotify.png",
   "tags": [
     "music",

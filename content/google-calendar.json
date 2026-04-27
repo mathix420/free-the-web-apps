@@ -3,8 +3,8 @@
   "name": "Google Calendar",
   "description": "Calendar and scheduling for events and meetings",
   "url": "https://calendar.google.com/",
-  "logo": "https://ftwa.mathix.dev/icons/google-calendar/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/google-calendar/mac.png",
+  "logo": "/icons/google-calendar/regular.png",
+  "macLogo": "/icons/google-calendar/mac.png",
   "screenshot": "/screenshot/google-calendar.png",
   "tags": [
     "productivity",

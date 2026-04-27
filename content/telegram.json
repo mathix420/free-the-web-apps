@@ -3,8 +3,8 @@
   "name": "Telegram",
   "description": "Cloud-based messaging across devices with optional end-to-end encryption",
   "url": "https://web.telegram.org/",
-  "logo": "https://ftwa.mathix.dev/icons/telegram/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/telegram/mac.png",
+  "logo": "/icons/telegram/regular.png",
+  "macLogo": "/icons/telegram/mac.png",
   "screenshot": "/screenshot/telegram.png",
   "tags": [
     "chat",

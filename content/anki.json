@@ -3,8 +3,8 @@
   "name": "AnkiWeb",
   "description": "Spaced repetition flashcards for memorization",
   "url": "https://ankiweb.net/",
-  "logo": "https://ftwa.mathix.dev/icons/anki/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/anki/mac.png",
+  "logo": "/icons/anki/regular.png",
+  "macLogo": "/icons/anki/mac.png",
   "screenshot": "/screenshot/anki.png",
   "tags": ["productivity", "todo"],
   "logoSize": 512

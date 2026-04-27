@@ -3,8 +3,8 @@
   "name": "Netflix",
   "description": "Tuduum",
   "url": "https://www.netflix.com",
-  "logo": "https://ftwa.mathix.dev/icons/netflix/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/netflix/mac.png",
+  "logo": "/icons/netflix/regular.png",
+  "macLogo": "/icons/netflix/mac.png",
   "screenshot": "/screenshot/netflix.png",
   "tags": [
     "streaming",

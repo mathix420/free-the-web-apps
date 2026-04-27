@@ -3,8 +3,8 @@
   "name": "Google Drive",
   "description": "Cloud file storage and synchronization",
   "url": "https://drive.google.com/",
-  "logo": "https://ftwa.mathix.dev/icons/google-drive/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/google-drive/mac.png",
+  "logo": "/icons/google-drive/regular.png",
+  "macLogo": "/icons/google-drive/mac.png",
   "screenshot": "/screenshot/google-drive.png",
   "tags": [
     "productivity",

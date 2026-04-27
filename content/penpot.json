@@ -3,8 +3,8 @@
   "name": "Penpot",
   "description": "Open-source design and prototyping platform for product teams",
   "url": "https://design.penpot.app/",
-  "logo": "https://ftwa.mathix.dev/icons/penpot/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/penpot/mac.png",
+  "logo": "/icons/penpot/regular.png",
+  "macLogo": "/icons/penpot/mac.png",
   "screenshot": "/screenshot/penpot.png",
   "tags": [
     "design",

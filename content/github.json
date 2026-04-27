@@ -3,8 +3,8 @@
   "name": "GitHub",
   "description": "Code hosting and collaboration platform for developers",
   "url": "https://github.com",
-  "logo": "https://ftwa.mathix.dev/icons/github/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/github/mac.png",
+  "logo": "/icons/github/regular.png",
+  "macLogo": "/icons/github/mac.png",
   "screenshot": "/screenshot/github.png",
   "tags": [
     "programming",

@@ -3,8 +3,8 @@
   "name": "Gmail",
   "description": "A website to send emails",
   "url": "https://mail.google.com",
-  "logo": "https://ftwa.mathix.dev/icons/gmail/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/gmail/mac.png",
+  "logo": "/icons/gmail/regular.png",
+  "macLogo": "/icons/gmail/mac.png",
   "screenshot": "/screenshot/gmail.png",
   "tags": [
     "email",

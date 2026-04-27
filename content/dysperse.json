@@ -3,8 +3,8 @@
   "name": "Dysperse",
   "description": "Productivity for humans",
   "url": "https://app.dysperse.com",
-  "logo": "https://ftwa.mathix.dev/icons/dysperse/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/dysperse/regular.png",
+  "logo": "/icons/dysperse/regular.png",
+  "macLogo": "/icons/dysperse/regular.png",
   "screenshot": "/screenshot/dysperse.png",
   "logoSize": 1024,
   "tags": [

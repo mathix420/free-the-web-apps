@@ -3,8 +3,8 @@
   "name": "PairDrop",
   "description": "Peer-to-peer file sharing across devices in the browser, no setup or signup",
   "url": "https://pairdrop.net/",
-  "logo": "https://ftwa.mathix.dev/icons/pairdrop/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/pairdrop/mac.png",
+  "logo": "/icons/pairdrop/regular.png",
+  "macLogo": "/icons/pairdrop/mac.png",
   "screenshot": "/screenshot/pairdrop.png",
   "tags": [
     "tool",

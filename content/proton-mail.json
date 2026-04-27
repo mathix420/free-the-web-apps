@@ -3,8 +3,8 @@
   "name": "Proton Mail",
   "description": "End-to-end encrypted email with privacy by default",
   "url": "https://mail.proton.me/",
-  "logo": "https://ftwa.mathix.dev/icons/proton-mail/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/proton-mail/mac.png",
+  "logo": "/icons/proton-mail/regular.png",
+  "macLogo": "/icons/proton-mail/mac.png",
   "screenshot": "/screenshot/proton-mail.png",
   "tags": [
     "email",

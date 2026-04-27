@@ -3,8 +3,8 @@
   "name": "Notion",
   "description": "A website to take notes",
   "url": "https://www.notion.so",
-  "logo": "https://ftwa.mathix.dev/icons/notion/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/notion/mac.png",
+  "logo": "/icons/notion/regular.png",
+  "macLogo": "/icons/notion/mac.png",
   "screenshot": "/screenshot/notion.png",
   "tags": [
     "notes",

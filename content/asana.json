@@ -3,8 +3,8 @@
   "name": "Asana",
   "description": "Project and task management for teams",
   "url": "https://app.asana.com/",
-  "logo": "https://ftwa.mathix.dev/icons/asana/regular.png",
-  "macLogo": "https://ftwa.mathix.dev/icons/asana/mac.png",
+  "logo": "/icons/asana/regular.png",
+  "macLogo": "/icons/asana/mac.png",
   "screenshot": "/screenshot/asana.png",
   "tags": [
     "productivity",
