@@ -21,7 +21,6 @@
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.20.0",
     "@nuxthq/studio": "2.2.1",
-    "@nuxthub/core": "^0.8.8",
     "@nuxtjs/device": "^3.2.4",
     "@types/web-app-manifest": "^1.0.8",
     "nuxt": "^3.14.1592",

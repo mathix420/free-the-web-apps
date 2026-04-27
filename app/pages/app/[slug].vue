@@ -10,7 +10,7 @@ if (!app.value || error.value) {
   });
 }
 
-const websiteBaseURL = useSiteConfig().url;
+const websiteBaseURL = useSiteConfig().url || "https://ftwa.mathix.dev";
 const fullImageURL = `${websiteBaseURL}${app.value.screenshot}`;
 
 useSeoMeta({
@@ -44,11 +44,11 @@ const config = computed(() => [
   },
   {
     key: "Logo",
-    value: app.value?.logo,
+    value: app.value?.logo ? `${websiteBaseURL}${app.value.logo}` : "-",
   },
   {
     key: "Mac Logo",
-    value: app.value?.macLogo || "-",
+    value: app.value?.macLogo ? `${websiteBaseURL}${app.value.macLogo}` : "-",
   },
   {
     key: "Tags",

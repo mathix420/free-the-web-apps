@@ -15,7 +15,7 @@ export default defineEventHandler(async (event) => {
     return "echo '\nERROR: Target unsupported (yet).'";
   }
 
-  const website = await hubKV().get<WebsiteType>(`unverified-website:${uid}`);
+  const website = await useKV(event).get<WebsiteType>(`unverified-website:${uid}`, "json");
 
   if (!website) {
     return `echo '\nERROR: Website not found.'

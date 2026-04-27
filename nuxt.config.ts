@@ -4,7 +4,6 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxt/ui",
-    "@nuxthub/core",
     "@nuxtjs/device",
     "@nuxthq/studio",
   ],
@@ -48,14 +47,11 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-10-08",
 
   nitro: {
+    preset: "cloudflare-module",
     prerender: {
       routes: ["/"],
       crawlLinks: true,
     },
-  },
-
-  hub: {
-    kv: true,
   },
 
   eslint: {
