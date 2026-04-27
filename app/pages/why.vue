@@ -271,7 +271,7 @@ const pwaStack = [
               </span>
             </div>
             <p class="serif mt-4 max-w-xl text-2xl italic leading-snug text-stone-300">
-              of disk, per app, before you've sent a single message. Slack alone is reportedly heavier than the install size of GTA V.
+              of disk, per app, before you've sent a single message. Every Electron app ships its own copy of Chromium — install ten and you've cloned a browser ten times over.
             </p>
           </div>
           <div
