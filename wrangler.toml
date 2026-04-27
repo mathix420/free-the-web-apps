@@ -9,8 +9,7 @@ binding = "ASSETS"
 
 [[kv_namespaces]]
 binding = "KV"
-# Replace with the production KV namespace id (run `wrangler kv namespace create KV`).
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "9c6e1b4847c64fad99bfb808acfae039"
 
 [observability]
 enabled = true
