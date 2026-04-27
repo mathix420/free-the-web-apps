@@ -13,48 +13,75 @@ if (!app.value || error.value) {
 const websiteBaseURL = useSiteConfig().url || "https://ftwa.mathix.dev";
 const fullImageURL = `${websiteBaseURL}${app.value.screenshot}`;
 
+const metaDescription = app.value.longDescription
+  ? `${app.value.longDescription.slice(0, 155).trim()}${app.value.longDescription.length > 155 ? "…" : ""}`
+  : `Install ${app.value.name} as a desktop app on your Mac, Windows or Linux device. ${app.value.description}`;
+
 useSeoMeta({
-  title: app.value.name,
-  description: `Install ${app.value.name} as desktop app on your Mac, Windows or Linux device.`,
+  title: `${app.value.name} as a Desktop App`,
+  description: metaDescription,
+  ogTitle: `${app.value.name} — install as a desktop app`,
+  ogDescription: metaDescription,
   ogImage: fullImageURL,
+  twitterCard: "summary_large_image",
+  twitterTitle: `${app.value.name} — install as a desktop app`,
+  twitterDescription: metaDescription,
+  twitterImage: fullImageURL,
 });
 
 useSchemaOrg([
   defineSoftwareApp({
     name: app.value.name,
-    applicationCategory: "BrowserApplication",
-    operatingSystem: "MacOS, Windows, Linux",
+    description: app.value.longDescription || app.value.description,
+    applicationCategory: (app.value.category || "BrowserApplication") as never,
+    operatingSystem: "macOS, Windows, Linux",
+    url: `${websiteBaseURL}/app/${app.value.id}`,
     image: fullImageURL,
+    screenshot: fullImageURL,
+    ...(app.value.features?.length
+      ? { featureList: app.value.features.map(f => f.title) }
+      : {}),
+    ...(app.value.developer
+      ? { author: { "@type": "Organization", "name": app.value.developer } }
+      : {}),
+    offers: {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+    },
     aggregateRating: {
       bestRating: 5,
       ratingValue: 5,
       ratingCount: 1,
     },
   }),
+  ...(app.value.faq?.length
+    ? [{
+        "@type": "FAQPage",
+        "mainEntity": app.value.faq.map(item => ({
+          "@type": "Question",
+          "name": item.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": item.answer,
+          },
+        })),
+      } as never]
+    : []),
 ]);
 
-const config = computed(() => [
-  {
-    key: "Name",
-    value: app.value?.name,
-  },
-  {
-    key: "URL",
-    value: app.value?.url,
-  },
-  {
-    key: "Logo",
-    value: app.value?.logo ? `${websiteBaseURL}${app.value.logo}` : "-",
-  },
-  {
-    key: "Mac Logo",
-    value: app.value?.macLogo ? `${websiteBaseURL}${app.value.macLogo}` : "-",
-  },
-  {
-    key: "Tags",
-    value: app.value?.tags?.join(", ") || "-",
-  },
-]);
+const config = computed(() => {
+  const rows: { key: string; value: string }[] = [
+    { key: "Name", value: app.value?.name || "-" },
+    { key: "Website", value: app.value?.url || "-" },
+  ];
+  if (app.value?.developer) rows.push({ key: "Developer", value: app.value.developer });
+  if (app.value?.category) rows.push({ key: "Category", value: app.value.category });
+  if (app.value?.pricing) rows.push({ key: "Pricing", value: app.value.pricing });
+  if (app.value?.platforms?.length) rows.push({ key: "Platforms", value: app.value.platforms.join(", ") });
+  rows.push({ key: "Tags", value: app.value?.tags?.join(", ") || "-" });
+  return rows;
+});
 </script>
 
 <template>
@@ -105,10 +132,67 @@ const config = computed(() => [
       <NuxtPicture
         format="avif,webp"
         :src="app.screenshot"
-        alt="Screenshot of TodoMate"
+        :alt="`Screenshot of ${app.name}`"
         sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:1216px"
         :img-attrs="{ class: 'w-full border border-gray-300 dark:border-gray-700 aspect-card-img bg-gray-50 overflow-hidden rounded-lg sm:rounded-xl' }"
       />
+
+      <section
+        v-if="app.longDescription"
+        class="my-8"
+      >
+        <h2 class="font-title mb-3 text-2xl font-bold sm:text-3xl">
+          About {{ app.name }}
+        </h2>
+        <div class="space-y-3 text-base leading-relaxed text-gray-700 dark:text-gray-300">
+          <p
+            v-for="(paragraph, idx) in app.longDescription.split(/\n\n+/)"
+            :key="idx"
+          >
+            {{ paragraph }}
+          </p>
+        </div>
+      </section>
+
+      <section
+        v-if="app.features?.length"
+        class="my-8"
+      >
+        <h2 class="font-title mb-4 text-2xl font-bold sm:text-3xl">
+          Key features
+        </h2>
+        <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <li
+            v-for="feature in app.features"
+            :key="feature.title"
+            class="rounded-xl border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-900/40"
+          >
+            <p class="font-semibold text-gray-900 dark:text-white">
+              {{ feature.title }}
+            </p>
+            <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+              {{ feature.description }}
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section
+        v-if="app.useCases?.length"
+        class="my-8"
+      >
+        <h2 class="font-title mb-3 text-2xl font-bold sm:text-3xl">
+          Common use cases
+        </h2>
+        <ul class="list-disc space-y-1 pl-6 text-gray-700 dark:text-gray-300">
+          <li
+            v-for="useCase in app.useCases"
+            :key="useCase"
+          >
+            {{ useCase }}
+          </li>
+        </ul>
+      </section>
 
       <UCard
         :ui="{ body: { padding: 'sm:p-3 p-3' } }"
@@ -163,6 +247,35 @@ const config = computed(() => [
         </template>
         <UTable :rows="config" />
       </UCard>
+
+      <section
+        v-if="app.faq?.length"
+        class="my-10"
+      >
+        <h2 class="font-title mb-4 text-2xl font-bold sm:text-3xl">
+          Frequently asked questions
+        </h2>
+        <div class="space-y-3">
+          <details
+            v-for="item in app.faq"
+            :key="item.question"
+            class="group rounded-xl border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900/40"
+          >
+            <summary class="cursor-pointer list-none font-semibold text-gray-900 marker:hidden dark:text-white">
+              <span class="inline-flex w-full items-center justify-between gap-2">
+                <span>{{ item.question }}</span>
+                <Icon
+                  name="material-symbols:expand-more-rounded"
+                  class="size-5 transition-transform group-open:rotate-180"
+                />
+              </span>
+            </summary>
+            <p class="mt-2 text-gray-700 dark:text-gray-300">
+              {{ item.answer }}
+            </p>
+          </details>
+        </div>
+      </section>
 
       <div class="mt-20 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <UButton

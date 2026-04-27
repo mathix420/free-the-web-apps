@@ -11,5 +11,29 @@
     "programming",
     "ui"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Webflow is a visual web design platform that lets users build production websites without writing HTML, CSS, or JavaScript by hand. Designers work in a canvas that maps directly to the underlying box model, classes, and breakpoints, producing clean, semantic code rather than a black-box export.\n\nThe platform combines design tools, a content management system, hosting, and ecommerce in a single workflow. Marketers and content teams can edit copy and CMS items through an in-page editor while designers and developers control structure and styling. Interactions, animations, and responsive breakpoints are configured visually.\n\nWebflow is widely used for marketing sites, landing pages, portfolios, and small ecommerce stores by teams that want full design control without the maintenance burden of a custom-coded site.",
+  "category": "DesignApplication",
+  "developer": "Webflow, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Visual designer", "description": "Build layouts with a canvas that exposes the full CSS box model, flexbox, and grid through a UI."},
+    {"title": "Built-in CMS", "description": "Define collections and dynamic templates so content editors can update articles, projects, or products."},
+    {"title": "Responsive design", "description": "Configure breakpoints and per-device styles directly in the designer to ship sites that work on any screen."},
+    {"title": "Interactions and animations", "description": "Create scroll, hover, and timeline animations without JavaScript using a visual interactions panel."},
+    {"title": "Hosting and ecommerce", "description": "Publish on Webflow's CDN-backed hosting or run a small store with checkout, products, and orders built in."}
+  ],
+  "useCases": [
+    "Designing and shipping marketing sites without a developer for every change",
+    "Building portfolio and agency sites with rich animations and custom layouts",
+    "Running small to medium ecommerce stores with custom product page design",
+    "Maintaining a CMS-backed blog or case study library for a brand"
+  ],
+  "faq": [
+    {"question": "Is Webflow free?", "answer": "Webflow has a free Starter plan for two-page projects. Paid Site plans add custom domains, more pages, CMS items, and ecommerce."},
+    {"question": "Do I need to know how to code?", "answer": "No, Webflow is built for visual design, but understanding HTML and CSS concepts helps you take full advantage of its layout tools."},
+    {"question": "Can I export the code?", "answer": "Yes, paid Workspace plans allow exporting static HTML, CSS, JS, and assets, though CMS and ecommerce features require Webflow hosting."},
+    {"question": "Does Webflow include hosting?", "answer": "Site plans include fast CDN hosting with SSL. You can also connect a custom domain on any paid Site plan."}
+  ]
 }

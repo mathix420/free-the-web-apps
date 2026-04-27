@@ -12,5 +12,31 @@
     "ux",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Figma is a collaborative interface design tool that runs entirely in the browser. Designers can build vector layouts, design systems, and interactive prototypes in shared files where multiple people edit at the same time, similar to how Google Docs handles text.\n\nIt is used by product teams to go from wireframe to high-fidelity mockup, hand off specs to engineers, and maintain reusable component libraries. A companion product, FigJam, covers whiteboarding, diagrams, and workshops, while Dev Mode focuses on the developer handoff with code snippets and inspect tools.\n\nA broad plugin and widget ecosystem extends the editor for tasks like icon management, accessibility checks, content fill, and exporting to code, making Figma a hub for the full UI design workflow.",
+  "category": "DesignApplication",
+  "developer": "Figma, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Real-time collaboration", "description": "Multiple designers and stakeholders can edit the same file at once with live cursors and comments."},
+    {"title": "Component libraries", "description": "Reusable components, variants, and design tokens stay in sync across files and teams."},
+    {"title": "Interactive prototypes", "description": "Wire screens together with transitions and conditions to test user flows before any code is written."},
+    {"title": "Auto layout", "description": "Frames resize and reflow based on rules, so designs respond like real UI without manual adjustment."},
+    {"title": "Plugin ecosystem", "description": "Hundreds of plugins automate icon import, content fill, accessibility checks, and developer handoff."},
+    {"title": "Dev Mode", "description": "A dedicated mode generates code snippets, measurements, and assets for engineers reading the design."}
+  ],
+  "useCases": [
+    "Designing web and mobile interfaces from wireframe to high-fidelity mockup",
+    "Building and maintaining a shared design system across product teams",
+    "Running collaborative design reviews with stakeholders in the same file",
+    "Handing off designs to engineers with measurements and code snippets",
+    "Prototyping flows for usability testing with clickable interactions"
+  ],
+  "faq": [
+    {"question": "Is Figma free?", "answer": "Figma has a free Starter plan with limited files; Professional and Organization tiers unlock unlimited files and advanced collaboration."},
+    {"question": "Does Figma work offline?", "answer": "The desktop app caches recently opened files but most features require an internet connection to sync."},
+    {"question": "Can I export Figma designs to code?", "answer": "Figma exports assets and CSS, and Dev Mode plus plugins generate code snippets in popular frameworks."},
+    {"question": "What is the difference between Figma and FigJam?", "answer": "Figma focuses on UI design and prototyping, while FigJam is a whiteboard for brainstorming, diagrams, and workshops."}
+  ]
 }

@@ -11,5 +11,29 @@
     "audio",
     "social"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Bandcamp is a music platform where independent artists and labels sell digital downloads, vinyl, CDs, cassettes, and merchandise directly to fans. Listeners can stream tracks for free in the browser, then buy albums in lossless and lossy formats, often setting the price themselves on \"name your price\" releases.\n\nThe service is known for its artist-first economics: most of the revenue from each sale goes to the artist, and the recurring \"Bandcamp Friday\" events waive the platform's share entirely. The Bandcamp Daily editorial section, weekly podcast, and genre-spanning charts help listeners discover music outside of the algorithmic mainstream.\n\nThe mobile app lets fans stream their purchases offline, follow artists, and share collections, while the web is the main place to buy, browse, and explore label and tag pages.",
+  "category": "MusicApplication",
+  "developer": "Bandcamp",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Direct artist support", "description": "Most of the price of each sale goes directly to the artist or label rather than to intermediaries."},
+    {"title": "High-quality downloads", "description": "Buy albums and tracks in MP3, FLAC, ALAC, and other lossless formats after streaming previews."},
+    {"title": "Physical merchandise", "description": "Order vinyl, CDs, cassettes, t-shirts, and other items directly from artists' Bandcamp pages."},
+    {"title": "Discovery and editorial", "description": "Bandcamp Daily articles, the weekly show, and genre charts highlight new and underground releases."},
+    {"title": "Fan accounts and collections", "description": "Build a public collection of purchased albums and follow other fans and artists for recommendations."}
+  ],
+  "useCases": [
+    "Buying digital albums and vinyl directly from independent artists",
+    "Discovering underground releases through editorial and tag-based browsing",
+    "Streaming a personal music collection across web and mobile apps",
+    "Selling music and merchandise as an independent musician or label"
+  ],
+  "faq": [
+    {"question": "Is Bandcamp free?", "answer": "Browsing, streaming previews, and creating a fan account are free; downloads and merchandise are priced by each artist."},
+    {"question": "What audio formats are available?", "answer": "After purchase you can download in MP3, FLAC, ALAC, AAC, Ogg Vorbis, and WAV at no extra cost."},
+    {"question": "How much of my purchase goes to the artist?", "answer": "After payment processing, the majority of the price goes to the artist or label, with Bandcamp taking a share that can be waived on Bandcamp Fridays."},
+    {"question": "Can I listen to my purchases offline?", "answer": "Yes, the Bandcamp mobile app lets fans stream and download purchased music for offline playback."}
+  ]
 }

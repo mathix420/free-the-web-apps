@@ -10,5 +10,68 @@
     "email",
     "security"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Proton Mail is an encrypted email service from Proton, a Swiss company focused on privacy-first software. Messages between Proton users are end-to-end encrypted by default, and contents stored on Proton's servers are zero-access encrypted, meaning the company cannot read them.\n\nIt offers all of the basics expected from a modern mail provider: folders and labels, filters, a built-in calendar and contacts, custom domains, multiple aliases, and a full search of encrypted messages. When sending to non-Proton recipients, password-protected messages let you share encrypted email with anyone, and PGP support is available for technical users.\n\nProton Mail is used by journalists, activists, professionals, and privacy-conscious individuals who want their email out of the hands of advertisers. It is part of the broader Proton suite that includes Drive, Calendar, VPN, and Pass, all sharing the same account and privacy stance.",
+  "category": "SecurityApplication",
+  "developer": "Proton AG",
+  "pricing": "Freemium",
+  "platforms": [
+    "Web",
+    "macOS",
+    "Windows",
+    "Linux",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "End-to-end encryption",
+      "description": "Messages between Proton users are encrypted on the device and only readable by the recipient."
+    },
+    {
+      "title": "Zero-access storage",
+      "description": "Emails on Proton's servers are encrypted with keys only the user holds, so Proton cannot decrypt them."
+    },
+    {
+      "title": "Password-protected emails",
+      "description": "Send encrypted messages to non-Proton recipients by sharing a password through a separate channel."
+    },
+    {
+      "title": "Custom domains and aliases",
+      "description": "Use your own domain and create multiple aliases to keep your real address out of sign-up forms."
+    },
+    {
+      "title": "Encrypted search",
+      "description": "Full-text search of your inbox happens on-device, so even queries do not leak to the server."
+    },
+    {
+      "title": "Swiss jurisdiction",
+      "description": "Servers are located in Switzerland under strict privacy laws, with open-source apps you can audit."
+    }
+  ],
+  "useCases": [
+    "Replacing a free webmail account that scans messages for advertising",
+    "Sending sensitive communications between journalists and sources",
+    "Using personal aliases on signup forms to control inbox spam",
+    "Hosting business email on a custom domain with end-to-end encryption",
+    "Combining mail with Proton Calendar, Drive, and VPN under one account"
+  ],
+  "faq": [
+    {
+      "question": "Is Proton Mail free?",
+      "answer": "Yes, Proton Mail has a free plan with limited storage and one address. Paid plans add more storage, custom domains, and additional aliases."
+    },
+    {
+      "question": "Can Proton read my emails?",
+      "answer": "No, Proton uses zero-access encryption so that the contents of your inbox cannot be read by Proton, even on its own servers."
+    },
+    {
+      "question": "Does it work with IMAP and SMTP?",
+      "answer": "Yes, paid plans include the Proton Mail Bridge, which enables IMAP and SMTP access from desktop clients like Apple Mail and Thunderbird."
+    },
+    {
+      "question": "Can I send encrypted email to non-Proton users?",
+      "answer": "Yes, you can send password-protected encrypted messages to any email address, or use standard PGP with users who publish a public key."
+    }
+  ]
 }

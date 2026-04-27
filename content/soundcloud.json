@@ -11,5 +11,30 @@
     "audio",
     "social"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "SoundCloud is an audio streaming platform where creators upload tracks, mixes, podcasts, and demos directly to their own profile. Listeners can stream, like, comment on specific moments in a track, and follow artists they discover.\n\nThe catalog blends mainstream releases with a deep pool of independent and unreleased music, including DJ sets, remixes, beat tapes, and bedroom recordings that often don't appear on other services. Comments anchored to a waveform timestamp give it a social feel that is unusual among streaming apps.\n\nSoundCloud is widely used by emerging artists to publish music quickly, by DJs to share long-form mixes, and by listeners looking for tracks outside major-label catalogs. Free listening is supported by ads, and paid Go and Go+ tiers add offline listening and an expanded licensed catalog.",
+  "category": "MusicApplication",
+  "developer": "SoundCloud Global Limited & Co. KG",
+  "pricing": "Freemium",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Direct artist uploads", "description": "Anyone can sign up as a creator and publish their own tracks, mixes, or podcasts."},
+    {"title": "Waveform comments", "description": "Listeners leave timestamped comments at specific points in a track to react to moments."},
+    {"title": "Long-form audio", "description": "DJ mixes, podcasts, and full-length sets are first-class content alongside individual songs."},
+    {"title": "Personalized stations", "description": "Daily mixes and weekly recommendations adapt to your listening history and follows."},
+    {"title": "Creator analytics", "description": "Uploaders see plays, listener locations, and engagement stats on their tracks and profile."}
+  ],
+  "useCases": [
+    "Discovering independent and unreleased music outside major labels",
+    "Listening to DJ mixes, podcasts, and long-form audio",
+    "Publishing your own tracks as an emerging artist or producer",
+    "Reposting and supporting friends' work in the SoundCloud community",
+    "Embedding tracks and players on personal sites and social profiles"
+  ],
+  "faq": [
+    {"question": "Is SoundCloud free?", "answer": "Free listening is supported by ads, while Go and Go+ subscriptions remove ads, enable offline play, and unlock the full licensed catalog."},
+    {"question": "Can I upload my own music?", "answer": "Yes, any registered user can upload tracks, with free accounts capped on total upload time and Pro accounts offering unlimited uploads."},
+    {"question": "Does SoundCloud pay artists?", "answer": "Eligible creators can monetize through SoundCloud's Next Pro and fan-powered royalty programs based on streams and subscriptions."},
+    {"question": "Can I download tracks for offline listening?", "answer": "Offline listening in the mobile app requires a Go or Go+ subscription; some artists also enable direct downloads of individual tracks."}
+  ]
 }

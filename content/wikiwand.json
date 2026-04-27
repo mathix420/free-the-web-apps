@@ -10,5 +10,29 @@
     "news",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Wikiwand is a redesigned reading layer on top of Wikipedia. It pulls article content from Wikipedia and presents it with a modern typography, a sticky table of contents, larger images, and link previews on hover, aiming to make long encyclopedia articles easier to read.\n\nReaders can switch between dark and light themes, adjust font size, and use a side preview that shows summaries of linked articles without leaving the current page. The browser extension automatically redirects Wikipedia links to the Wikiwand version, while the website also works as a standalone destination.\n\nWikiwand does not host its own articles; the content remains Wikipedia's, kept in sync with the source.",
+  "category": "EducationalApplication",
+  "developer": "Wikiwand Ltd.",
+  "pricing": "Free",
+  "platforms": ["Web", "Browser extension"],
+  "features": [
+    {"title": "Modern typography", "description": "Cleaner fonts, spacing, and column widths make long Wikipedia articles easier on the eyes."},
+    {"title": "Sticky table of contents", "description": "A persistent TOC stays visible while scrolling so navigating long articles is simple."},
+    {"title": "Hover previews", "description": "Hover any internal link to see a summary card of the target article without leaving the page."},
+    {"title": "Dark mode", "description": "Switch to a dark theme for comfortable reading at night or in low-light environments."},
+    {"title": "Browser extension", "description": "Optional extensions automatically open Wikipedia links in Wikiwand's modern viewer."}
+  ],
+  "useCases": [
+    "Reading long Wikipedia articles in a more comfortable layout",
+    "Browsing related topics quickly with hover previews",
+    "Using dark mode for late-night research sessions",
+    "Replacing the default Wikipedia viewer in your browser via the extension"
+  ],
+  "faq": [
+    {"question": "Is Wikiwand free?", "answer": "Yes, Wikiwand is free to use. The service is supported by optional donations and partnerships."},
+    {"question": "Does Wikiwand replace Wikipedia?", "answer": "No, content still comes from Wikipedia. Wikiwand only changes how articles are displayed."},
+    {"question": "Can I edit articles on Wikiwand?", "answer": "Wikiwand provides links back to Wikipedia for editing. All editing happens on the original Wikipedia site."},
+    {"question": "Is there a browser extension?", "answer": "Yes, Wikiwand offers extensions for Chrome, Firefox, Safari, and Edge that redirect Wikipedia links automatically."}
+  ]
 }

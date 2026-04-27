@@ -7,5 +7,29 @@
   "macLogo": "/icons/duckduckgo/mac.png",
   "screenshot": "/screenshot/duckduckgo.png",
   "tags": ["security", "tool"],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "DuckDuckGo is a search engine built around the principle of not tracking its users. It does not store personal search history, does not build advertising profiles, and serves the same results to everyone regardless of past queries. The company also publishes a browser and browser extensions that block third-party trackers, enforce HTTPS, and surface a privacy grade for each site visited.\n\nDuckDuckGo aggregates results from many sources, including its own crawler and Bing, and adds features like instant answers, bangs (shortcuts to search other sites directly), and AI-assisted summaries. It is aimed at people who want a usable mainstream search experience without the data collection that comes with the dominant alternatives, whether for personal browsing or for sensitive professional research.",
+  "category": "UtilitiesApplication",
+  "developer": "DuckDuckGo, Inc.",
+  "pricing": "Free",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "No-tracking search", "description": "Searches are not tied to a user profile and no personal history is stored on the server."},
+    {"title": "Tracker blocking", "description": "Browsers and extensions block third-party trackers and surface privacy grades for visited sites."},
+    {"title": "Bangs shortcuts", "description": "Type !w, !gh, or other bangs to jump directly into a search on another site from the same bar."},
+    {"title": "Instant answers", "description": "Quick factual answers, calculators, and summaries appear at the top of the results page."},
+    {"title": "Email Protection", "description": "Free forwarding addresses strip trackers from incoming email before delivering it to your inbox."}
+  ],
+  "useCases": [
+    "Searching the web without building an advertising profile",
+    "Researching sensitive health, legal, or financial topics privately",
+    "Jumping directly to other sites with bang shortcuts",
+    "Blocking trackers across the web through the DuckDuckGo browser"
+  ],
+  "faq": [
+    {"question": "Does DuckDuckGo cost anything?", "answer": "DuckDuckGo search and its browser are free; the company makes money from non-personalized contextual ads."},
+    {"question": "Where do the results come from?", "answer": "Results come from over 400 sources including DuckDuckGo's own crawler, Bing, Wikipedia, and other partners."},
+    {"question": "Is an account required?", "answer": "No account is needed to search; an account is only used for optional features like Email Protection."},
+    {"question": "Does DuckDuckGo work on mobile?", "answer": "Yes, DuckDuckGo offers dedicated browser apps on iOS and Android in addition to the web search."}
+  ]
 }

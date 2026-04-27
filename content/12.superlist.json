@@ -9,5 +9,29 @@
     "todo",
     "tool"
   ],
-  "logoSize": 308
+  "logoSize": 308,
+  "longDescription": "Superlist is a task and list manager built by several of the people behind the original Wunderlist. It blends classic to-do lists with rich notes, so a list can hold simple tasks, longer documents, attachments, and embedded content side by side.\n\nIt is designed to work both for individuals and small teams. Personal lists handle errands, projects, and reading queues, while shared lists support assignments, comments, and real-time collaboration for things like trip planning, sprint tasks, or content calendars.\n\nA free plan covers personal use, with paid plans unlocking team features, larger workspaces, and admin controls. Native apps on macOS, Windows, iOS, and Android sync with the web app, and offline support keeps lists usable without a connection.",
+  "category": "Productivity",
+  "developer": "Superlist GmbH",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Lists and notes together", "description": "Combine to-dos, rich notes, and attachments inside the same list instead of splitting tools."},
+    {"title": "Real-time collaboration", "description": "Share lists with teammates or family and edit, assign, and comment on items together live."},
+    {"title": "Cross-platform sync", "description": "Lists stay in sync across web, desktop, and mobile clients with offline support."},
+    {"title": "Sections and subtasks", "description": "Group items into sections and break large tasks into nested subtasks for clearer progress."},
+    {"title": "Reminders and due dates", "description": "Set due dates, reminders, and repeating tasks for both personal and shared items."}
+  ],
+  "useCases": [
+    "Managing personal projects, errands, and reading lists in one place",
+    "Coordinating shared tasks for a household or trip with family members",
+    "Running lightweight sprint or backlog lists with a small team",
+    "Keeping rich meeting notes and follow-up tasks attached to the same list"
+  ],
+  "faq": [
+    {"question": "Is Superlist free?", "answer": "Yes, Superlist has a free plan for personal use; paid plans unlock team workspaces and advanced features."},
+    {"question": "Does Superlist work offline?", "answer": "Yes, the desktop and mobile apps support offline use and sync changes when you reconnect."},
+    {"question": "Can I collaborate with others?", "answer": "Yes, lists can be shared with friends, family, or teammates with real-time editing, comments, and assignments."},
+    {"question": "Which platforms does Superlist support?", "answer": "Superlist runs on the web and as native apps for macOS, Windows, iOS, and Android."}
+  ]
 }

@@ -10,5 +10,29 @@
     "news",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Wikipedia is a free online encyclopedia written and edited by volunteers from around the world. It hosts tens of millions of articles across more than three hundred languages, with content covering history, science, geography, biographies, technology, popular culture, and current events.\n\nArticles are built collaboratively under editorial policies that require verifiable sources, neutral point of view, and no original research. Anyone can edit most pages, and a community of editors, administrators, and bots maintains quality, resolves disputes, and reverts vandalism. Each article links to references, related topics, and version history.\n\nWikipedia is operated by the non-profit Wikimedia Foundation and runs on donations. Its content is released under a Creative Commons license, making it freely reusable in research, products, and education.",
+  "category": "EducationalApplication",
+  "developer": "Wikimedia Foundation",
+  "pricing": "Free",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Massive article library", "description": "Tens of millions of articles across hundreds of languages cover almost every topic with linked references."},
+    {"title": "Open editing", "description": "Anyone can improve most articles, with full revision history and discussion pages for every page."},
+    {"title": "Citations and sources", "description": "Articles link to footnotes and external sources so readers can verify claims and dig deeper."},
+    {"title": "Multilingual coverage", "description": "Each language Wikipedia is its own community, often with locally specific articles unavailable elsewhere."},
+    {"title": "Free to reuse", "description": "Content is released under Creative Commons licenses, allowing reuse in research, education, and products."}
+  ],
+  "useCases": [
+    "Looking up quick reference information on a person, place, or topic",
+    "Starting research on an unfamiliar subject and following its citations",
+    "Reading neutral overviews of current events and ongoing topics",
+    "Sourcing freely licensed images and text for educational projects"
+  ],
+  "faq": [
+    {"question": "Is Wikipedia free?", "answer": "Yes, reading and editing Wikipedia is completely free. The Wikimedia Foundation is funded by donations rather than advertising."},
+    {"question": "Do I need an account to read Wikipedia?", "answer": "No, all articles are freely readable without an account. Creating a free account is only needed for some advanced editing actions."},
+    {"question": "Can I trust Wikipedia?", "answer": "Wikipedia is generally a reliable starting point, especially for well-cited articles. Always check the references for important facts."},
+    {"question": "Does Wikipedia work offline?", "answer": "The official mobile apps support saving articles for offline reading, and the Kiwix project provides full offline Wikipedia archives."}
+  ]
 }

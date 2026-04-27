@@ -12,5 +12,29 @@
     "tool",
     "entrepreneurship"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Contrat IA is an AI-powered legal contract generator aimed at French and English-speaking freelancers, founders, and small businesses. Users describe their situation in plain language and receive a draft contract tailored to the parties, scope, payment terms, and jurisdiction provided.\n\nIt covers common business documents such as freelance service agreements, NDAs, terms of sale, and partnership contracts. The goal is to give entrepreneurs a credible starting point without paying for a lawyer on every routine document, while leaving room for legal review when stakes are high.\n\nThe interface walks users through structured questions, then produces an editable contract that can be downloaded and signed. It is well suited to anyone who needs documents quickly but still wants something more grounded than a blank template.",
+  "category": "BusinessApplication",
+  "developer": "The team behind Contrat IA",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "AI contract drafting", "description": "Generate full contracts from a short description of the parties, scope, and conditions."},
+    {"title": "Bilingual output", "description": "Produce contracts in French or English depending on the jurisdiction and parties involved."},
+    {"title": "Common templates", "description": "Covers freelance agreements, NDAs, sales conditions, partnerships, and other recurring business documents."},
+    {"title": "Editable drafts", "description": "Review and adjust generated clauses directly before exporting the final document."},
+    {"title": "Download and share", "description": "Export contracts to standard formats so they can be signed or sent for legal review."}
+  ],
+  "useCases": [
+    "Drafting freelance service agreements quickly for new clients",
+    "Generating NDAs before sharing a project idea with partners",
+    "Creating terms of sale for a small online business",
+    "Producing a first draft to send to a lawyer for review"
+  ],
+  "faq": [
+    {"question": "Is Contrat IA free to use?", "answer": "There is a free entry point and paid plans for users who need more contracts or advanced document types."},
+    {"question": "Does it work in English as well as French?", "answer": "Yes, contracts can be generated in both French and English depending on your needs."},
+    {"question": "Can the generated contracts replace a lawyer?", "answer": "They are a strong starting point but for high-stakes agreements a qualified lawyer should review the final text."},
+    {"question": "Do I need an account?", "answer": "An account is required to save, edit, and download your contracts."}
+  ]
 }

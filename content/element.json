@@ -11,5 +11,29 @@
     "communication",
     "security"
   ],
-  "logoSize": 1024
+  "logoSize": 1024,
+  "longDescription": "Element is a chat application built on top of the Matrix protocol, an open standard for decentralized real-time communication. Instead of relying on a single company's servers, Matrix federates: users on different servers (called homeservers) can talk to each other in the same rooms, much like email between providers.\n\nElement provides direct messages, group rooms, public communities (Spaces), voice and video calls, and file sharing, with end-to-end encryption available by default for private conversations. Cross-signing and verified devices give a strong identity model for security-sensitive teams.\n\nIt is used by privacy-minded individuals, open-source communities, and organizations such as governments and large enterprises that want to host their own communication infrastructure rather than depend on Slack or Microsoft Teams. The Element apps and Matrix server software are open source.",
+  "category": "Communication",
+  "developer": "Element (New Vector Ltd.)",
+  "pricing": "Open source / free",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "Matrix federation", "description": "Talk with users on any Matrix homeserver, including ones you host yourself, instead of a single provider."},
+    {"title": "End-to-end encryption", "description": "Private rooms can be encrypted by default with cross-signed device verification."},
+    {"title": "Voice and video calls", "description": "One-to-one and group calls run over Element Call with screen sharing and call links."},
+    {"title": "Spaces and rooms", "description": "Organize communities into Spaces that contain nested rooms for topics, projects, or teams."},
+    {"title": "Self-hostable", "description": "Both Element and the underlying Matrix server (Synapse, Dendrite) can be self-hosted for full data control."}
+  ],
+  "useCases": [
+    "Running encrypted team chat for a privacy-sensitive organization",
+    "Hosting a Matrix homeserver for an open-source community",
+    "Bridging conversations across platforms like IRC, Discord, or Slack",
+    "Replacing centralized chat for governments, NGOs, and enterprises"
+  ],
+  "faq": [
+    {"question": "Is Element free?", "answer": "Element apps are free and open source; paid hosting plans are available for organizations that want a managed Matrix server."},
+    {"question": "Do I need to run my own server?", "answer": "No, you can sign up on the public matrix.org or another homeserver, but self-hosting is supported for full data control."},
+    {"question": "Are messages end-to-end encrypted?", "answer": "Private rooms and direct messages are end-to-end encrypted by default; public rooms are typically unencrypted by design."},
+    {"question": "Can Element talk to other apps?", "answer": "Yes, Matrix bridges connect Element to platforms such as IRC, Slack, Discord, and Telegram."}
+  ]
 }

@@ -10,5 +10,29 @@
     "video",
     "streaming"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Vimeo is a video hosting platform aimed at creators, businesses, and education. Unlike open social video sites, Vimeo emphasizes ad-free playback, customizable players, and tools for embedding videos on company websites or sharing privately with clients.\n\nThe service supports high-quality uploads, password-protected videos, custom domain embedding, analytics, and live streaming. Built-in tools cover screen recording, video editing, AI-assisted scripting, and webinar hosting, making it useful for marketing teams, training departments, and independent filmmakers.\n\nVimeo's plans range from a free tier with limited storage to enterprise tiers that add SSO, SCIM, and team collaboration. The platform is also a long-standing home for short films and creative video work.",
+  "category": "VideoApplication",
+  "developer": "Vimeo, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android", "tvOS"],
+  "features": [
+    {"title": "Customizable player", "description": "Embed videos with a branded player that matches your site's colors, logo, and call-to-action overlays."},
+    {"title": "Privacy controls", "description": "Restrict videos by password, domain, single sign-on, or share them with private review links."},
+    {"title": "Live streaming", "description": "Broadcast events, webinars, and panels with simulcasting to YouTube, LinkedIn, and other destinations."},
+    {"title": "Video creation tools", "description": "Built-in screen recorder, stock footage library, and AI script generation help produce videos in-app."},
+    {"title": "Analytics", "description": "Track engagement, drop-off, and audience demographics to understand how viewers interact with each video."}
+  ],
+  "useCases": [
+    "Hosting marketing videos with a clean, ad-free embedded player",
+    "Sharing private review cuts with clients before public release",
+    "Streaming webinars, conferences, and internal company events live",
+    "Selling video on demand directly to a paying audience"
+  ],
+  "faq": [
+    {"question": "Is Vimeo free?", "answer": "Vimeo has a limited free tier and several paid plans (Starter, Standard, Advanced, Enterprise) with increasing storage, features, and team controls."},
+    {"question": "Does Vimeo show ads on my videos?", "answer": "No, Vimeo does not insert ads on uploaded videos, even on the free plan."},
+    {"question": "Can I embed Vimeo videos on my website?", "answer": "Yes, all plans support embedding, and paid plans add domain restrictions and a fully branded player."},
+    {"question": "Does Vimeo support live streaming?", "answer": "Yes, live streaming is available on Standard and higher plans, with simulcasting to other platforms on advanced tiers."}
+  ]
 }

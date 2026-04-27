@@ -11,5 +11,29 @@
     "diagram",
     "prototyping"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Whimsical is a visual workspace that combines flowcharts, wireframes, mind maps, sticky notes, and documents in a single tool. Boards open instantly and use opinionated defaults so users spend less time aligning shapes and more time mapping ideas.\n\nProduct managers, designers, and engineers use Whimsical to sketch user flows, plan features, run brainstorming sessions, and document decisions. Docs combine rich text with embedded boards and AI-assisted mind maps, making it easy to keep diagrams and written context together.\n\nThe app is browser-first with native desktop apps and supports real-time collaboration so distributed teams can work on the same canvas at once.",
+  "category": "DesignApplication",
+  "developer": "Whimsical, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows"],
+  "features": [
+    {"title": "Flowcharts", "description": "Build flow diagrams with smart connectors, auto-routing arrows, and a focused shape library."},
+    {"title": "Wireframes", "description": "Drag and drop low-fidelity UI elements to map screens before committing to high-fidelity design."},
+    {"title": "Mind maps", "description": "Expand and collapse nodes quickly, with AI-assisted generation to kickstart brainstorms."},
+    {"title": "Docs with embeds", "description": "Write structured docs that embed live flowcharts, wireframes, and mind maps inline."},
+    {"title": "Real-time collaboration", "description": "Multiple teammates can edit the same board simultaneously with live cursors and comments."}
+  ],
+  "useCases": [
+    "Mapping user flows and product journeys before design or build",
+    "Sketching low-fidelity wireframes for new features and feedback",
+    "Running team brainstorms with mind maps and sticky notes",
+    "Documenting architecture and processes alongside diagrams in one doc"
+  ],
+  "faq": [
+    {"question": "Is Whimsical free?", "answer": "Whimsical has a free Starter plan with limited boards. Pro and Organization plans unlock unlimited boards and team features."},
+    {"question": "Does Whimsical work offline?", "answer": "Whimsical primarily requires an internet connection; the desktop app provides a focused experience but still syncs to the cloud."},
+    {"question": "Can I export my boards?", "answer": "Yes, boards can be exported as PNG, PDF, or SVG depending on the type, and shared via public links."},
+    {"question": "How is it different from Figma or Miro?", "answer": "Whimsical focuses on speed and structured diagrams like flowcharts and mind maps, with less emphasis on freeform whiteboarding or pixel-perfect UI design."}
+  ]
 }

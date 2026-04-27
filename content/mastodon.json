@@ -10,5 +10,61 @@
     "social",
     "communication"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Mastodon is a free, open-source, decentralized social network. Instead of being run by a single company, it is made up of thousands of independently operated servers (called instances) that talk to each other through the ActivityPub protocol, forming the wider fediverse.\n\nUsers create an account on any instance and can still follow, reply to, and boost posts from people on other instances. Each server sets its own moderation rules and code of conduct, so communities can be small and topical or large and general. There are no algorithmic feeds, no ads, and no tracking by default.\n\nMastodon is used by journalists, researchers, developers, artists, and anyone looking for a microblogging experience similar to early Twitter without a central owner. Posts can be up to 500 characters by default, and the platform supports images, video, polls, and content warnings.",
+  "category": "SocialNetworkingApplication",
+  "developer": "Mastodon gGmbH",
+  "pricing": "Open source / free",
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Federated network",
+      "description": "Follow and interact with users across thousands of independent servers using the open ActivityPub protocol."
+    },
+    {
+      "title": "Chronological timeline",
+      "description": "Posts appear in the order they were published, with no algorithmic ranking or injected ads."
+    },
+    {
+      "title": "Content warnings",
+      "description": "Wrap sensitive content behind a click-through warning so feeds stay readable for everyone."
+    },
+    {
+      "title": "Self-hosting",
+      "description": "Anyone can run their own Mastodon server with custom rules, branding, and moderation policies."
+    },
+    {
+      "title": "Open source",
+      "description": "The full source code is published on GitHub under AGPL, allowing audit, contribution, and forking."
+    }
+  ],
+  "useCases": [
+    "Microblogging without algorithmic feeds or ads",
+    "Building topical communities with custom moderation rules",
+    "Following journalists, scientists, and developers across the fediverse",
+    "Self-hosting a private or organizational social network",
+    "Cross-posting from other ActivityPub services like Pixelfed or PeerTube"
+  ],
+  "faq": [
+    {
+      "question": "Is Mastodon free?",
+      "answer": "Yes, using Mastodon is free. Some instances accept donations to cover server costs, but accounts and posting are free of charge."
+    },
+    {
+      "question": "Which server should I join?",
+      "answer": "You can pick any instance based on language, topic, or moderation policy. mastodon.social is the largest, but you can move accounts later."
+    },
+    {
+      "question": "Can I move my account to a different server?",
+      "answer": "Yes, Mastodon supports account migration that brings your followers and follow list with you to the new instance."
+    },
+    {
+      "question": "Does Mastodon have ads?",
+      "answer": "No, Mastodon has no advertising and no tracking. Servers are typically funded by donations or by the organization that runs them."
+    }
+  ]
 }

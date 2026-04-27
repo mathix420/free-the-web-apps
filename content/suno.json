@@ -11,5 +11,30 @@
     "music",
     "audio"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Suno is an AI music generation service that turns short text prompts into full songs, including vocals, lyrics, instrumentation, and structure. You describe a style, mood, or topic, optionally provide your own lyrics, and the model produces multiple finished tracks in seconds.\n\nA Custom mode exposes more control over genre tags, lyrics, and song structure, while a simpler prompt box generates from a single line of text. Generated songs can be remixed, extended, edited section by section, and downloaded for personal use within the platform's terms.\n\nSuno is used for songwriting drafts, jingles, soundtracks for short videos, and casual experimentation with musical ideas. A free tier provides daily generation credits, and paid Pro and Premier plans offer more credits, faster generation, and broader usage rights.",
+  "category": "MusicApplication",
+  "developer": "Suno, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "iOS"],
+  "features": [
+    {"title": "Text-to-song generation", "description": "Type a prompt or pick a style and Suno produces a full song with vocals and instrumentation."},
+    {"title": "Custom mode", "description": "Provide your own lyrics, genre tags, and structure for finer control over the output."},
+    {"title": "Song extension and remix", "description": "Continue or rework existing tracks to build longer arrangements or alternate versions."},
+    {"title": "Lyric assistant", "description": "Built-in tools help draft and refine lyrics that fit the chosen style and structure."},
+    {"title": "Personal library and sharing", "description": "Generated songs are saved to a personal library and can be downloaded or shared via public links."}
+  ],
+  "useCases": [
+    "Drafting song ideas from a single text prompt",
+    "Generating background music for short videos and podcasts",
+    "Turning original lyrics into a fully produced track",
+    "Creating personalized birthday or themed songs for friends",
+    "Experimenting with new musical genres without instruments or studio time"
+  ],
+  "faq": [
+    {"question": "Is Suno free?", "answer": "Suno offers a free tier with daily generation credits; Pro and Premier plans add more credits, faster generation, and expanded usage rights."},
+    {"question": "Can I use Suno songs commercially?", "answer": "Commercial use generally requires a paid plan; check the current Suno terms for the exact rights granted by your subscription."},
+    {"question": "Can I provide my own lyrics?", "answer": "Yes, Custom mode lets you paste in your own lyrics and choose structure markers like verse, chorus, and bridge."},
+    {"question": "Do I need an account?", "answer": "Yes, generating, saving, and downloading songs requires a free Suno account."}
+  ]
 }

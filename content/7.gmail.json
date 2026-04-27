@@ -10,5 +10,30 @@
     "email",
     "communication"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Gmail is Google's email service, available on the web and through native mobile apps. It offers generous storage shared with the rest of Google Drive, strong spam and phishing filters, and a search engine that quickly finds messages by sender, label, attachment, or content.\n\nFor personal users, Gmail is free with ads in the free tier, while Google Workspace subscribers get custom domains, no ads, and admin controls. Tabs, labels, filters, and snooze features help keep busy inboxes organized, and labs-turned-features like Smart Compose and Smart Reply speed up writing routine messages.\n\nGmail integrates tightly with the rest of Google Workspace: Calendar invitations, Drive attachments, Meet links, and Tasks all live a click away from the inbox.",
+  "category": "Communication",
+  "developer": "Google LLC",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Powerful search", "description": "Find messages instantly with operators for sender, label, attachment type, and date range."},
+    {"title": "Labels and filters", "description": "Organize mail with multiple labels and rules that auto-sort, archive, or forward incoming messages."},
+    {"title": "Spam and phishing protection", "description": "Machine-learning filters catch the vast majority of spam and flag suspicious links and attachments."},
+    {"title": "Smart Compose and Reply", "description": "AI-assisted suggestions complete sentences and offer one-click replies for routine messages."},
+    {"title": "Workspace integration", "description": "Calendar, Drive, Meet, and Tasks are tightly connected to the inbox for scheduling and file sharing."},
+    {"title": "Confidential mode", "description": "Send messages with expiration dates and SMS access codes for sensitive content."}
+  ],
+  "useCases": [
+    "Managing personal email with custom labels and filters",
+    "Running a small business inbox with Google Workspace and a custom domain",
+    "Scheduling meetings directly from email threads via Calendar and Meet",
+    "Searching years of correspondence and attachments in seconds"
+  ],
+  "faq": [
+    {"question": "Is Gmail free?", "answer": "Personal Gmail accounts are free and include 15 GB of shared Google storage; paid Google One and Workspace plans add more storage and features."},
+    {"question": "Can I use Gmail with my own domain?", "answer": "Yes, a Google Workspace subscription lets you use Gmail with a custom domain and admin controls."},
+    {"question": "Does Gmail work offline?", "answer": "The web app supports offline mode in Chrome so you can read, search, and write messages without a connection."},
+    {"question": "Can I import mail from another provider?", "answer": "Yes, Gmail can import messages and contacts from another account over POP or IMAP during setup."}
+  ]
 }

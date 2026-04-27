@@ -11,5 +11,63 @@
     "communication",
     "productivity"
   ],
-  "logoSize": 192
+  "logoSize": 192,
+  "longDescription": "Loom is an asynchronous video messaging tool that lets you record your screen, camera, and microphone in a few clicks, then share the result through a link. It is built around the idea that short recorded videos are often clearer and faster than written messages or scheduled meetings.\n\nViewers can watch at adjustable speeds, react with emoji, and leave timestamped comments without needing a Loom account. Creators get analytics on who watched, how far they got, and what they reacted to, plus automatic transcripts and AI-generated titles, summaries, and chapters.\n\nLoom is widely used by remote and distributed teams for product walkthroughs, code reviews, design feedback, customer support replies, and onboarding videos. It works as a browser extension, desktop app, and mobile app, and integrates with Slack, Notion, Gmail, and Jira.",
+  "category": "VideoApplication",
+  "developer": "Loom (Atlassian)",
+  "pricing": "Freemium",
+  "platforms": [
+    "Web",
+    "macOS",
+    "Windows",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Screen and camera recording",
+      "description": "Capture your screen, webcam, or both at once with one click, then share a link instantly."
+    },
+    {
+      "title": "AI summaries and transcripts",
+      "description": "Loom automatically transcribes videos and can generate titles, chapters, and summaries to save time."
+    },
+    {
+      "title": "Viewer engagement",
+      "description": "See who watched, get reactions and emoji, and collect timestamped comments without a sign-up wall."
+    },
+    {
+      "title": "Lightweight editing",
+      "description": "Trim, stitch, redact sensitive info, and add a custom thumbnail directly in the browser before sharing."
+    },
+    {
+      "title": "Workplace integrations",
+      "description": "Embed Looms in Slack, Notion, Gmail, Jira, and other tools where your team already works."
+    }
+  ],
+  "useCases": [
+    "Recording product walkthroughs for customers or new hires",
+    "Sending async design or code review feedback with context",
+    "Replacing status update meetings with short video updates",
+    "Answering support tickets with personalized screen recordings",
+    "Creating internal training and onboarding libraries"
+  ],
+  "faq": [
+    {
+      "question": "Is Loom free?",
+      "answer": "Loom offers a Starter plan with up to 25 videos per person and 5-minute video length. Business and Enterprise plans unlock unlimited videos and AI features."
+    },
+    {
+      "question": "Do viewers need an account to watch?",
+      "answer": "No, Loom videos are shared via link and viewers can watch, comment, and react without creating an account."
+    },
+    {
+      "question": "Can I download my Loom videos?",
+      "answer": "Yes, you can download videos as MP4 files. The free plan has some limits but downloading is supported on all paid tiers."
+    },
+    {
+      "question": "Does Loom transcribe videos automatically?",
+      "answer": "Yes, automatic transcription is available, and Loom AI can generate titles, summaries, and chapters on paid plans."
+    }
+  ]
 }

@@ -10,5 +10,30 @@
     "programming",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "StackBlitz is an online IDE focused on web development. It runs Node.js and the full npm ecosystem directly inside the browser using WebContainers, so projects boot in a few seconds without spinning up a remote VM.\n\nIt offers ready-made templates for frameworks like React, Vue, Angular, Svelte, Next.js, Nuxt, Astro, and Vite, plus support for plain HTML/CSS/JS. Projects come with a live preview, devserver, terminal, and shareable URLs, which makes it convenient for reproducible bug reports and tutorials.\n\nStackBlitz is widely used by framework authors and library maintainers to ship interactive docs, by educators for hands-on lessons, and by developers for quick experiments. Bolt, its AI app builder, generates and edits StackBlitz projects from natural-language prompts.",
+  "category": "DeveloperApplication",
+  "developer": "StackBlitz, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "WebContainers runtime", "description": "Node.js and npm run entirely in the browser tab, so projects start in seconds with no remote VM."},
+    {"title": "Framework templates", "description": "First-class starters cover React, Vue, Angular, Svelte, Next.js, Nuxt, Astro, Vite, and more."},
+    {"title": "Live preview and terminal", "description": "An integrated devserver, terminal, and console make it easy to run, debug, and tweak projects."},
+    {"title": "Shareable project URLs", "description": "Every project has a stable URL ideal for bug reproductions, code reviews, and tutorial embeds."},
+    {"title": "Bolt AI app builder", "description": "Bolt generates and edits StackBlitz projects from natural-language prompts and deploys them."}
+  ],
+  "useCases": [
+    "Prototyping a new web app idea without local setup",
+    "Creating reproducible bug reports for open-source libraries",
+    "Embedding live code samples in framework documentation",
+    "Teaching web development with hands-on exercises in the browser",
+    "Pair-programming with shared project URLs"
+  ],
+  "faq": [
+    {"question": "Is StackBlitz free?", "answer": "StackBlitz has a free tier for public projects; paid plans add private projects, larger team features, and higher Bolt usage."},
+    {"question": "Do I need an account?", "answer": "You can open and try projects without an account, but saving, forking, and creating private projects require signing up."},
+    {"question": "Which frameworks are supported?", "answer": "Templates exist for React, Vue, Angular, Svelte, Next.js, Nuxt, Astro, Vite, and more, with full Node.js available for custom setups."},
+    {"question": "Does StackBlitz work offline?", "answer": "Some WebContainer projects can keep running once loaded, but creating new projects and saving changes generally requires an internet connection."}
+  ]
 }

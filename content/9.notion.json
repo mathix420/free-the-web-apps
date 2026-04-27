@@ -10,5 +10,31 @@
     "notes",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Notion is an all-in-one workspace that combines documents, databases, wikis, and project boards in a single linked tree of pages. Pages are built from blocks like text, headings, tables, and embeds, and any database can be viewed as a table, board, calendar, list, gallery, or timeline.\n\nIndividuals use it for personal notes, journaling, and habit tracking, while teams use it for company wikis, product specs, meeting notes, and lightweight project management. Sharing is granular: pages can be private, shared with specific people, or published as public sites.\n\nNotion AI adds writing, summarization, and Q&A on top of workspace content, and a growing template gallery and API ecosystem make it easy to start from existing setups or integrate Notion with other tools.",
+  "category": "Productivity",
+  "developer": "Notion Labs, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Block-based editor", "description": "Build pages from rich blocks including text, tables, toggles, embeds, and synced content."},
+    {"title": "Flexible databases", "description": "The same data can be displayed as a table, board, calendar, gallery, list, or timeline view."},
+    {"title": "Team wikis", "description": "Verified pages, owners, and structured navigation make Notion suitable for company-wide knowledge bases."},
+    {"title": "Notion AI", "description": "AI features can draft, summarize, translate, and answer questions using content from your workspace."},
+    {"title": "Templates and API", "description": "Thousands of community templates and a public API help bootstrap setups and integrate with other tools."},
+    {"title": "Granular sharing", "description": "Pages can be kept private, shared with specific people, or published as public sites with a single switch."}
+  ],
+  "useCases": [
+    "Building a personal second brain for notes, tasks, and reading lists",
+    "Running a company wiki with onboarding docs and team handbooks",
+    "Tracking projects with linked databases and timeline views",
+    "Writing and reviewing product specs collaboratively with comments",
+    "Publishing a lightweight public site or portfolio from a Notion page"
+  ],
+  "faq": [
+    {"question": "Is Notion free?", "answer": "Notion has a free Personal plan with unlimited pages; Plus, Business, and Enterprise tiers add more guests, history, and admin features."},
+    {"question": "Does Notion work offline?", "answer": "Recently opened pages are cached for offline viewing, but full offline editing and search require a connection."},
+    {"question": "Can I export my data?", "answer": "Yes, pages and workspaces can be exported as Markdown, HTML, PDF, or CSV at any time."},
+    {"question": "Is Notion AI included?", "answer": "Notion AI is an add-on with its own price per member, although Business and Enterprise plans bundle it on certain offers."}
+  ]
 }

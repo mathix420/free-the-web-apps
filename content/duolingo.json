@@ -10,5 +10,29 @@
     "entertainment",
     "productivity"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Duolingo is a language-learning platform that turns lessons into short, gamified exercises. Learners pick a target language and progress through a tree of bite-sized units that mix translation, listening, speaking, and matching tasks. Streaks, hearts, leagues, and experience points keep daily practice consistent, which is the main pedagogical bet of the product.\n\nThe service supports a wide catalog of languages, including widely spoken ones such as Spanish, French, and Japanese, plus less-common options like Welsh, Navajo, and High Valyrian. It also offers separate tracks for math and music, aimed at the same daily-habit audience.\n\nDuolingo is free to use with ads; a paid Super Duolingo subscription removes ads, adds unlimited hearts, and unlocks extra practice features. It is best suited to absolute beginners and to learners who want to keep a language warm rather than as a single tool to reach fluency.",
+  "category": "EducationalApplication",
+  "developer": "Duolingo, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Gamified lessons", "description": "Short exercises with points, streaks, and leagues turn daily practice into a game-like routine."},
+    {"title": "Wide language catalog", "description": "Dozens of languages are available, from major world languages to constructed and endangered ones."},
+    {"title": "Speaking and listening", "description": "Lessons mix audio prompts and microphone exercises alongside reading and translation tasks."},
+    {"title": "Stories and podcasts", "description": "Short stories and podcasts in select languages help build comprehension beyond core lessons."},
+    {"title": "Progress tracking", "description": "A personalized path with unit checkpoints and review sessions keeps learners moving forward."}
+  ],
+  "useCases": [
+    "Building a daily habit while learning a new language from scratch",
+    "Keeping a previously learned language fresh between trips",
+    "Preparing for a vacation by picking up basic vocabulary and phrases",
+    "Practicing listening and pronunciation with bite-sized exercises"
+  ],
+  "faq": [
+    {"question": "Is Duolingo really free?", "answer": "Yes, the core lessons are free with ads; Super Duolingo is an optional subscription that removes ads and adds extra features."},
+    {"question": "Can Duolingo make me fluent?", "answer": "Duolingo is excellent for foundations and habit, but reaching fluency usually requires additional speaking practice and immersion."},
+    {"question": "Does it work offline?", "answer": "Super Duolingo subscribers can download lessons in the mobile app for offline practice."},
+    {"question": "Do I need an account?", "answer": "Yes, an account is required to track streaks, progress, and synchronize between devices."}
+  ]
 }

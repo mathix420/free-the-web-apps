@@ -11,5 +11,31 @@
     "chat",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "ChatGPT is OpenAI's conversational AI assistant, available on the web and through native apps on desktop and mobile. It can answer questions, draft and edit text, write and explain code, summarize long documents, and reason through problems step by step.\n\nThe free tier offers access to a capable default model with limits on usage and advanced features. Paid Plus, Pro, Team, and Enterprise plans unlock more powerful models, longer context windows, image generation, file analysis, voice mode, and tools like web browsing and custom GPTs.\n\nUsers can attach files and images, build their own GPTs with custom instructions and knowledge, and connect external services through actions. Conversations are stored per account and can be deleted, exported, or excluded from training in the data controls.",
+  "category": "UtilitiesApplication",
+  "developer": "OpenAI",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Conversational assistant", "description": "Ask questions, brainstorm, and iterate on ideas in a long-running chat that keeps context."},
+    {"title": "File and image input", "description": "Attach documents, images, and spreadsheets so the model can analyze, summarize, or extract data."},
+    {"title": "Image generation", "description": "Generate and edit images directly in the chat with built-in image models on supported plans."},
+    {"title": "Voice mode", "description": "Talk to ChatGPT in natural speech with low-latency voice conversations on mobile and desktop."},
+    {"title": "Custom GPTs", "description": "Build tailored assistants with custom instructions, files, and actions, then share them with others."},
+    {"title": "Web browsing and tools", "description": "On supported plans, ChatGPT can browse the web, run code, and call external tools to complete tasks."}
+  ],
+  "useCases": [
+    "Drafting and editing emails, reports, and other long-form text",
+    "Explaining, debugging, or generating code in a wide range of languages",
+    "Summarizing long PDFs, articles, or meeting transcripts",
+    "Brainstorming ideas, outlines, and study plans",
+    "Building a custom GPT that follows your team's tone and knowledge"
+  ],
+  "faq": [
+    {"question": "Is ChatGPT free?", "answer": "Yes, ChatGPT has a free tier; Plus, Pro, Team, and Enterprise plans unlock more capable models and advanced features."},
+    {"question": "Do I need an account?", "answer": "An account is required for full access; some basic chats are available without sign-in but with stricter limits."},
+    {"question": "Are my chats used for training?", "answer": "You can opt out of training in data controls; Team and Enterprise data are excluded from training by default."},
+    {"question": "Can I export my conversations?", "answer": "Yes, you can request an export of your data, including conversations, from the settings page."}
+  ]
 }

@@ -11,5 +11,30 @@
     "communication",
     "social"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Telegram is a cloud-based messaging app that syncs chats, media, and files seamlessly across phones, tablets, and desktops. Standard chats and groups are stored on Telegram's servers, while opt-in Secret Chats use end-to-end encryption tied to a single device pair.\n\nIt supports one-on-one messages, large groups of up to 200,000 members, broadcast channels, voice and video calls, and group video calls with screen sharing. Bots, custom stickers, and polls extend it into a platform for communities, news, and lightweight tools.\n\nTelegram is widely used for friend and family chat, public channels for news and announcements, fan communities, and large interest groups. Most features are free, while a Premium subscription unlocks larger uploads, faster downloads, exclusive stickers, and other quality-of-life upgrades.",
+  "category": "Communication",
+  "developer": "Telegram FZ-LLC",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "Cloud sync across devices", "description": "Chats and media are stored in the cloud and stay in sync on every device you sign in to."},
+    {"title": "Secret Chats", "description": "Opt-in end-to-end encrypted conversations live only on the two devices involved and support self-destruct timers."},
+    {"title": "Large groups and channels", "description": "Groups support up to 200,000 members, while channels broadcast to unlimited subscribers."},
+    {"title": "Bots and integrations", "description": "A bot platform powers everything from games and polls to custom support and notification flows."},
+    {"title": "Voice, video, and group calls", "description": "One-on-one and group voice/video calls support screen sharing and live streaming to channels."}
+  ],
+  "useCases": [
+    "Chatting with friends and family across phone and desktop",
+    "Following news, creators, and announcements through public channels",
+    "Running large interest groups and fan communities",
+    "Sending large files up to several gigabytes between devices",
+    "Building bots for support, polls, or automated notifications"
+  ],
+  "faq": [
+    {"question": "Is Telegram free?", "answer": "Yes, Telegram is free; an optional Premium subscription adds larger uploads, faster downloads, and other extras."},
+    {"question": "Are Telegram messages end-to-end encrypted?", "answer": "Only Secret Chats and voice/video calls are end-to-end encrypted; standard cloud chats are encrypted in transit and stored on Telegram's servers."},
+    {"question": "Do I need a phone number to sign up?", "answer": "Yes, accounts are tied to a phone number, though you can hide it from contacts and use a username for public interactions."},
+    {"question": "How big can groups get?", "answer": "Telegram groups support up to 200,000 members, and channels can broadcast to unlimited subscribers."}
+  ]
 }

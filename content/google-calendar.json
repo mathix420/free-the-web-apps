@@ -10,5 +10,29 @@
     "productivity",
     "todo"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Google Calendar is Google's web-based calendar service for personal and professional scheduling. It supports multiple calendars per account, shared calendars across teams, recurring events, reminders, tasks, and notifications across desktop and mobile.\n\nMeetings can be created with built-in Google Meet video links, attached agendas, attached files from Drive, and automatic time-zone conversion for attendees. Find a Time and appointment scheduling pages help coordinate availability without back-and-forth emails.\n\nIt integrates closely with Gmail, Drive, Tasks, and Workspace apps, and supports the standard CalDAV and iCal formats so events can flow in and out of other calendar tools. The free tier covers most personal needs, while Workspace plans add organization-wide features for businesses and schools.",
+  "category": "Productivity",
+  "developer": "Google LLC",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Multiple calendars", "description": "Layer personal, work, and shared calendars in one view with per-calendar colors and visibility."},
+    {"title": "Google Meet integration", "description": "Add a video meeting link to any event with one click, including dial-in numbers on Workspace plans."},
+    {"title": "Find a Time", "description": "See attendees' availability side by side and pick a slot that works for everyone."},
+    {"title": "Appointment scheduling", "description": "Share a booking page so others can pick available slots without emailing back and forth."},
+    {"title": "Cross-device sync", "description": "Events sync instantly between web, Android, iOS, and supported third-party calendar clients."}
+  ],
+  "useCases": [
+    "Scheduling team meetings with shared availability and Meet links",
+    "Coordinating personal and work calendars in one overlaid view",
+    "Letting clients book appointments through a public scheduling page",
+    "Receiving reminders and notifications for upcoming events on any device"
+  ],
+  "faq": [
+    {"question": "Is Google Calendar free?", "answer": "Yes, it is free with a personal Google account; Google Workspace adds business features for paid organizations."},
+    {"question": "Can I share calendars with others?", "answer": "Yes, calendars can be shared with view, edit, or manage permissions per person or domain."},
+    {"question": "Does it work offline?", "answer": "The mobile apps support offline viewing, and the web app caches recent events; new edits sync once back online."},
+    {"question": "Can I import events from other calendars?", "answer": "Yes, Google Calendar supports importing iCal/ICS files and subscribing to external calendar URLs."}
+  ]
 }

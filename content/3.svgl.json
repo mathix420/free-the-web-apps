@@ -11,5 +11,29 @@
     "design",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "SVGL is an open-source library of SVG logos for popular brands, frameworks, and tools. The site presents each logo on a clean grid, with both light and dark variants where appropriate, and lets visitors copy the SVG markup or download the file in one click.\n\nIt is mainly used by developers and designers who need vector logos for landing pages, slide decks, documentation, or showcase sections. Logos are organized by category, including software, frameworks, AI, and crypto, and a public API exposes the same data for programmatic use.\n\nSVGL is community-driven: new logos are added through pull requests on its GitHub repository, and the site itself is free to use without an account.",
+  "category": "DesignApplication",
+  "developer": "Pheralb and SVGL contributors",
+  "pricing": "Open source / free",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "One-click copy", "description": "Copy SVG markup directly to the clipboard without opening or downloading the file first."},
+    {"title": "Light and dark variants", "description": "Many logos ship with theme-specific versions so they read well on either background."},
+    {"title": "Category browsing", "description": "Logos are grouped by software, AI, frameworks, libraries, and other useful collections."},
+    {"title": "Public API", "description": "A free JSON API lets developers query logos and integrate them into their own tools."},
+    {"title": "Open contributions", "description": "Anyone can suggest or submit new logos through the project's GitHub repository."}
+  ],
+  "useCases": [
+    "Adding brand logos to a landing page or marketing site",
+    "Building a tech stack showcase in documentation or a portfolio",
+    "Decorating slide decks and conference talks with crisp vector marks",
+    "Pulling logos programmatically into a directory site through the API"
+  ],
+  "faq": [
+    {"question": "Is SVGL free?", "answer": "Yes, SVGL is fully open source and free to use without an account."},
+    {"question": "Can I use these logos commercially?", "answer": "Logos belong to their respective brands and are subject to each company's trademark and usage policy; SVGL only hosts the SVG files."},
+    {"question": "How do I request a missing logo?", "answer": "You can open an issue or submit a pull request on the SVGL GitHub repository to add or update a logo."},
+    {"question": "Is there an API?", "answer": "Yes, SVGL exposes a free JSON API so logos can be fetched and used in other applications."}
+  ]
 }

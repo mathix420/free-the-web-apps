@@ -10,5 +10,29 @@
     "productivity",
     "tool"
   ],
-  "logoSize": 192
+  "logoSize": 192,
+  "longDescription": "Airtable is a cloud-based platform that combines the familiar feel of a spreadsheet with the structure of a relational database. Users build bases made up of linked tables with typed fields like attachments, single-select, dates, and references between records, then view that data through grid, kanban, calendar, gallery, timeline, or form interfaces.\n\nIt's used by operations teams, marketers, product managers, and small businesses to track projects, content calendars, inventories, CRMs, and applicant pipelines without writing code. Automations trigger actions across records and external services, while interfaces and extensions let teams build lightweight apps on top of their data.\n\nAirtable also offers an HTTP API for every base, which makes it a common backend for no-code tools, internal scripts, and integrations with services like Slack, Google Drive, and Zapier.",
+  "category": "BusinessApplication",
+  "developer": "Airtable",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Linked records", "description": "Connect tables through relational links so the same record can be referenced and rolled up across a base."},
+    {"title": "Multiple views", "description": "Switch between grid, kanban, calendar, gallery, timeline, and form views over the same underlying data."},
+    {"title": "Automations", "description": "Trigger multi-step workflows when records change, on a schedule, or from external events without writing code."},
+    {"title": "Interface Designer", "description": "Build read-and-write dashboards and tools tailored to specific roles on top of base data."},
+    {"title": "REST API", "description": "Every base ships with an auto-generated API for reading and writing records from external apps and scripts."}
+  ],
+  "useCases": [
+    "Tracking content calendars and editorial pipelines across a marketing team",
+    "Managing customer relationships and sales pipelines as a lightweight CRM",
+    "Coordinating product roadmaps and feature requests with linked feedback",
+    "Running operations workflows like inventory, applicant tracking, or event planning"
+  ],
+  "faq": [
+    {"question": "Is Airtable free?", "answer": "Airtable has a free Free plan with record and attachment limits, plus paid Team, Business, and Enterprise tiers that raise limits and add advanced features."},
+    {"question": "Does Airtable work offline?", "answer": "Airtable requires an internet connection for most functionality; offline support in mobile apps is limited."},
+    {"question": "Can I export my data from Airtable?", "answer": "Yes, you can export tables to CSV and access all records through the official REST API."},
+    {"question": "Is Airtable a real database?", "answer": "It behaves relationally with linked records and typed fields, but it is hosted, schema-light, and aimed at non-developers rather than at replacing systems like Postgres."}
+  ]
 }

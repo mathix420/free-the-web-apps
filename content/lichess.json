@@ -11,5 +11,61 @@
     "social",
     "tool"
   ],
-  "logoSize": 1024
+  "logoSize": 1024,
+  "longDescription": "Lichess is a free and open-source online chess platform where players can compete in live games, solve puzzles, study openings, and analyze positions. It runs entirely in the browser without ads, trackers, or paywalls, and the full source code is available under the AGPL license.\n\nThe site supports every major chess variant, time control, and rating system, alongside tournaments, simultaneous exhibitions, and team battles. A built-in computer analysis powered by Stockfish reviews games and highlights mistakes, while the studies feature lets coaches and players build interactive lessons.\n\nLichess is run by a registered non-profit and funded by donations, which means every feature, including correspondence chess, opening explorer, and engine analysis, is available to all users at no cost.",
+  "category": "GameApplication",
+  "developer": "Lichess (non-profit)",
+  "pricing": "Free",
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Live and correspondence play",
+      "description": "Play bullet, blitz, rapid, classical, or correspondence chess against opponents matched by rating."
+    },
+    {
+      "title": "Puzzle trainer",
+      "description": "Solve millions of tactical puzzles auto-generated from real games and adapted to your rating."
+    },
+    {
+      "title": "Stockfish analysis",
+      "description": "Review any game with the latest Stockfish engine to spot blunders, missed wins, and best moves."
+    },
+    {
+      "title": "Studies and broadcasts",
+      "description": "Create interactive opening studies, share annotated games, and follow live tournament broadcasts."
+    },
+    {
+      "title": "Chess variants",
+      "description": "Play Chess960, Crazyhouse, King of the Hill, Atomic, Antichess, Horde, Three-check, and Racing Kings."
+    }
+  ],
+  "useCases": [
+    "Playing rated chess online against opponents at your level",
+    "Training tactics with daily puzzles and themed puzzle storms",
+    "Studying openings with the explorer and master games database",
+    "Coaching students through interactive studies and shared analysis",
+    "Following major chess tournaments via live broadcasts"
+  ],
+  "faq": [
+    {
+      "question": "Is Lichess really free?",
+      "answer": "Yes, every feature on Lichess is free and ad-free. The site is run by a non-profit and funded entirely by donations from players."
+    },
+    {
+      "question": "Do I need an account to play?",
+      "answer": "You can play anonymous games without an account, but creating one is free and unlocks ratings, puzzles, studies, and history."
+    },
+    {
+      "question": "Can I use Lichess offline?",
+      "answer": "Lichess requires an internet connection for online play, but the mobile apps offer offline play against the Stockfish engine."
+    },
+    {
+      "question": "Is Lichess open source?",
+      "answer": "Yes, the entire codebase is published on GitHub under the AGPL license, and contributions from the community are welcome."
+    }
+  ]
 }

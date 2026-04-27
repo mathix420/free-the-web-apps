@@ -11,5 +11,29 @@
     "chat",
     "social"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "WhatsApp is a messaging service used by more than two billion people for one-on-one chats, group conversations, voice and video calls. All personal messages and calls are protected by end-to-end encryption based on the Signal protocol, so only the participants can read or hear them.\n\nThe web and desktop apps mirror conversations from a linked phone or operate as multi-device clients, letting users continue chats from a computer with the same history, contacts, and groups. Beyond text, the platform supports voice messages, photo and video sharing, document attachments, status updates, group calls, and Communities for organizing related groups.\n\nWhatsApp is owned by Meta and offers WhatsApp Business and the WhatsApp Business API for companies that handle customer conversations at scale.",
+  "category": "Communication",
+  "developer": "Meta Platforms, Inc.",
+  "pricing": "Free",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "End-to-end encryption", "description": "Messages, calls, photos, and videos are encrypted so only the sender and recipient can access them."},
+    {"title": "Voice and video calls", "description": "Make free one-on-one or group calls over the internet with up to 32 participants on most plans."},
+    {"title": "Multi-device support", "description": "Use WhatsApp on phone, web, and desktop with synced chat history across linked devices."},
+    {"title": "Status and Channels", "description": "Share photo, video, and text updates that disappear after 24 hours, or follow public Channels for one-way broadcasts."},
+    {"title": "Communities and groups", "description": "Organize related groups into Communities with announcement channels and admin controls."}
+  ],
+  "useCases": [
+    "Staying in touch with family and friends through chats and free voice calls",
+    "Coordinating with small groups or communities through dedicated chats",
+    "Sharing photos, videos, and voice notes with end-to-end encryption",
+    "Communicating with businesses through verified WhatsApp Business profiles"
+  ],
+  "faq": [
+    {"question": "Is WhatsApp free?", "answer": "Yes, WhatsApp is free for personal use. Messages and calls use your internet connection rather than carrier minutes or SMS."},
+    {"question": "Do I need a phone number?", "answer": "Yes, an active phone number is required to register, even when using WhatsApp Web or the desktop app."},
+    {"question": "Can I use WhatsApp Web without my phone?", "answer": "Yes, multi-device support keeps WhatsApp Web and desktop working for several days even when your phone is offline."},
+    {"question": "Are WhatsApp messages really encrypted?", "answer": "Yes, personal chats and calls use end-to-end encryption based on the Signal protocol. Backups can be encrypted as well with a user-set passphrase."}
+  ]
 }

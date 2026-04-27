@@ -10,5 +10,29 @@
     "productivity",
     "todo"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Asana is a work management platform used by teams to plan, track, and coordinate projects. Tasks live inside projects and can be viewed as lists, kanban boards, calendars, timelines, or Gantt-style charts, with custom fields, dependencies, subtasks, and assignees.\n\nIt's aimed at marketing, operations, product, and cross-functional teams that need shared visibility into who is doing what by when. Goals tie individual work to higher-level outcomes, portfolios roll up multiple projects, and rules automate repetitive steps like assigning approvers or moving tasks between sections.\n\nAsana integrates with Slack, Google Workspace, Microsoft Teams, GitHub, Salesforce, and many other tools, and exposes an API and webhooks for custom workflows. The web app is the primary surface, with native desktop and mobile clients for quick access on the go.",
+  "category": "BusinessApplication",
+  "developer": "Asana, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Multiple project views", "description": "Switch between list, board, calendar, and timeline views over the same project tasks."},
+    {"title": "Task dependencies", "description": "Mark tasks as blocked by others so the timeline reflects realistic sequencing of work."},
+    {"title": "Rules and automations", "description": "Trigger actions like assignment, status changes, or moves between sections without manual updates."},
+    {"title": "Goals and portfolios", "description": "Link tasks and projects to company goals and group related projects into portfolios for leadership reporting."},
+    {"title": "Integrations", "description": "Connect Slack, Google Workspace, Microsoft Teams, Jira, and many more tools through built-in integrations."}
+  ],
+  "useCases": [
+    "Coordinating cross-functional product launches with shared timelines",
+    "Tracking marketing campaigns from brief to publication",
+    "Running quarterly planning with linked goals and progress",
+    "Managing recurring operational checklists like onboarding and audits"
+  ],
+  "faq": [
+    {"question": "Is Asana free?", "answer": "Asana has a free Personal plan for individuals and small teams, with paid Starter, Advanced, and Enterprise tiers adding features like timeline, portfolios, and admin controls."},
+    {"question": "How many people can use the free plan?", "answer": "The free plan supports a limited number of collaborators per workspace; check current pricing for exact limits."},
+    {"question": "Does Asana have an API?", "answer": "Yes, Asana has a documented REST API and webhooks for custom integrations and automations."},
+    {"question": "Can I use Asana offline?", "answer": "The mobile apps offer limited offline behavior; full editing requires an internet connection."}
+  ]
 }

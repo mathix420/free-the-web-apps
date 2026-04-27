@@ -11,5 +11,30 @@
     "ai",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Replit is a browser-based development environment that lets you write, run, and host code without installing anything locally. Each project, called a Repl, runs in a Linux container with an editor, terminal, package manager, and live preview already wired up.\n\nIt supports dozens of languages including Python, JavaScript, TypeScript, Go, and Rust, and can serve web apps directly from the editor. Replit's AI features, including the Agent and Assistant, can scaffold projects, edit files, and debug code from natural-language prompts.\n\nThe platform is widely used for learning to code, prototyping side projects, running classroom exercises, and shipping small web apps. Multiplayer editing lets several people work in the same Repl in real time, similar to a Google Doc.",
+  "category": "DeveloperApplication",
+  "developer": "Replit, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Instant cloud IDE", "description": "Open a full Linux dev environment in seconds with editor, terminal, and preview built in."},
+    {"title": "AI Agent and Assistant", "description": "Natural-language coding tools scaffold apps, edit files, and explain or debug existing code."},
+    {"title": "Multiplayer editing", "description": "Multiple people can edit the same project at once with live cursors and shared terminals."},
+    {"title": "Always-on hosting", "description": "Deployments host web apps and APIs straight from the Repl with custom domains and autoscaling."},
+    {"title": "Multi-language support", "description": "Templates and runtimes cover Python, Node.js, TypeScript, Go, Rust, and many more."}
+  ],
+  "useCases": [
+    "Learning to code without installing a local toolchain",
+    "Prototyping web apps and APIs and sharing live URLs",
+    "Running coding classrooms and student assignments in the browser",
+    "Building and deploying small full-stack projects with AI help",
+    "Pair-programming or interviewing remotely in a shared editor"
+  ],
+  "faq": [
+    {"question": "Is Replit free?", "answer": "Replit has a free tier with limited compute and storage; the Core plan unlocks more resources, AI usage, and deployments."},
+    {"question": "Can I host a real app on Replit?", "answer": "Yes, Replit Deployments can serve web apps, APIs, and scheduled jobs with custom domains, typically on paid plans."},
+    {"question": "Which languages does Replit support?", "answer": "Replit supports Python, JavaScript, TypeScript, Go, Rust, C, C++, Java, and many other languages through its Nix-based environments."},
+    {"question": "Does Replit work offline?", "answer": "No, Replit runs in the cloud and requires an internet connection to edit and run projects."}
+  ]
 }

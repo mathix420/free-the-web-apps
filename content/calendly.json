@@ -7,5 +7,29 @@
   "macLogo": "/icons/calendly/mac.png",
   "screenshot": "/screenshot/calendly.png",
   "tags": ["productivity", "tool"],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Calendly is a scheduling tool that gives each user a personal link other people can use to book time. Users define event types with durations, buffers, location options, and intake questions, and Calendly checks the connected calendars to offer only times that are actually free.\n\nIt's used by sales, recruiting, customer success, and consulting teams to remove back-and-forth emails when arranging meetings. Group, collective, and round-robin event types support team scheduling, and integrations with video tools like Zoom, Google Meet, and Microsoft Teams add conferencing links automatically.\n\nCalendly integrates with CRMs such as Salesforce and HubSpot, supports paid bookings through Stripe and PayPal, and offers an API and webhooks for embedding scheduling into websites and internal apps. Native mobile clients let people manage upcoming meetings on the go.",
+  "category": "BusinessApplication",
+  "developer": "Calendly, LLC",
+  "pricing": "Freemium",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Shareable booking links", "description": "Each event type has a public link invitees can use to pick an available time."},
+    {"title": "Calendar sync", "description": "Connect Google, Microsoft 365, Outlook, and iCloud calendars so busy times block availability automatically."},
+    {"title": "Team scheduling", "description": "Round-robin and collective event types distribute meetings across team members based on availability."},
+    {"title": "Workflow automations", "description": "Send custom reminders, follow-ups, and notifications around each meeting via email and SMS."},
+    {"title": "Integrations", "description": "Connect to Zoom, Google Meet, Microsoft Teams, Salesforce, HubSpot, Slack, Stripe, and many more tools."}
+  ],
+  "useCases": [
+    "Letting prospects self-book sales discovery calls",
+    "Coordinating multi-stage interview loops with recruiters and hiring panels",
+    "Scheduling client onboarding sessions with automatic reminders",
+    "Selling paid consulting time with Stripe or PayPal at booking"
+  ],
+  "faq": [
+    {"question": "Is Calendly free?", "answer": "Calendly has a free plan with one event type per user, plus paid Standard, Teams, and Enterprise plans that unlock multiple event types and advanced features."},
+    {"question": "Which calendars does Calendly support?", "answer": "It connects with Google Calendar, Microsoft 365 / Outlook, Outlook.com, and iCloud Calendar."},
+    {"question": "Can Calendly add a video link to meetings?", "answer": "Yes, it integrates with Zoom, Google Meet, Microsoft Teams, Webex, and others to auto-generate conferencing links."},
+    {"question": "Does Calendly support paid bookings?", "answer": "Yes, Stripe and PayPal can be connected to charge invitees when they book paid event types."}
+  ]
 }

@@ -11,5 +11,64 @@
     "programming",
     "tool"
   ],
-  "logoSize": 180
+  "logoSize": 180,
+  "longDescription": "Linear is an issue tracking and project planning tool built for software teams that prefer speed and keyboard-driven workflows over heavyweight configuration. It organizes work into issues, cycles (timeboxed sprints), and projects, with built-in roadmaps and triage queues for incoming requests.\n\nThe app is opinionated about how engineering teams operate: every issue has a clear status, owner, and estimate, and teams move through cycles without long planning meetings. Integrations with GitHub, GitLab, Slack, Figma, and Sentry pull context into issues automatically and let pull requests close tickets through commit messages.\n\nLinear targets product, design, and engineering teams that want a single place to plan releases, track bugs, and coordinate across squads. The interface is fast, fully keyboard-navigable, and syncs in real time across web, desktop, and mobile.",
+  "category": "BusinessApplication",
+  "developer": "Linear",
+  "pricing": "Freemium",
+  "platforms": [
+    "Web",
+    "macOS",
+    "Windows",
+    "Linux",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Cycles and sprints",
+      "description": "Plan work in timeboxed cycles with automatic carry-over of unfinished issues and built-in velocity tracking."
+    },
+    {
+      "title": "Projects and roadmaps",
+      "description": "Group issues into projects with milestones, then visualize delivery timelines on a roadmap shared across teams."
+    },
+    {
+      "title": "GitHub and GitLab integration",
+      "description": "Link branches, commits, and pull requests to issues so status updates happen automatically as code merges."
+    },
+    {
+      "title": "Triage workflow",
+      "description": "Route bug reports and feature requests into a triage queue where they are reviewed before reaching the backlog."
+    },
+    {
+      "title": "Keyboard-first interface",
+      "description": "Every action has a shortcut and the command menu lets you create, assign, and update issues without touching the mouse."
+    }
+  ],
+  "useCases": [
+    "Planning engineering sprints across multiple product teams",
+    "Tracking bugs and feature requests with clear ownership",
+    "Coordinating cross-functional projects with milestones and roadmaps",
+    "Linking GitHub pull requests to product issues automatically",
+    "Running async standups and cycle reviews without extra tools"
+  ],
+  "faq": [
+    {
+      "question": "Is Linear free to use?",
+      "answer": "Linear has a Free plan with limited members and issues. Standard, Business, and Enterprise plans add advanced features and unlimited usage."
+    },
+    {
+      "question": "Does Linear integrate with GitHub?",
+      "answer": "Yes, Linear has deep integrations with GitHub and GitLab that auto-link branches, pull requests, and close issues from commit messages."
+    },
+    {
+      "question": "Can I import from Jira or Asana?",
+      "answer": "Linear provides importers for Jira, Asana, Trello, GitHub Issues, Pivotal Tracker, and CSV files to migrate existing work."
+    },
+    {
+      "question": "Does Linear work offline?",
+      "answer": "Linear is primarily an online tool but the desktop and mobile apps cache recent data so you can browse issues with a flaky connection."
+    }
+  ]
 }

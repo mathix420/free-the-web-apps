@@ -11,5 +11,29 @@
     "social",
     "tool"
   ],
-  "logoSize": 128
+  "logoSize": 128,
+  "longDescription": "TodoMate is a social task management app that turns daily to-do lists into a shared experience. Each user keeps a personal checklist, but lists can be made visible to friends so progress, completions, and streaks are seen by a small circle of accountability partners.\n\nThe app is aimed at students, study groups, and anyone who finds it easier to stick to routines when others are watching. Tasks are grouped by day, with simple categories, recurring items, and emoji-based reactions or comments from followers on completed work.\n\nIt is a lightweight planner rather than a full project manager. The focus is on building habits through visibility and gentle peer pressure instead of complex workflows or assignments.",
+  "category": "Productivity",
+  "developer": "the team behind TodoMate",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Social timeline", "description": "Friends can see each other's daily tasks and react to completed items, making accountability part of the routine."},
+    {"title": "Daily checklists", "description": "Tasks are organized day by day with quick add, drag-to-reorder, and one-tap completion."},
+    {"title": "Recurring tasks", "description": "Set items to repeat on specific weekdays or intervals to support steady habits and study schedules."},
+    {"title": "Categories and colors", "description": "Group related tasks under colored categories to separate study, work, and personal items at a glance."},
+    {"title": "Reactions and comments", "description": "Followers can leave emojis or short messages on tasks to celebrate progress or send encouragement."}
+  ],
+  "useCases": [
+    "Tracking daily study goals with classmates as accountability partners",
+    "Building consistent habits like reading or exercise alongside friends",
+    "Planning weekly routines with recurring chores and reminders",
+    "Sharing progress with a small circle without using a full social network"
+  ],
+  "faq": [
+    {"question": "Is TodoMate free to use?", "answer": "TodoMate is free to use with optional paid plans that unlock cosmetic and convenience features."},
+    {"question": "Do I need an account?", "answer": "Yes, an account is required so tasks can sync across devices and be shared with friends."},
+    {"question": "Can I keep my lists private?", "answer": "Yes, lists and individual tasks can be marked private so only you can see them, even if you have followers."},
+    {"question": "Which platforms is TodoMate available on?", "answer": "TodoMate runs in the web browser and as native apps on iOS and Android."}
+  ]
 }

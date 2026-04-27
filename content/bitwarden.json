@@ -10,5 +10,29 @@
     "security",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Bitwarden is an open-source password manager that stores logins, secure notes, identities, and payment cards in an encrypted vault. Data is end-to-end encrypted with a key derived from the user's master password, so the cloud service stores ciphertext only.\n\nThe web vault at vault.bitwarden.com is the central hub where users manage entries, organizations, sharing, and security reports. Browser extensions, desktop apps, and mobile clients sync the same vault, autofill credentials, and generate strong passwords and passphrases. Two-factor authentication, passkeys, and integrations with hardware keys add another layer of protection.\n\nFor teams, Bitwarden offers shared collections, granular access control, and a Secrets Manager for developer credentials. Self-hosting is supported for users who want to run the server inside their own infrastructure.",
+  "category": "SecurityApplication",
+  "developer": "Bitwarden, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "End-to-end encryption", "description": "Vault data is encrypted on the device with a key derived from the master password before syncing."},
+    {"title": "Cross-platform clients", "description": "Use the web vault, browser extensions, desktop apps, and mobile clients with the same synced data."},
+    {"title": "Password generator", "description": "Generate strong random passwords or passphrases with configurable length, character classes, and word counts."},
+    {"title": "Sharing and organizations", "description": "Share entries securely with family members or teams using collections and role-based access controls."},
+    {"title": "Self-hosting option", "description": "Run the Bitwarden server on your own infrastructure for full control over storage and updates."}
+  ],
+  "useCases": [
+    "Storing logins and autofilling credentials across browsers and devices",
+    "Generating and rotating strong passwords for every online account",
+    "Sharing team or family credentials securely without sending them in plain text",
+    "Self-hosting a password manager inside a private network or homelab"
+  ],
+  "faq": [
+    {"question": "Is Bitwarden free?", "answer": "Bitwarden has a generous free tier with unlimited entries on unlimited devices, plus paid Premium and Family plans and Business tiers with extra features."},
+    {"question": "Is Bitwarden open source?", "answer": "Yes, Bitwarden's clients and server are open source and the code is available on GitHub for review."},
+    {"question": "Can I self-host Bitwarden?", "answer": "Yes, Bitwarden can be self-hosted using the official Docker setup or the lightweight Vaultwarden community implementation."},
+    {"question": "Does Bitwarden support passkeys?", "answer": "Yes, Bitwarden supports storing and using passkeys for sites that have adopted them, in addition to traditional passwords."}
+  ]
 }

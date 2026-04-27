@@ -11,5 +11,31 @@
     "programming",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Hugging Face is a hub for the open machine-learning community. It hosts hundreds of thousands of pre-trained models for tasks like text generation, translation, image classification, speech recognition, and more, alongside public datasets and reproducible demos called Spaces. Researchers and engineers can publish, version, and share models in the same way developers share code on GitHub.\n\nThe site is built around the Hugging Face Hub plus open-source libraries (Transformers, Diffusers, Datasets, Accelerate) that make it straightforward to load a model with a few lines of Python and run it locally or in the cloud. Inference Endpoints and Inference Providers let teams serve models in production without managing GPU infrastructure themselves.\n\nIndividuals get free public hosting for models and datasets; paid plans cover private repositories, dedicated compute, enterprise security, and high-throughput inference. It is the de facto reference for finding and distributing open ML models today.",
+  "category": "DeveloperApplication",
+  "developer": "Hugging Face, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Model Hub", "description": "Browse, download, and version hundreds of thousands of pre-trained models across tasks and modalities."},
+    {"title": "Datasets", "description": "Discover and stream public datasets for training and evaluation through the Datasets library."},
+    {"title": "Spaces", "description": "Build and share interactive ML demos in Gradio, Streamlit, or Docker, hosted on Hugging Face."},
+    {"title": "Inference Endpoints", "description": "Deploy models to managed GPU or CPU endpoints without running your own serving infrastructure."},
+    {"title": "Open-source libraries", "description": "Use Transformers, Diffusers, Datasets, and Accelerate to load and train models with a few lines of code."},
+    {"title": "Collaboration features", "description": "Pull requests, discussions, and organizations bring Git-style workflows to model and dataset repositories."}
+  ],
+  "useCases": [
+    "Finding a pre-trained model that fits a specific NLP, vision, or audio task",
+    "Sharing a research model or fine-tune with the open community",
+    "Publishing a public demo of an ML idea via a Space",
+    "Running production inference on hosted GPU endpoints",
+    "Streaming large datasets straight into a training pipeline"
+  ],
+  "faq": [
+    {"question": "Is Hugging Face free?", "answer": "Hosting public models, datasets, and Spaces is free; paid plans add private repositories, more compute, and enterprise features."},
+    {"question": "Do I need an account?", "answer": "You can browse and download many resources without an account, but uploading or accessing gated models requires signing in."},
+    {"question": "Can I run models locally?", "answer": "Yes, models are downloadable and the Transformers and Diffusers libraries make it straightforward to run them on your own hardware."},
+    {"question": "How does inference work without a GPU?", "answer": "Hugging Face offers managed Inference Endpoints and Inference Providers so you can call models via API without provisioning your own GPUs."}
+  ]
 }

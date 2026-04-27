@@ -7,5 +7,29 @@
   "macLogo": "/icons/apple-music/mac.png",
   "screenshot": "/screenshot/apple-music.png",
   "tags": ["music", "audio"],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Apple Music is a subscription music streaming service offering a catalog of around 100 million songs, alongside human-curated playlists, artist radio stations, and live radio shows from Apple Music 1, Hits, and Country. Subscribers can stream on demand, download tracks for offline listening, and follow artists for release notifications.\n\nThe service supports Lossless and Hi-Res Lossless audio for most of its catalog at no extra cost, plus Dolby Atmos spatial audio on supported tracks and devices. Lyrics are time-synced so listeners can sing along, and personalized stations adapt to listening history.\n\nApple Music integrates with iCloud Music Library so users can mix uploaded personal tracks with the streaming catalog, and the web client at music.apple.com provides full playback in any modern browser without needing the desktop app.",
+  "category": "MusicApplication",
+  "developer": "Apple Inc.",
+  "pricing": "Paid",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Large streaming catalog", "description": "Stream tens of millions of songs on demand, including new releases the day they come out."},
+    {"title": "Lossless and Spatial Audio", "description": "Listen in Lossless, Hi-Res Lossless, or Dolby Atmos at no additional charge on supported tracks."},
+    {"title": "Curated playlists and radio", "description": "Editors curate playlists by mood, genre, and activity, and host live radio stations like Apple Music 1."},
+    {"title": "Time-synced lyrics", "description": "Follow along to song lyrics that highlight in real time as the track plays."},
+    {"title": "Library and downloads", "description": "Save songs to a personal library and download for offline playback on phones, tablets, and laptops."}
+  ],
+  "useCases": [
+    "Streaming new releases and back catalog from major and independent labels",
+    "Building personal playlists and downloading them for offline listening",
+    "Discovering new music through editor-curated playlists and radio shows",
+    "Listening in lossless or spatial audio on supported headphones and speakers"
+  ],
+  "faq": [
+    {"question": "Is Apple Music free?", "answer": "Apple Music requires a paid subscription after a trial; pricing varies by country and there are individual, family, and student plans."},
+    {"question": "Do I need an Apple device?", "answer": "No, Apple Music works on iPhone, iPad, Mac, Apple TV, Android, Windows, and any modern browser at music.apple.com."},
+    {"question": "Can I listen offline?", "answer": "Yes, subscribers can download songs, albums, and playlists for offline playback in the mobile and desktop apps."},
+    {"question": "Does Apple Music support lossless audio?", "answer": "Most of the catalog is available in Lossless and many tracks in Hi-Res Lossless or Dolby Atmos at no extra cost."}
+  ]
 }

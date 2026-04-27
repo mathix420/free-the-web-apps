@@ -10,5 +10,29 @@
   "tags": [
     "productivity",
     "tool"
+  ],
+  "longDescription": "Dysperse is a productivity and task management app that brings tasks, schedules, and collections into a single workspace. It targets students and individual users who want a friendlier alternative to corporate productivity suites, with multiple views (list, kanban, calendar, planner) layered on top of the same underlying tasks.\n\nUsers can group tasks into customizable collections, attach due dates and recurring schedules, and visualize their week through a planner that highlights what is actually due today. Collaboration features let small groups share collections for shared lists or projects.\n\nThe app is web-first and available across devices through a responsive interface, with a focus on quick capture, keyboard shortcuts, and a tidy visual style. It is positioned as a free, approachable option for people who find tools like Notion, Todoist, or ClickUp either too heavy or too austere.",
+  "category": "Productivity",
+  "developer": "The team behind Dysperse",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Multiple task views", "description": "Switch between list, kanban, calendar, and planner views over the same underlying tasks."},
+    {"title": "Collections", "description": "Group related tasks into customizable collections for projects, classes, or life areas."},
+    {"title": "Recurring tasks", "description": "Schedule daily, weekly, or custom-recurring items that repopulate automatically each cycle."},
+    {"title": "Shared spaces", "description": "Invite friends or teammates into collections so a group can update the same tasks."},
+    {"title": "Quick capture", "description": "Add tasks fast with keyboard shortcuts and a streamlined creation flow."}
+  ],
+  "useCases": [
+    "Tracking homework, assignments, and exams as a student",
+    "Planning a personal week across work, errands, and habits",
+    "Sharing a list of chores or trip tasks with a partner or roommate",
+    "Organizing a small side project into a kanban board"
+  ],
+  "faq": [
+    {"question": "Is Dysperse free?", "answer": "Dysperse is free to use with optional paid plans for advanced features and supporting development."},
+    {"question": "Can I share tasks with other people?", "answer": "Yes, collections can be shared so multiple people view and update the same tasks."},
+    {"question": "Does it work on mobile?", "answer": "Dysperse runs in any modern browser and is also available as installable mobile apps."},
+    {"question": "Do I need an account?", "answer": "An account is required to save tasks and sync them across devices."}
   ]
 }

@@ -10,5 +10,29 @@
     "social",
     "news"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Bluesky is a microblogging social network built on the AT Protocol, a federated protocol designed to give users portable identities and choice over which servers and feeds they use. Posts can include text, images, video, and links, with familiar reply, repost, and quote-post mechanics.\n\nA distinguishing feature is the use of custom feeds and labelers: any developer can build a feed algorithm or moderation labeler, and users can subscribe to the ones they want instead of relying on a single algorithm. Custom domain handles let people verify their identity by owning a domain name.\n\nBluesky was originally incubated at Twitter and later spun out into an independent organization. The service is open to the public, has native apps on mobile, and runs in any modern browser at bsky.app.",
+  "category": "SocialNetworkingApplication",
+  "developer": "Bluesky Social",
+  "pricing": "Free",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Custom feeds", "description": "Subscribe to algorithmic feeds built by the community instead of being locked into one ranked timeline."},
+    {"title": "Domain handles", "description": "Use a domain you own as your handle to verify identity without a centralized blue check."},
+    {"title": "Federated AT Protocol", "description": "Bluesky is built on an open protocol that allows third-party servers and clients to interoperate."},
+    {"title": "Composable moderation", "description": "Stack independent labeler services to filter or hide content according to your own preferences."},
+    {"title": "Open API and clients", "description": "Developers can build alternative clients, bots, and feed generators against the public AT Protocol."}
+  ],
+  "useCases": [
+    "Following news, journalists, and tech communities in real time",
+    "Publishing short text posts, images, and links to a public audience",
+    "Using a personal domain as a verifiable identity online",
+    "Subscribing to niche feeds curated by community algorithms"
+  ],
+  "faq": [
+    {"question": "Is Bluesky free?", "answer": "Yes, Bluesky is free to sign up and use; the organization is exploring optional paid features but the core service is free."},
+    {"question": "Is Bluesky decentralized?", "answer": "Bluesky runs on the open AT Protocol, which supports federation; today most users are on Bluesky's own infrastructure but third-party servers are possible."},
+    {"question": "Do I need an invite to join?", "answer": "Bluesky is now open to everyone and no longer requires invite codes."},
+    {"question": "Can I use my own domain as a handle?", "answer": "Yes, you can verify a domain you control and use it as your handle on Bluesky."}
+  ]
 }

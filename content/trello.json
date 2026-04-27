@@ -11,5 +11,29 @@
     "todo",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Trello is a visual project management tool built around the kanban board metaphor. Work is organized into boards that contain lists, and lists contain cards that move from column to column as tasks progress. Each card can hold checklists, attachments, due dates, labels, and comments.\n\nThe app suits small teams, freelancers, and personal use cases that benefit from a simple drag-and-drop view of work in progress. Power-Ups extend boards with calendar views, time tracking, and integrations with services like Slack, Google Drive, and Jira. Butler automation rules can move cards, post reminders, and trigger actions on a schedule.\n\nTrello is part of Atlassian and connects with the broader Atlassian suite for teams that already use Confluence or Jira.",
+  "category": "BusinessApplication",
+  "developer": "Atlassian",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Kanban boards", "description": "Drag cards across lists to track progress through stages like To Do, Doing, and Done."},
+    {"title": "Card details", "description": "Each card holds checklists, attachments, due dates, labels, members, and a comment thread."},
+    {"title": "Butler automation", "description": "Built-in rules automate repetitive actions such as moving cards, assigning members, or sending reminders."},
+    {"title": "Power-Ups", "description": "Add calendar, timeline, voting, and integrations with Slack, Google Drive, GitHub, and many other tools."},
+    {"title": "Multiple board views", "description": "Switch between board, calendar, timeline, table, and dashboard views on paid plans."}
+  ],
+  "useCases": [
+    "Tracking personal tasks and weekly to-do lists in a single board",
+    "Coordinating small team projects with clear stages and ownership",
+    "Managing editorial calendars and content publication pipelines",
+    "Running lightweight sprint planning for small product teams"
+  ],
+  "faq": [
+    {"question": "Is Trello free?", "answer": "Trello has a free plan with unlimited cards and up to 10 boards per Workspace. Standard, Premium, and Enterprise plans add more boards, views, and admin controls."},
+    {"question": "Does Trello work offline?", "answer": "The mobile and desktop apps cache recently opened boards but most actions sync only when the device is back online."},
+    {"question": "Can I export my Trello data?", "answer": "Yes, boards can be exported as JSON on any plan, and CSV export is available on Standard and higher tiers."},
+    {"question": "How does Trello compare to Jira?", "answer": "Trello is simpler and card-driven, while Jira is built for software teams with backlogs, sprints, and detailed issue tracking. Both are made by Atlassian."}
+  ]
 }

@@ -10,5 +10,30 @@
     "streaming",
     "entertainment"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Netflix is a subscription streaming service offering films, series, documentaries, anime, stand-up specials, and an expanding catalog of mobile games. Original productions sit alongside licensed content, with libraries that vary by country.\n\nThe service supports multiple profiles per account, kids profiles with age-based filters, and per-profile recommendations driven by viewing history. Most content is available in HD, with 4K HDR and Dolby Atmos on higher-tier plans, and many shows include subtitles and dubs in several languages.\n\nDownloads for offline viewing are available in the mobile and desktop apps. Pricing depends on the plan and country, and an ad-supported tier offers a lower monthly price in exchange for advertising before and during playback.",
+  "category": "VideoApplication",
+  "developer": "Netflix, Inc.",
+  "pricing": "Paid",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Original productions", "description": "Access to a deep catalog of Netflix-produced series, films, and documentaries not available elsewhere."},
+    {"title": "Personalized recommendations", "description": "Each profile gets its own home rows tuned to what that viewer has watched and rated."},
+    {"title": "Multiple profiles", "description": "Up to several profiles per account, including dedicated kids profiles with maturity filters."},
+    {"title": "Offline downloads", "description": "Download eligible titles in the mobile and desktop apps for watching without an internet connection."},
+    {"title": "4K HDR and spatial audio", "description": "Higher-tier plans deliver Ultra HD video and Dolby Atmos audio on supported devices."},
+    {"title": "Mobile games", "description": "Subscribers can play a curated library of mobile games at no extra cost on iOS and Android."}
+  ],
+  "useCases": [
+    "Watching original series and films at home or on the go",
+    "Setting up a kids profile with age-appropriate viewing controls",
+    "Downloading episodes before a flight or commute",
+    "Following dubbed and subtitled international shows in your preferred language"
+  ],
+  "faq": [
+    {"question": "How much does Netflix cost?", "answer": "Pricing depends on the plan and country, with an ad-supported tier at the low end and Premium plans that add 4K HDR and more screens."},
+    {"question": "Is there a free trial?", "answer": "Free trials are no longer offered in most countries; a paid subscription is required to stream."},
+    {"question": "Can I share my account?", "answer": "Plans are limited to a single household, and Netflix offers paid extra-member slots for sharing outside it."},
+    {"question": "Can I watch offline?", "answer": "Yes, eligible titles can be downloaded in the official mobile and desktop apps for offline viewing."}
+  ]
 }

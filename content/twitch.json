@@ -11,5 +11,29 @@
     "video",
     "entertainment"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Twitch is a live streaming platform best known for video game broadcasts, but also home to music performances, talk shows, art streams, and IRL content. Streamers broadcast in real time while viewers chat alongside the video, often with custom emotes, channel badges, and bit cheers.\n\nViewers can follow channels for free, subscribe monthly to support a creator and unlock perks, or send Bits as micro-donations. Streamers monetize through subscriptions, ads, Bits, and the Twitch Affiliate and Partner programs. Tools like raids, hype trains, polls, and channel point rewards give creators ways to interact with their communities live.\n\nTwitch is owned by Amazon and integrates with Amazon Prime through Prime Gaming, which grants subscribers a free monthly channel subscription.",
+  "category": "VideoApplication",
+  "developer": "Twitch Interactive, Inc. (Amazon)",
+  "pricing": "Free with paid subscriptions",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Live streaming", "description": "Broadcasters go live in real time with low-latency video and an integrated chat sidebar."},
+    {"title": "Subscriptions and Bits", "description": "Viewers support creators with monthly subs, gifted subs, and on-screen Bits cheering animations."},
+    {"title": "Channel points and rewards", "description": "Viewers earn points by watching and redeem them for custom rewards set by each streamer."},
+    {"title": "Clips and VODs", "description": "Memorable moments can be saved as short clips and past broadcasts replayed as VODs."},
+    {"title": "Raids and hosts", "description": "Streamers can send their audience to another channel at the end of a stream to grow communities."}
+  ],
+  "useCases": [
+    "Broadcasting gameplay live to a global audience with real-time chat",
+    "Hosting talk shows, podcasts, or just-chatting streams with viewer interaction",
+    "Streaming music sets, art creation, or coding sessions",
+    "Watching esports tournaments and gaming creators live"
+  ],
+  "faq": [
+    {"question": "Is Twitch free?", "answer": "Watching Twitch is free. Optional paid subscriptions support specific channels and remove ads on those channels."},
+    {"question": "Do I need an account to watch?", "answer": "You can watch most streams without signing in, but an account is required to chat, follow, subscribe, or save preferences."},
+    {"question": "Can I stream from my phone?", "answer": "Yes, the Twitch mobile app supports IRL and games streaming directly from iOS and Android devices."},
+    {"question": "How do streamers earn money?", "answer": "Through subscriptions, ad revenue, Bits, and direct donations once accepted into the Affiliate or Partner program."}
+  ]
 }

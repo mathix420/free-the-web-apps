@@ -12,5 +12,29 @@
     "programming",
     "entrepreneurship"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Hacker News is a community-driven news site run by Y Combinator, where users submit and vote on links about technology, startups, science, and adjacent topics. The front page is a ranked list of the top submissions of the day, with discussion threads attached to each story. Comments are often as valuable as the articles themselves, with engineers, founders, and researchers weighing in on the topic.\n\nThis particular page wraps Hacker News in HackerWeb, a clean third-party reader that focuses on a fast, mobile-friendly browsing experience while still using the official Hacker News API. Stories, comments, and user pages all behave as on the canonical site at news.ycombinator.com.\n\nHacker News is widely read in the tech industry as a daily signal of what is being built, debated, and questioned. It is best for people who want a high-signal feed of long-form discussion rather than short social posts.",
+  "category": "WebApplication",
+  "developer": "Y Combinator (HackerWeb client by Lim Chee Aun)",
+  "pricing": "Free",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Ranked front page", "description": "A constantly updated list of the top tech and startup links voted by the community."},
+    {"title": "Threaded discussions", "description": "Each story has a deep comment tree where industry practitioners debate the topic."},
+    {"title": "Show and Ask HN", "description": "Dedicated sections for builders to share their projects and to ask the community open questions."},
+    {"title": "Lightweight reader", "description": "HackerWeb provides a fast, mobile-first interface over the official Hacker News API."},
+    {"title": "User profiles and karma", "description": "Track contributions, submissions, and karma across the community."}
+  ],
+  "useCases": [
+    "Following technology and startup news through a curated daily list",
+    "Reading expert discussion under each article instead of just the headline",
+    "Discovering side projects through Show HN posts",
+    "Asking the technical community for advice via Ask HN"
+  ],
+  "faq": [
+    {"question": "Is Hacker News free?", "answer": "Yes, Hacker News and the HackerWeb client are free to read and use."},
+    {"question": "Do I need an account?", "answer": "Reading is free without an account; submitting links, commenting, and voting require a free account on news.ycombinator.com."},
+    {"question": "What is HackerWeb?", "answer": "HackerWeb is an independent web client that displays Hacker News content with a faster, mobile-friendly interface."},
+    {"question": "How are stories ranked?", "answer": "Submissions are ranked by an algorithm based on upvotes, time, and moderation, similar in spirit to Reddit's hot ranking."}
+  ]
 }

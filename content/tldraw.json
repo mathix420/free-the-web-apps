@@ -11,5 +11,30 @@
     "design",
     "diagram"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "tldraw is a free collaborative whiteboard that runs in the browser. It offers an infinite canvas with shapes, arrows, sticky notes, freehand drawing, text, and embeds, plus real-time multiplayer rooms that let several people sketch on the same board at once.\n\nThe interface is intentionally minimal and keyboard-friendly, so it stays close to the speed of pen and paper while adding alignment, snapping, and reusable frames. Boards can be exported as images, SVGs, or PDFs and embedded in other sites.\n\ntldraw is widely used for whiteboarding meetings, drafting diagrams, and prototyping interface flows. It's also distributed as an open-source SDK that developers can drop into their own apps to build custom canvas tools. The hosted tldraw.com app is free to use without an account.",
+  "category": "DesignApplication",
+  "developer": "tldraw GB Ltd.",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Infinite canvas", "description": "Pan and zoom across an unlimited canvas with shapes, arrows, sticky notes, and freehand strokes."},
+    {"title": "Real-time multiplayer", "description": "Share a room link and several people can edit the same board together with live cursors."},
+    {"title": "Smart shapes and arrows", "description": "Arrows snap to shapes and follow them as they move, keeping diagrams tidy without manual fixes."},
+    {"title": "Frames and exports", "description": "Group content into frames and export individual frames or the whole board as PNG, SVG, or PDF."},
+    {"title": "Open-source SDK", "description": "Developers can embed the tldraw canvas into their own products and build custom shapes and tools."}
+  ],
+  "useCases": [
+    "Whiteboarding ideas and architecture during remote meetings",
+    "Drafting wireframes and user flows for design discussions",
+    "Sketching diagrams to paste into docs and slides",
+    "Running collaborative brainstorming with sticky notes",
+    "Embedding a custom canvas inside your own product via the SDK"
+  ],
+  "faq": [
+    {"question": "Is tldraw free?", "answer": "The hosted tldraw.com app is free to use; paid plans cover persistent rooms, larger uploads, and advanced collaboration features."},
+    {"question": "Do I need an account?", "answer": "No account is needed to draw on tldraw.com or join a shared room, though signing up unlocks saving boards to your library."},
+    {"question": "Can I use tldraw in my own app?", "answer": "Yes, tldraw is open source and ships as an SDK that developers can embed and extend with custom shapes and tools."},
+    {"question": "Can I export my drawings?", "answer": "Yes, boards and individual frames can be exported as PNG, SVG, or PDF, and shared via room links."}
+  ]
 }

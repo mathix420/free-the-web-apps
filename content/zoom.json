@@ -10,5 +10,29 @@
     "video",
     "communication"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Zoom is a video conferencing service used for meetings, webinars, classes, and events. It provides reliable HD video and audio, screen sharing, breakout rooms, recording, and chat in a familiar gallery or speaker view, working across desktop, mobile, and web clients.\n\nBeyond core meetings, Zoom offers Zoom Phone for cloud telephony, Zoom Webinars for large broadcasts, Zoom Rooms for conference room hardware, and Zoom Team Chat for persistent messaging. AI Companion can summarize meetings, draft chat replies, and surface action items.\n\nZoom is widely used for remote work, online education, telehealth, and customer-facing meetings, with integrations into calendars, Slack, Salesforce, and many other business tools.",
+  "category": "Communication",
+  "developer": "Zoom Communications, Inc.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "HD video meetings", "description": "Host meetings with high-quality video, audio, and gallery or speaker views for groups of any size."},
+    {"title": "Screen sharing and whiteboard", "description": "Share screens, individual apps, or a collaborative whiteboard with annotations during a meeting."},
+    {"title": "Breakout rooms", "description": "Split a meeting into smaller groups for workshops, classes, or focused discussions, then bring everyone back."},
+    {"title": "Recording and transcripts", "description": "Record meetings locally or to the cloud with automatic transcripts and AI-generated summaries."},
+    {"title": "AI Companion", "description": "Summarize meetings, draft messages, and extract action items with the built-in AI assistant on eligible plans."}
+  ],
+  "useCases": [
+    "Running daily team standups and remote work meetings",
+    "Hosting online classes, training sessions, and workshops with breakout rooms",
+    "Conducting client calls, sales demos, and customer interviews",
+    "Broadcasting webinars and virtual events to large audiences"
+  ],
+  "faq": [
+    {"question": "Is Zoom free?", "answer": "Zoom has a free Basic plan with 40-minute group meetings. Paid Pro, Business, and Enterprise plans extend duration and add admin and analytics features."},
+    {"question": "Do attendees need an account?", "answer": "No, only the host needs an account. Attendees can join with a meeting link and a one-time client install or in the browser."},
+    {"question": "Are Zoom meetings encrypted?", "answer": "Yes, meetings use AES 256-bit encryption in transit. End-to-end encryption is available as an option on most plans."},
+    {"question": "What's the meeting size limit?", "answer": "The Basic plan supports up to 100 participants. Larger plans and the Large Meeting add-on support up to 1,000, and Webinars scale to 10,000+ attendees."}
+  ]
 }

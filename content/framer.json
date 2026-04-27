@@ -13,5 +13,29 @@
     "ux",
     "tool"
   ],
-  "logoSize": 192
+  "logoSize": 192,
+  "longDescription": "Framer is a no-code website builder aimed at designers and small teams. It combines a visual canvas similar to design tools with a publishing engine, so the artboard you arrange on screen is the same one that ships to production. Layouts use auto-layout and breakpoints to adapt cleanly across desktop, tablet, and mobile.\n\nThe product is geared toward marketing sites, landing pages, portfolios, and content-led sites, with a built-in CMS for collections like blog posts and case studies. Animations, interactions, and effects are configured visually rather than written in code.\n\nFramer hosts the published sites on its own infrastructure with a global CDN, custom domains, SSL, and analytics. It also supports custom code and React-based components for teams that need to extend the visual editor with their own logic.",
+  "category": "DesignApplication",
+  "developer": "Framer B.V.",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows"],
+  "features": [
+    {"title": "Visual website builder", "description": "Design and publish responsive sites on a canvas without writing HTML or CSS."},
+    {"title": "Built-in CMS", "description": "Manage collections like posts and case studies and bind them to designed templates."},
+    {"title": "Animations and effects", "description": "Add scroll, hover, and page transitions visually with fine-grained timing controls."},
+    {"title": "Responsive breakpoints", "description": "Tune layouts per screen size while keeping a single source of truth for the page."},
+    {"title": "Hosting and domains", "description": "Sites are published on Framer's CDN with custom domains, SSL, and basic analytics included."}
+  ],
+  "useCases": [
+    "Shipping a marketing site for a startup without engineers",
+    "Building a personal portfolio with case studies and animations",
+    "Designing and publishing a launch landing page in a single tool",
+    "Maintaining a content-driven site through a built-in CMS"
+  ],
+  "faq": [
+    {"question": "Is Framer free?", "answer": "Framer has a free tier with a Framer-branded subdomain; paid plans add custom domains, more pages, and CMS capacity."},
+    {"question": "Can I use a custom domain?", "answer": "Yes, custom domains with SSL are supported on paid plans."},
+    {"question": "Do I need to know how to code?", "answer": "No, Framer is built for non-developers, though custom code components are supported for advanced needs."},
+    {"question": "Where are Framer sites hosted?", "answer": "Framer hosts published sites on its own global CDN; you do not need a separate hosting provider."}
+  ]
 }

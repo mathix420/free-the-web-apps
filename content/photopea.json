@@ -10,5 +10,59 @@
     "design",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Photopea is a free image editor that runs entirely in the web browser. It mirrors the interface and shortcuts of Photoshop closely, which makes it a low-friction alternative for retouching photos, designing graphics, and editing artwork without installing software.\n\nIt opens and saves PSD files natively, along with formats from other tools such as Sketch, XD, Figma, AI, GIMP's XCF, and standard image formats like PNG, JPEG, WebP, SVG, and RAW. Layers, masks, smart objects, adjustment layers, blend modes, and most filter effects work as designers expect.\n\nPhotopea runs locally in the browser, so files do not need to be uploaded to a server. It is supported by ads and offers a low-cost premium tier that removes them and lifts a few limits. It is a popular pick for one-off edits, students, and anyone who needs Photoshop-style editing on a Chromebook, Linux machine, or any computer without a subscription.",
+  "category": "DesignApplication",
+  "developer": "Ivan Kutskir",
+  "pricing": "Free with paid plans",
+  "platforms": [
+    "Web"
+  ],
+  "features": [
+    {
+      "title": "PSD compatibility",
+      "description": "Open, edit, and save Photoshop PSD files including layers, masks, smart objects, and adjustment layers."
+    },
+    {
+      "title": "Multi-format support",
+      "description": "Read and write PSD, AI, Sketch, XD, Figma, XCF, RAW, SVG, PDF, PNG, JPEG, WebP, and more."
+    },
+    {
+      "title": "Local processing",
+      "description": "Files are processed in your browser instead of uploaded to a server, so your images stay on your device."
+    },
+    {
+      "title": "Familiar tools",
+      "description": "Brush, pen, selection, retouching, and text tools follow Photoshop conventions and keyboard shortcuts."
+    },
+    {
+      "title": "Layer effects and filters",
+      "description": "Apply blend modes, layer styles, smart filters, and transformations on layered compositions."
+    }
+  ],
+  "useCases": [
+    "Editing PSD files on devices without Photoshop installed",
+    "Retouching photos and removing backgrounds",
+    "Designing social media graphics and banners",
+    "Converting between PSD, AI, SVG, and other formats",
+    "Teaching image editing in a browser-only classroom"
+  ],
+  "faq": [
+    {
+      "question": "Is Photopea free?",
+      "answer": "Yes, Photopea is free and supported by ads. A low-cost Premium subscription removes ads and lifts a few session limits."
+    },
+    {
+      "question": "Do I need an account?",
+      "answer": "No, you can use Photopea without creating an account. An account is only needed if you subscribe to Premium."
+    },
+    {
+      "question": "Are my files uploaded to a server?",
+      "answer": "No, Photopea processes images locally in your browser. Files are not uploaded unless you explicitly use a cloud storage option."
+    },
+    {
+      "question": "Can it open Photoshop files?",
+      "answer": "Yes, Photopea opens and saves PSD files with most layer features intact, and it also handles AI, Sketch, XD, and Figma files."
+    }
+  ]
 }

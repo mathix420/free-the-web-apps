@@ -10,5 +10,29 @@
     "chat",
     "communication"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Discord is a voice, video, and text chat platform organized around servers and channels. Servers act as communities with their own themed channels, roles, and permissions, while direct messages and group DMs handle smaller, private conversations between friends.\n\nThe app started in gaming but is now used for study groups, open-source projects, creator fan communities, and small teams. Voice channels can be joined freely without scheduling a call, and screen sharing, video calls, and integrated activities like watch parties are built in.\n\nMost features are free; a Nitro subscription adds higher upload limits, longer video, custom emoji, and other cosmetic perks. Bots and webhooks make Discord easy to extend with moderation, music, role management, and integrations from external services.",
+  "category": "Communication",
+  "developer": "Discord, Inc.",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "Servers and channels", "description": "Create themed servers with text, voice, and forum channels organized by topic and role."},
+    {"title": "Voice and video chat", "description": "Drop into persistent voice channels or start group video calls with screen sharing for up to dozens of users."},
+    {"title": "Roles and permissions", "description": "Fine-grained roles control who can see, post in, or moderate each channel within a server."},
+    {"title": "Bots and integrations", "description": "Add bots for moderation, music, polls, and integrations with services like GitHub, YouTube, and Twitch."},
+    {"title": "Threads and forums", "description": "Side conversations live in dedicated threads so main channels stay focused."}
+  ],
+  "useCases": [
+    "Hanging out with friends in voice channels while gaming or studying",
+    "Running an open-source project's community with channels per topic",
+    "Hosting a creator or fan community with roles and announcements",
+    "Coordinating a small team or club without setting up a full workspace"
+  ],
+  "faq": [
+    {"question": "Is Discord free?", "answer": "Discord is free to use; the optional Nitro subscription adds larger uploads, custom emoji, and other perks."},
+    {"question": "Do I need an account?", "answer": "Yes, you need a free Discord account to send messages, join servers, or participate in voice channels."},
+    {"question": "Can I use Discord in a browser?", "answer": "Yes, Discord runs in modern browsers without installing the desktop app, though some features work better on the dedicated client."},
+    {"question": "Are messages encrypted?", "answer": "Discord uses TLS for transport, but most server messages are not end-to-end encrypted; only newer features like calls have started rolling out E2EE."}
+  ]
 }

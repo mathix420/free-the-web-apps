@@ -11,5 +11,29 @@
     "ui",
     "programming"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "v0 is an AI assistant from Vercel that generates user interface code from natural-language prompts, screenshots, or Figma references. It outputs React components styled with Tailwind CSS, defaulting to shadcn/ui primitives, and lets users iterate on designs through follow-up messages.\n\nDevelopers and designers use v0 to scaffold landing pages, dashboards, forms, and full app layouts without starting from a blank file. Generated code can be previewed live, tweaked in chat, and copied directly into a project or shipped to a Vercel deployment.\n\nv0 fits naturally into the Next.js and Vercel ecosystem, making it useful for teams already deploying on that stack who want to skip the boilerplate of common UI patterns.",
+  "category": "DeveloperApplication",
+  "developer": "Vercel",
+  "pricing": "Freemium",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Prompt to UI", "description": "Describe a screen in plain English and receive a working React and Tailwind component in seconds."},
+    {"title": "Iterative chat", "description": "Refine generated UI through follow-up messages that adjust layout, copy, colors, or behavior."},
+    {"title": "shadcn/ui defaults", "description": "Components use the popular shadcn/ui library so output drops cleanly into modern Next.js codebases."},
+    {"title": "Image and Figma input", "description": "Upload screenshots or paste Figma frames to generate matching component code."},
+    {"title": "Vercel deploy", "description": "Ship a generated project to a live Vercel URL with a single click for previews and demos."}
+  ],
+  "useCases": [
+    "Scaffolding landing page sections and marketing components quickly",
+    "Generating dashboards, forms, and admin layouts for prototypes",
+    "Turning a screenshot or design mockup into working React code",
+    "Exploring multiple UI variations before committing to a design"
+  ],
+  "faq": [
+    {"question": "Is v0 free?", "answer": "v0 has a free tier with monthly credits. Paid plans offer larger context, more credits, and team features."},
+    {"question": "What framework does v0 use?", "answer": "v0 generates React components with Tailwind CSS, typically targeting Next.js and using shadcn/ui primitives by default."},
+    {"question": "Do I need a Vercel account?", "answer": "Yes, sign-in with a Vercel account is required to use v0 and access generated chats."},
+    {"question": "Can I use v0 output commercially?", "answer": "Generated code can be used in your own projects, including commercial ones, subject to Vercel's terms of service."}
+  ]
 }

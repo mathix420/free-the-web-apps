@@ -10,5 +10,61 @@
     "social",
     "design"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Pinterest is a visual discovery platform where users save and organize images, called Pins, into themed collections called boards. It is widely used for collecting inspiration around interior design, fashion, recipes, weddings, travel, DIY projects, and creative work.\n\nThe home feed surfaces Pins based on past saves and searches, and visual search lets you find similar items from any image. Each Pin links back to a source URL, which makes Pinterest both a mood-board tool and a referral channel for blogs, online stores, and creators. Idea Pins and short videos add a more creator-focused layer alongside static images.\n\nIndividuals use Pinterest to plan projects and save references, while businesses use it to drive traffic to product pages and content. The platform also offers shopping features, advertising, and analytics for brands and merchants.",
+  "category": "SocialNetworkingApplication",
+  "developer": "Pinterest, Inc.",
+  "pricing": "Free",
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Boards and Pins",
+      "description": "Save images as Pins and organize them into themed boards for projects, inspiration, or product research."
+    },
+    {
+      "title": "Visual search",
+      "description": "Search for visually similar images from any photo or part of an image using the built-in lens tool."
+    },
+    {
+      "title": "Personalized home feed",
+      "description": "The home feed recommends Pins based on what you save, search, and follow over time."
+    },
+    {
+      "title": "Shopping and product Pins",
+      "description": "Discover products with prices and links directly inside Pins, with a dedicated shopping tab."
+    },
+    {
+      "title": "Idea Pins",
+      "description": "Creators publish multi-page Idea Pins with photos and short videos to share tutorials and inspiration."
+    }
+  ],
+  "useCases": [
+    "Collecting inspiration for home renovation or interior design",
+    "Planning weddings, parties, or events with mood boards",
+    "Saving recipes and meal ideas in one place",
+    "Researching fashion, beauty, and product trends",
+    "Driving traffic from Pins back to a blog or store"
+  ],
+  "faq": [
+    {
+      "question": "Is Pinterest free?",
+      "answer": "Yes, Pinterest is free for personal and business accounts. Revenue comes from advertising, not subscriptions."
+    },
+    {
+      "question": "Do I need an account to browse?",
+      "answer": "You can see some content without an account, but saving Pins, creating boards, and following others requires a free Pinterest account."
+    },
+    {
+      "question": "Can I make boards private?",
+      "answer": "Yes, Pinterest offers Secret boards that are visible only to you and people you specifically invite."
+    },
+    {
+      "question": "Does Pinterest sell what I see?",
+      "answer": "Pinterest itself is not a store. Product Pins link out to the merchant's website, where the actual purchase takes place."
+    }
+  ]
 }

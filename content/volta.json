@@ -11,5 +11,29 @@
     "programming",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Volta is a productivity layer on top of GitHub designed to give engineering teams a faster, more focused workflow than the default GitHub UI. It centralizes pull requests, issues, notifications, and reviews into a single inbox so developers can triage work without jumping between repos and browser tabs.\n\nThe app is aimed at software teams that live in GitHub all day and want keyboard-driven navigation, smarter notifications, and a consolidated view of activity across multiple repositories. It surfaces the work that needs attention while filtering out noise from less relevant updates.\n\nBecause it sits on top of existing GitHub data, Volta complements rather than replaces GitHub itself.",
+  "category": "DeveloperApplication",
+  "developer": "The team behind Volta",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Unified inbox", "description": "Pull requests, issues, mentions, and reviews from every repo land in one prioritized inbox."},
+    {"title": "Keyboard shortcuts", "description": "Navigate, triage, and respond to GitHub activity entirely from the keyboard for faster workflows."},
+    {"title": "Smart notifications", "description": "Focused alerts surface what actually needs action and quiet down repetitive or low-priority noise."},
+    {"title": "Review queue", "description": "See pending code reviews across repositories at a glance instead of digging through individual PR pages."},
+    {"title": "GitHub integration", "description": "Connects directly to your GitHub account so changes stay in sync with the source repositories."}
+  ],
+  "useCases": [
+    "Triaging GitHub notifications across many repositories in one place",
+    "Reviewing assigned pull requests without context switching between tabs",
+    "Following team activity and mentions with less noise than default GitHub",
+    "Speeding up daily code review and issue management with keyboard shortcuts"
+  ],
+  "faq": [
+    {"question": "Do I need a GitHub account?", "answer": "Yes, Volta connects to GitHub and uses your account's data to display PRs, issues, and notifications."},
+    {"question": "Is Volta free?", "answer": "Volta offers a free tier with paid plans available for teams that need additional features."},
+    {"question": "Does Volta replace GitHub?", "answer": "No, Volta is a productivity layer on top of GitHub. Your code, PRs, and history all remain on GitHub."},
+    {"question": "Is this the same as the Volta Node.js manager?", "answer": "No. This Volta is a GitHub workflow tool at volta.net, unrelated to the Volta JavaScript toolchain manager at volta.sh."}
+  ]
 }

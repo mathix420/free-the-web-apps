@@ -11,5 +11,29 @@
     "video",
     "entertainment"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "YouTube Music is Google's streaming service built on top of YouTube's catalog. It combines official tracks and albums with the live versions, remixes, covers, and music videos that exist only on YouTube, so listeners can switch between audio and video for the same song.\n\nThe service offers personalized mixes, mood and activity stations, and a recommendation engine fed by listening and YouTube watch history. Users can build playlists, follow artists, and download songs and albums for offline playback in the mobile apps.\n\nA free, ad-supported tier is available with limitations such as no background playback on mobile. YouTube Music Premium and YouTube Premium remove ads, enable background and offline play, and unlock audio-only mode.",
+  "category": "MusicApplication",
+  "developer": "Google LLC",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Audio and video", "description": "Switch between the audio track and the music video for the same song without losing your place."},
+    {"title": "Personalized mixes", "description": "Daily mixes and recommended stations adapt to your listening history and YouTube activity."},
+    {"title": "Offline downloads", "description": "Premium subscribers can download songs, albums, and playlists for listening without a connection."},
+    {"title": "Smart search", "description": "Find tracks by lyrics, hummed melodies, or descriptions on top of standard artist and album search."},
+    {"title": "Library and playlists", "description": "Save albums, build playlists, and follow artists to keep new releases close at hand."}
+  ],
+  "useCases": [
+    "Streaming music while working or studying with curated background mixes",
+    "Watching official music videos and live performances in the same app",
+    "Discovering new artists through personalized daily recommendations",
+    "Downloading playlists for offline listening on commutes or flights"
+  ],
+  "faq": [
+    {"question": "Is YouTube Music free?", "answer": "There is a free, ad-supported tier; YouTube Music Premium adds offline downloads, background playback, and removes ads."},
+    {"question": "Can I listen with the screen off on mobile?", "answer": "Background playback on mobile requires a YouTube Music Premium or YouTube Premium subscription."},
+    {"question": "Does my YouTube Premium include YouTube Music?", "answer": "Yes, a YouTube Premium subscription includes ad-free YouTube Music with background and offline playback."},
+    {"question": "Can I import my library from another service?", "answer": "Google supports importing playlists and likes through its own tools, and several third-party services can transfer libraries from other platforms."}
+  ]
 }

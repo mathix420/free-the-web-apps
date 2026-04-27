@@ -10,10 +10,28 @@ export interface WebsiteType {
   logoSize: number;
 }
 
+export interface AppFeature {
+  title: string;
+  description: string;
+}
+
+export interface AppFaq {
+  question: string;
+  answer: string;
+}
+
 export interface VerifiedWebsiteType extends WebsiteType {
   description: string;
   screenshot: string;
   macLogo?: string;
+  longDescription?: string;
+  category?: string;
+  developer?: string;
+  pricing?: string;
+  platforms?: string[];
+  features?: AppFeature[];
+  useCases?: string[];
+  faq?: AppFaq[];
 }
 
 export interface VerifiedWebsiteContent extends ParsedContent, VerifiedWebsiteType {};

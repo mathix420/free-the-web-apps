@@ -10,5 +10,65 @@
     "ai",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Le Chat is the conversational AI assistant developed by Mistral AI, a French research lab known for its open-weights large language models. It provides a chat interface for asking questions, drafting and editing text, writing code, and working with documents and images.\n\nLe Chat draws on Mistral's family of models, including frontier-tier models for complex reasoning and smaller, faster models for everyday queries. The assistant supports web search to ground answers in current information, code execution, image generation, and document uploads. It also offers Agents and Connectors that link the assistant to external data sources and workflows.\n\nThe service is positioned as a European alternative to other large AI assistants, with hosting in the EU and a focus on data sovereignty. It is used by individuals, developers, and enterprises that want a sovereign assistant with strong multilingual support, especially in French.",
+  "category": "WebApplication",
+  "developer": "Mistral AI",
+  "pricing": "Freemium",
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Mistral models",
+      "description": "Chat with Mistral's frontier and lightweight models, including reasoning-capable variants for complex tasks."
+    },
+    {
+      "title": "Web search",
+      "description": "Le Chat can browse the web in real time to answer questions about recent events with cited sources."
+    },
+    {
+      "title": "Image generation",
+      "description": "Generate images directly inside the chat from text prompts without switching tools."
+    },
+    {
+      "title": "Document analysis",
+      "description": "Upload PDFs, spreadsheets, and other documents to summarize, extract data, or ask questions about them."
+    },
+    {
+      "title": "Code interpreter",
+      "description": "Run Python in a sandbox to crunch numbers, plot charts, and validate logic without leaving the chat."
+    },
+    {
+      "title": "Agents and connectors",
+      "description": "Build custom assistants that connect to external data sources and run multi-step workflows."
+    }
+  ],
+  "useCases": [
+    "Drafting and editing emails, articles, and reports in French or English",
+    "Searching the web for up-to-date answers with cited sources",
+    "Summarizing PDFs, contracts, and meeting notes",
+    "Generating and debugging code snippets across languages",
+    "Building custom agents for repetitive workplace tasks"
+  ],
+  "faq": [
+    {
+      "question": "Is Le Chat free?",
+      "answer": "Le Chat has a free tier with access to standard models. Pro and Team plans add higher limits, premium models, and priority access."
+    },
+    {
+      "question": "Where is my data stored?",
+      "answer": "Mistral is a European company and offers EU hosting, which is a key differentiator for users with data sovereignty requirements."
+    },
+    {
+      "question": "Are Mistral's models open source?",
+      "answer": "Several Mistral models are released under open weights for self-hosting, while frontier and commercial models remain proprietary."
+    },
+    {
+      "question": "Can Le Chat access the internet?",
+      "answer": "Yes, Le Chat includes a web search mode that fetches current information and includes citations in responses."
+    }
+  ]
 }

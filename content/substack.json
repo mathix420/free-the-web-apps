@@ -11,5 +11,30 @@
     "social",
     "entrepreneurship"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Substack is a publishing platform built around email newsletters and paid subscriptions. Writers create their own publication, publish posts that go out by email and live on the web, and optionally charge readers a monthly or yearly fee for full access.\n\nIt handles the operational pieces independent writers usually have to wire up themselves: hosting, mailing lists, payments via Stripe, comments, and a reader app. Beyond text, Substack supports podcasts, video, and short-form Notes, and recommendations between publications help writers find new readers.\n\nSubstack is used by journalists, analysts, novelists, and hobbyists to run direct-to-reader publications without a traditional outlet. Reading is free for anyone with the link, but paying subscribers unlock paywalled posts and any subscriber-only community features.",
+  "category": "WebApplication",
+  "developer": "Substack Inc.",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Email + web publishing", "description": "Every post is delivered to subscribers' inboxes and lives on a clean web page at the same time."},
+    {"title": "Paid subscriptions", "description": "Writers can charge monthly or yearly with payments, taxes, and renewals handled through Stripe."},
+    {"title": "Podcasts and video", "description": "Publications can include podcast episodes and video posts alongside written articles."},
+    {"title": "Notes and recommendations", "description": "Short-form Notes and cross-publication recommendations help writers grow their audience."},
+    {"title": "Reader app and community", "description": "A dedicated mobile app surfaces subscriptions, comments, and chat threads with subscribers."}
+  ],
+  "useCases": [
+    "Running an independent newsletter as a journalist or analyst",
+    "Charging readers directly for in-depth or niche writing",
+    "Distributing a podcast or video series with email follow-ups",
+    "Building a small paid community around a topic or beat",
+    "Migrating an existing mailing list to a hosted platform"
+  ],
+  "faq": [
+    {"question": "Is Substack free for writers?", "answer": "Substack is free to start; the company takes a 10% fee on paid subscriptions plus standard Stripe payment processing fees."},
+    {"question": "Do readers need an account?", "answer": "Reading public posts only needs an email address, but commenting, paying for a subscription, or using the app requires a free Substack account."},
+    {"question": "Can I export my subscriber list?", "answer": "Yes, writers own their subscriber list and email addresses and can export them at any time to move to another platform."},
+    {"question": "Can I run a podcast on Substack?", "answer": "Yes, Substack supports podcast hosting with private feeds for paying subscribers and public feeds for free episodes."}
+  ]
 }

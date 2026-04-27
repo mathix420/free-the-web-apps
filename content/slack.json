@@ -10,5 +10,30 @@
     "communication",
     "chat"
   ],
-  "logoSize": 400
+  "logoSize": 400,
+  "longDescription": "Slack is a messaging platform built for team and workplace communication. Conversations are organized into channels by project, topic, or department, alongside direct messages and group DMs for smaller discussions.\n\nIt supports threaded replies, file sharing, voice and video huddles, and message search across the entire workspace history. A large directory of integrations connects Slack to tools like GitHub, Google Drive, Jira, and Salesforce so notifications and actions flow into the same place people are already chatting.\n\nSlack is used by companies of all sizes as the default channel for daily work coordination, incident response, customer support, and cross-team announcements. Workspaces can be open to all employees or invite-only, and Slack Connect lets you share channels with external organizations.",
+  "category": "Communication",
+  "developer": "Slack Technologies (Salesforce)",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "Channels and DMs", "description": "Public, private, and shared channels organize conversations by topic, with direct messages for one-on-one chats."},
+    {"title": "Threads and reactions", "description": "Replies branch into threads so side conversations don't clutter the main channel feed."},
+    {"title": "Huddles and Clips", "description": "Lightweight voice and video calls run directly inside channels alongside short recorded video messages."},
+    {"title": "App integrations", "description": "Thousands of apps and custom workflows pipe alerts, approvals, and tasks into Slack from other tools."},
+    {"title": "Search and history", "description": "Full-text search covers messages, files, and channels so older context is easy to find."}
+  ],
+  "useCases": [
+    "Coordinating daily work across distributed product and engineering teams",
+    "Running incident response with dedicated channels and bot integrations",
+    "Sharing announcements and updates across a whole company",
+    "Talking with external partners and clients through Slack Connect",
+    "Replacing internal email for quick questions and decisions"
+  ],
+  "faq": [
+    {"question": "Is Slack free?", "answer": "Slack offers a free plan with limited message history and integrations; paid Pro, Business+, and Enterprise tiers unlock full history and admin features."},
+    {"question": "Do I need an invite to join a workspace?", "answer": "Yes, each Slack workspace is private and requires an invitation or matching email domain to join."},
+    {"question": "Can I talk to people outside my company?", "answer": "Slack Connect lets you share channels and DMs with people from other organizations on paid plans."},
+    {"question": "Does Slack store messages forever?", "answer": "On the free plan only the most recent 90 days of history are accessible; paid plans retain the full message archive."}
+  ]
 }

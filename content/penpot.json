@@ -11,5 +11,66 @@
     "prototyping",
     "ui"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Penpot is an open-source design and prototyping platform built for cross-functional teams of designers and developers. It runs in the browser and uses open web standards, including SVG and CSS, as the native format of every design file.\n\nThe tool covers the full product design workflow: vector editing, layout with flex and grid, components and design systems, interactive prototypes, and dev handoff with ready-to-copy CSS. Because files are SVG-based, designs translate directly to code that engineers can use without an export step.\n\nPenpot is positioned as a free, vendor-neutral alternative to closed design tools. It can be used on the hosted SaaS at design.penpot.app or self-hosted via Docker for teams that need full control over their data. It is developed by Kaleidos and licensed under the Mozilla Public License.",
+  "category": "DesignApplication",
+  "developer": "Kaleidos",
+  "pricing": "Open source / free",
+  "platforms": [
+    "Web",
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "title": "Open file format",
+      "description": "Designs are SVG-based and use open web standards, so files are portable and not locked into a proprietary format."
+    },
+    {
+      "title": "Components and libraries",
+      "description": "Build reusable components with variants and shared libraries that stay in sync across files and teams."
+    },
+    {
+      "title": "Flex and grid layout",
+      "description": "Apply flexbox and CSS grid directly inside the canvas so designs reflect how they will be built in code."
+    },
+    {
+      "title": "Interactive prototyping",
+      "description": "Wire up screens with transitions, overlays, and flows to validate user journeys before development."
+    },
+    {
+      "title": "Dev mode and CSS export",
+      "description": "Inspect any element to copy ready-to-use CSS, design tokens, and assets for engineering handoff."
+    },
+    {
+      "title": "Self-hosting",
+      "description": "Deploy Penpot on your own infrastructure with Docker for full data ownership and on-premise compliance."
+    }
+  ],
+  "useCases": [
+    "Designing web and mobile interfaces with an open file format",
+    "Building and maintaining a shared design system",
+    "Prototyping user flows and validating interactions",
+    "Handing off designs to engineers with CSS and tokens",
+    "Self-hosting a design tool inside a regulated organization"
+  ],
+  "faq": [
+    {
+      "question": "Is Penpot free?",
+      "answer": "Yes, Penpot is free and open-source under the MPL license. The hosted version at design.penpot.app is free, with paid options for organizations."
+    },
+    {
+      "question": "Can I self-host Penpot?",
+      "answer": "Yes, Penpot publishes Docker images and documentation for self-hosting on your own server or private cloud."
+    },
+    {
+      "question": "How does Penpot compare to Figma?",
+      "answer": "Penpot covers similar use cases, including UI design, components, and prototyping, but uses open standards and SVG as the native format."
+    },
+    {
+      "question": "Can I import Figma files?",
+      "answer": "Penpot offers an import path for Figma files via export packages, with ongoing improvements to fidelity and feature coverage."
+    }
+  ]
 }

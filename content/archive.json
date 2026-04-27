@@ -10,5 +10,29 @@
     "news",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "The Internet Archive is a non-profit digital library that preserves and provides free access to a huge collection of digitized materials, including websites, books, audio recordings, films, software, images, and television news. Its best-known service, the Wayback Machine, has captured hundreds of billions of web pages since 1996, letting anyone view how a site looked on a given date.\n\nBeyond the web, archive.org hosts public-domain books and texts, classic concert recordings from groups like the Grateful Dead, vintage software playable in the browser, and educational and historical video. Researchers, journalists, and the general public use it for citations, historical reference, and access to out-of-print or rare media.\n\nThe Archive accepts uploads from users and institutions, and releases its tools and datasets so that other archives, libraries, and developers can build on its work.",
+  "category": "EducationalApplication",
+  "developer": "Internet Archive",
+  "pricing": "Free",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Wayback Machine", "description": "Browse archived versions of web pages going back to 1996 by URL and date."},
+    {"title": "Digital book library", "description": "Read or borrow scanned books, including public-domain titles and modern works through Open Library."},
+    {"title": "Audio and video archive", "description": "Stream or download concerts, classic films, TV news, lectures, and old radio broadcasts."},
+    {"title": "Software preservation", "description": "Run vintage operating systems, games, and applications directly in the browser via emulators."},
+    {"title": "User uploads", "description": "Anyone with an account can upload media into appropriate collections to help preserve cultural heritage."}
+  ],
+  "useCases": [
+    "Citing how a web page looked on a specific date for research or journalism",
+    "Reading public-domain books or borrowing scanned titles online",
+    "Listening to live concert recordings or historical radio broadcasts",
+    "Playing emulated vintage software and games from past decades"
+  ],
+  "faq": [
+    {"question": "Is the Internet Archive free to use?", "answer": "Yes, access is free for everyone; the organization is a non-profit funded primarily by donations and grants."},
+    {"question": "Do I need an account?", "answer": "Browsing and the Wayback Machine work without an account, but uploading or borrowing certain books requires a free Internet Archive account."},
+    {"question": "How do I save a page to the Wayback Machine?", "answer": "Use the \"Save Page Now\" form on web.archive.org or the official browser extension to capture a current snapshot."},
+    {"question": "Can I download content from archive.org?", "answer": "Most items can be downloaded in multiple formats; some titles are loanable rather than freely downloadable due to copyright."}
+  ]
 }

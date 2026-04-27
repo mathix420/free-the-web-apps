@@ -10,5 +10,29 @@
     "ai",
     "chat",
     "tool"
+  ],
+  "longDescription": "Claude is an AI assistant developed by Anthropic that can hold long conversations, answer questions, write and review code, summarize and analyze documents, and help with research and writing. It's accessed primarily through claude.ai, where users chat with the model in a familiar message interface.\n\nClaude can read uploaded files including PDFs, images, spreadsheets, and code, and it supports projects to keep documents and instructions organized across many conversations. Features such as Artifacts render structured outputs like code, documents, and small interactive previews next to the chat, while connectors let Claude work with services such as Google Drive, GitHub, and others.\n\nThe assistant is also available through an API for developers, mobile and desktop clients, and Claude Code for working with codebases from the terminal. Anthropic emphasizes safety research and \"Constitutional AI\" techniques in how the models are trained.",
+  "category": "UtilitiesApplication",
+  "developer": "Anthropic",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Long-context conversations", "description": "Claude can work with very long documents and conversations, keeping track of context across many turns."},
+    {"title": "File and image understanding", "description": "Upload PDFs, images, spreadsheets, and code so Claude can summarize, analyze, and answer questions about them."},
+    {"title": "Projects", "description": "Group related chats, files, and custom instructions into a project so Claude has consistent context to draw on."},
+    {"title": "Artifacts", "description": "Generate code, documents, and small interactive previews in a side panel that updates as the conversation evolves."},
+    {"title": "Connectors and tools", "description": "Connect services like Google Drive and GitHub or use built-in tools so Claude can act on your data and the web."}
+  ],
+  "useCases": [
+    "Drafting and editing emails, essays, and long-form documents",
+    "Reviewing, refactoring, and explaining code across files",
+    "Summarizing research papers, contracts, and meeting transcripts",
+    "Brainstorming ideas, plans, and outlines with iterative feedback"
+  ],
+  "faq": [
+    {"question": "Is Claude free?", "answer": "Claude has a free plan with daily message limits and paid Pro, Max, Team, and Enterprise plans that raise limits and add features."},
+    {"question": "Who makes Claude?", "answer": "Claude is developed by Anthropic, an AI safety company founded in 2021."},
+    {"question": "Can Claude read files?", "answer": "Yes, you can upload PDFs, images, spreadsheets, and code, and Claude can summarize and answer questions about them."},
+    {"question": "Is there an API for Claude?", "answer": "Yes, Anthropic offers a developer API so applications can call Claude models programmatically with their own keys."}
   ]
 }

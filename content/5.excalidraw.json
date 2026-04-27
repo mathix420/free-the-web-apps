@@ -11,5 +11,29 @@
     "drawing",
     "tool"
   ],
-  "logoSize": 192
+  "logoSize": 192,
+  "longDescription": "Excalidraw is an open-source virtual whiteboard for sketching diagrams with a hand-drawn look. Boxes, arrows, and freehand strokes are rendered with intentionally rough edges, which keeps diagrams feeling like quick illustrations rather than polished engineering documents.\n\nIt is popular with engineers, technical writers, and educators who want to explain architecture, flows, or concepts in blog posts, RFCs, and slides. Drawings can be exported as PNG, SVG, or a portable .excalidraw JSON file, and a self-hostable version exists for teams that need full control.\n\nThe hosted app supports real-time collaboration through end-to-end encrypted rooms, libraries of reusable shapes, and a growing ecosystem of integrations into tools like Obsidian, VS Code, and Notion.",
+  "category": "DesignApplication",
+  "developer": "Excalidraw contributors",
+  "pricing": "Open source / free",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Hand-drawn style", "description": "Shapes and arrows render with a sketchy look that fits architecture diagrams and explanatory drawings."},
+    {"title": "End-to-end encrypted collaboration", "description": "Live multi-user sessions are encrypted in the browser so the server never sees the content."},
+    {"title": "Shape libraries", "description": "Import and share libraries of pre-made elements for common UI, cloud, and infrastructure diagrams."},
+    {"title": "Multiple export formats", "description": "Save as PNG, SVG, or a portable .excalidraw file that preserves editable elements."},
+    {"title": "Open source and self-hostable", "description": "The full editor is MIT-licensed and can be self-hosted for offline or private deployments."}
+  ],
+  "useCases": [
+    "Sketching system architecture diagrams for documentation and RFCs",
+    "Explaining concepts visually in blog posts, slides, and online classes",
+    "Running quick collaborative drawing sessions during remote meetings",
+    "Embedding editable drawings inside notes apps like Obsidian or Notion"
+  ],
+  "faq": [
+    {"question": "Is Excalidraw free?", "answer": "Excalidraw is open source and free to use; an optional paid Excalidraw+ plan adds team collaboration features."},
+    {"question": "Are my drawings private?", "answer": "Drawings stay in your browser by default, and live collaboration sessions are end-to-end encrypted."},
+    {"question": "Can I self-host Excalidraw?", "answer": "Yes, the project is MIT-licensed and the source code is available on GitHub for self-hosting."},
+    {"question": "What export formats are supported?", "answer": "You can export to PNG, SVG, clipboard, or a .excalidraw JSON file that keeps all elements editable."}
+  ]
 }

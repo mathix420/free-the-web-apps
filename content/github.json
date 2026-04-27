@@ -12,5 +12,30 @@
     "tool",
     "productivity"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "GitHub is the largest hosting platform for software projects built on the Git version-control system. Developers push repositories to GitHub to back them up, collaborate via pull requests, and run continuous integration through GitHub Actions. Issues, discussions, and project boards turn each repository into a small project-management space alongside the code itself.\n\nIt hosts the majority of well-known open-source projects and is also widely used inside companies for private code, code review, and release engineering. Features such as Codespaces (cloud development environments), Copilot (AI pair programmer), Packages (artifact registry), and Pages (static site hosting) make it a hub well beyond just a Git server.\n\nFree accounts include unlimited public and private repositories with generous Actions minutes. Paid plans add organization-level controls, advanced security scanning, audit logs, and SAML SSO for enterprise customers.",
+  "category": "DeveloperApplication",
+  "developer": "GitHub, Inc. (Microsoft)",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "Git repository hosting", "description": "Host unlimited public and private Git repositories with branch protection and access controls."},
+    {"title": "Pull request reviews", "description": "Review code changes inline, request changes, and protect branches with required reviewers and checks."},
+    {"title": "GitHub Actions CI/CD", "description": "Run builds, tests, and deployments through workflows triggered by pushes, pull requests, or schedules."},
+    {"title": "Issues and Projects", "description": "Track work with issues, milestones, labels, and customizable project boards tied to the code."},
+    {"title": "Copilot AI assistance", "description": "Get inline code completions and chat-based help powered by GitHub Copilot inside the editor and on the site."},
+    {"title": "Codespaces", "description": "Spin up preconfigured cloud development environments directly from a repository in a browser."}
+  ],
+  "useCases": [
+    "Hosting and collaborating on open-source projects in public repositories",
+    "Running pull request reviews and CI/CD inside an engineering team",
+    "Publishing static sites and project documentation through GitHub Pages",
+    "Distributing releases, container images, and packages to other developers"
+  ],
+  "faq": [
+    {"question": "Is GitHub free?", "answer": "GitHub has a free tier with unlimited public and private repositories; paid plans add team features, advanced security, and enterprise controls."},
+    {"question": "Do I need GitHub to use Git?", "answer": "No, Git is a separate tool, but GitHub provides hosting, collaboration, and automation around Git repositories."},
+    {"question": "Can I host private code on GitHub?", "answer": "Yes, both individuals and organizations can create private repositories on the free plan."},
+    {"question": "What is GitHub Actions?", "answer": "GitHub Actions is the built-in CI/CD system that runs custom workflows for testing, building, and deploying code."}
+  ]
 }

@@ -11,5 +11,30 @@
     "tool",
     "music",
     "programming"
+  ],
+  "longDescription": "Strudel is a live coding environment for making music in the browser. It is a JavaScript port of TidalCycles, the influential pattern language for algorithmic music, and runs entirely client-side using the Web Audio API.\n\nYou write short patterns in code that generate rhythms, melodies, and synth or sample lines, then evaluate them on the fly to hear changes immediately. Patterns can be combined, transformed, and timed using a concise mini-notation, which makes it well suited to algorave performances and exploratory composition.\n\nStrudel is used by live coders, electronic musicians, and educators teaching algorithmic music. The site bundles an editor, sample library, MIDI output, and a tutorial that walks newcomers through pattern syntax. The project is open source.",
+  "category": "MusicApplication",
+  "developer": "The Strudel project (open source)",
+  "pricing": "Open source / free",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Pattern mini-notation", "description": "A concise syntax expresses rhythms, melodies, and transformations in just a few characters."},
+    {"title": "Live evaluation", "description": "Re-run code on the fly and hear changes instantly without restarting the audio engine."},
+    {"title": "Web Audio synthesis", "description": "Built-in synths, samples, and effects run natively in the browser with no installation required."},
+    {"title": "MIDI and OSC output", "description": "Patterns can drive external hardware and software instruments through MIDI and OSC."},
+    {"title": "Built-in tutorial", "description": "Step-by-step lessons inside the editor introduce pattern syntax and Strudel's standard library."}
+  ],
+  "useCases": [
+    "Performing live coded music at algoraves and online streams",
+    "Sketching algorithmic rhythms and melodies in the browser",
+    "Teaching pattern-based music programming in workshops",
+    "Driving external synths and DAWs over MIDI from code",
+    "Exploring TidalCycles concepts without installing Haskell or SuperCollider"
+  ],
+  "faq": [
+    {"question": "Is Strudel free?", "answer": "Yes, Strudel is open source and free to use directly in the browser with no account required."},
+    {"question": "Do I need to install anything?", "answer": "No, Strudel runs entirely in the browser; an account is optional and only used to save and share patterns."},
+    {"question": "How does Strudel relate to TidalCycles?", "answer": "Strudel is a JavaScript port of TidalCycles' pattern language, so most concepts translate directly between the two."},
+    {"question": "Can I use Strudel with external instruments?", "answer": "Yes, Strudel can send MIDI and OSC messages to external hardware synths and DAWs alongside its built-in audio engine."}
   ]
 }

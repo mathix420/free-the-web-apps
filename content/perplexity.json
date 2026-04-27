@@ -10,5 +10,63 @@
     "ai",
     "tool"
   ],
-  "logoSize": 180
+  "logoSize": 180,
+  "longDescription": "Perplexity is an AI-powered answer engine that combines large language models with real-time web search. Instead of returning a list of links, it produces a written answer with inline citations to the sources it used, so you can verify any claim.\n\nIt supports follow-up questions in a conversational thread, related-question suggestions, and Focus modes that restrict search to specific domains such as academic papers, YouTube videos, Reddit discussions, or social platforms. Pro users can switch the underlying model and run deeper research with multi-step reasoning, file uploads, and image generation.\n\nPerplexity is used for fact-finding, technical research, comparison shopping, and general curiosity. Its Spaces and Collections features keep ongoing research organized, and the assistant on mobile and desktop can summarize web pages, PDFs, and uploaded documents.",
+  "category": "WebApplication",
+  "developer": "Perplexity AI, Inc.",
+  "pricing": "Freemium",
+  "platforms": [
+    "Web",
+    "macOS",
+    "Windows",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Cited answers",
+      "description": "Every response includes inline citations to the source articles, papers, or pages it pulled from."
+    },
+    {
+      "title": "Focus modes",
+      "description": "Restrict searches to academic papers, YouTube, Reddit, or other domains to filter out noise."
+    },
+    {
+      "title": "Pro Search and deep research",
+      "description": "Pro users can run multi-step research that browses several sources before composing a longer answer."
+    },
+    {
+      "title": "Model selection",
+      "description": "Choose between leading models such as Claude, GPT, Gemini, and Perplexity's own Sonar models on Pro."
+    },
+    {
+      "title": "Spaces and threads",
+      "description": "Organize related research into Spaces with custom instructions and shareable threads."
+    }
+  ],
+  "useCases": [
+    "Researching a topic with sourced, summarized answers",
+    "Comparing products, services, or technical options",
+    "Finding academic papers and primary sources quickly",
+    "Summarizing long PDFs and web articles",
+    "Asking follow-up questions in a single research thread"
+  ],
+  "faq": [
+    {
+      "question": "Is Perplexity free?",
+      "answer": "Perplexity has a free tier with standard search. Pro adds advanced models, Pro Search, file uploads, and higher daily limits for a monthly fee."
+    },
+    {
+      "question": "How is it different from ChatGPT?",
+      "answer": "Perplexity is built around real-time web search with inline citations on every answer, making it more focused on research and verifiable answers."
+    },
+    {
+      "question": "Do I need an account?",
+      "answer": "You can ask basic questions without an account, but signing up unlocks history, threads, Spaces, and personalization features."
+    },
+    {
+      "question": "Can I upload files?",
+      "answer": "Yes, free users can upload a limited number of files per day, while Pro removes most limits and supports larger documents and images."
+    }
+  ]
 }

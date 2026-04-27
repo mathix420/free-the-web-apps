@@ -10,5 +10,29 @@
     "design",
     "social"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Are.na is a platform for organizing visual and textual research into channels of connected blocks. A block can be an image, link, text note, attachment, or another channel, and the same block can be referenced in many different channels at once, building an open graph of related ideas.\n\nThe community leans toward designers, artists, architects, writers, and educators who use it as a slower, ad-free alternative to image-based social networks. Channels can be private, closed, or open for collaboration, and the platform deliberately avoids likes, follower counts, and algorithmic feeds.\n\nAre.na also exposes its content through a developer API, which has led to a small ecosystem of tools for embedding channels in websites, exporting research, and building custom interfaces on top of personal libraries.",
+  "category": "SocialNetworkingApplication",
+  "developer": "Are.na",
+  "pricing": "Freemium",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Channels and blocks", "description": "Organize references into channels of blocks that can be reused across many other channels."},
+    {"title": "Connected research", "description": "Follow how a single block has been connected by other people to surface unexpected adjacencies."},
+    {"title": "Collaborative collecting", "description": "Invite others to contribute to open or closed channels for group research and curation."},
+    {"title": "Ad-free interface", "description": "No likes, follower counts, or algorithmic feed, only chronological collections and connections."},
+    {"title": "Developer API", "description": "An open API lets developers fetch channels and blocks to power personal sites and tools."}
+  ],
+  "useCases": [
+    "Gathering visual references for design, architecture, or art projects",
+    "Building reading lists and research dossiers around long-term topics",
+    "Running collaborative moodboards with collaborators or students",
+    "Exporting curated channels into personal websites or publications"
+  ],
+  "faq": [
+    {"question": "Is Are.na free?", "answer": "Are.na has a free tier with private channel limits and a paid Premium plan that unlocks unlimited private channels and supports the platform."},
+    {"question": "Is Are.na a social network?", "answer": "It is community-driven but deliberately quiet, with no likes or algorithmic feed; you follow people and channels rather than profiles."},
+    {"question": "Can I use Are.na in my own apps?", "answer": "Yes, Are.na has a public API that allows building custom views, embeds, and integrations on top of channels."},
+    {"question": "Are channels public by default?", "answer": "You choose per channel; channels can be public, closed (collaborators only) or private."}
+  ]
 }

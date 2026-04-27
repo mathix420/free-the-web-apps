@@ -10,5 +10,30 @@
     "email",
     "productivity"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "HEY is an opinionated email service from 37signals, the makers of Basecamp. It rethinks how the inbox works rather than wrapping a new client around IMAP. New senders go through The Screener, where you decide once whether they can ever email you. Approved mail is split between the Imbox (important), The Feed (newsletters), and Paper Trail (receipts), each with a presentation tailored to that kind of message.\n\nFeatures like Reply Later, Set Aside, and Bubble Up replace the traditional inbox-zero workflow with explicit shelves for unfinished messages. HEY automatically blocks spy pixels and tracking, and it offers per-sender reply rules and Clips for searchable highlights.\n\nHEY is paid (a flat annual fee per address, plus a HEY for Work tier for custom domains and teams), with no free plan. It is best suited to people frustrated by Gmail-style inboxes who want a more curated, less reactive way of processing email.",
+  "category": "Communication",
+  "developer": "37signals",
+  "pricing": "Paid",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "The Screener", "description": "Approve or reject each new sender on first contact so unwanted senders never reach your inbox."},
+    {"title": "Imbox, Feed, Paper Trail", "description": "Mail is split by type into important messages, newsletters, and receipts, each with a fitting layout."},
+    {"title": "Reply Later and Set Aside", "description": "Park messages on dedicated shelves instead of leaving them mixed into the main list."},
+    {"title": "Tracker blocking", "description": "Spy pixels and read-receipt trackers are stripped from incoming mail by default."},
+    {"title": "Threaded conversations", "description": "Conversations stay together with clear sender focus and quick attachment access."},
+    {"title": "HEY for Work", "description": "Use HEY on a custom domain with team features for small businesses and organizations."}
+  ],
+  "useCases": [
+    "Replacing Gmail with a more curated, less reactive inbox",
+    "Filtering newsletters out of important mail without losing them",
+    "Blocking marketing trackers and spy pixels in incoming email",
+    "Running a small business email on a custom domain via HEY for Work"
+  ],
+  "faq": [
+    {"question": "Is HEY free?", "answer": "No, HEY is a paid service with an annual fee per address; HEY for Work is a separate tier for custom domains and teams."},
+    {"question": "Can I use my existing email address?", "answer": "Personal HEY uses a hey.com address; HEY for Work lets you use your own custom domain."},
+    {"question": "Does HEY support IMAP or third-party clients?", "answer": "HEY is designed around its own apps and web client, with limited support for traditional IMAP-style external clients."},
+    {"question": "Can I export my email if I leave?", "answer": "Yes, HEY lets you export your messages so you can move them out of the service."}
+  ]
 }

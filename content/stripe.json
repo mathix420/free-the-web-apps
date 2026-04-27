@@ -10,5 +10,30 @@
     "entrepreneurship",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "The Stripe Dashboard is the web control panel for businesses using Stripe to accept payments online. It surfaces every payment, refund, dispute, customer, and subscription in one searchable interface, alongside the keys, webhooks, and settings used to configure the integration.\n\nFrom the dashboard, operators can issue refunds, retry failed charges, manage subscriptions and invoices, look up customers, and respond to disputes. Reports cover revenue, payout schedules, fees, and reconciliation data that can be exported for accounting.\n\nIt's used daily by founders, finance teams, and customer support to run the operational side of a business: confirming payments, handling refunds, monitoring fraud, and tracking growth. Test mode mirrors the live environment with sample data so changes can be tried safely before going to production.",
+  "category": "FinanceApplication",
+  "developer": "Stripe, Inc.",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Payments and refunds", "description": "Browse every charge, capture or refund payments, and retry failed transactions from a single interface."},
+    {"title": "Customers and subscriptions", "description": "View customer profiles, manage subscriptions, change plans, and send invoices directly from the dashboard."},
+    {"title": "Disputes and fraud tools", "description": "Respond to chargebacks, review Radar fraud signals, and tune rules to block risky payments."},
+    {"title": "Reports and payouts", "description": "Track revenue, fees, and payout schedules with exportable reports for accounting and reconciliation."},
+    {"title": "Test mode and developer tools", "description": "A full sandbox, API keys, webhook logs, and event inspector help developers debug integrations safely."}
+  ],
+  "useCases": [
+    "Monitoring daily revenue, payouts, and outstanding invoices",
+    "Issuing refunds and resolving customer payment issues",
+    "Managing subscriptions, plans, and recurring billing",
+    "Responding to disputes and tuning fraud prevention rules",
+    "Debugging webhook events and API calls during development"
+  ],
+  "faq": [
+    {"question": "Is the Stripe Dashboard free?", "answer": "The dashboard itself is free with any Stripe account; Stripe earns through per-transaction fees on processed payments."},
+    {"question": "Do I need a developer to use it?", "answer": "No, most operational tasks like refunds, invoices, and subscription changes can be done in the UI without writing code."},
+    {"question": "Can I export data for accounting?", "answer": "Yes, the dashboard supports CSV exports of payments, payouts, and custom reports for use in accounting tools."},
+    {"question": "What is test mode?", "answer": "Test mode is a sandbox that mirrors the live dashboard with fake payments, letting you verify integrations before going live."}
+  ]
 }

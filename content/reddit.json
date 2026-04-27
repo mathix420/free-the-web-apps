@@ -11,5 +11,30 @@
     "news",
     "communication"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Reddit is a social platform organized around communities called subreddits, each focused on a specific topic, hobby, or interest. Users post links, text, images, and videos, and other members vote and comment to surface what the community finds most relevant.\n\nIt works as a mix of news aggregator, discussion forum, and Q&A site. Threads are sorted by upvotes and recency, and conversations branch into nested comment trees that can run deep on popular posts.\n\nReddit is used to follow niche topics, ask questions, share creative work, and read first-hand accounts on everything from programming and finance to cooking and gaming. Most browsing is possible without an account, but posting, voting, and subscribing to subreddits require signing up.",
+  "category": "SocialNetworkingApplication",
+  "developer": "Reddit, Inc.",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Topic-based subreddits", "description": "Thousands of moderated communities cover specific interests, with their own rules and culture."},
+    {"title": "Voting and ranking", "description": "Upvotes and downvotes determine what posts and comments rise to the top of each feed."},
+    {"title": "Threaded discussions", "description": "Comments nest into trees so long debates and side conversations stay organized."},
+    {"title": "Personalized home feed", "description": "Subscribed subreddits combine into a single feed tuned to your interests."},
+    {"title": "Reddit Premium", "description": "An optional paid tier removes ads and grants monthly coins for awarding posts."}
+  ],
+  "useCases": [
+    "Following niche communities around hobbies, work, and interests",
+    "Asking questions and getting answers from people with direct experience",
+    "Discovering news, links, and discussion on current events",
+    "Sharing creative work, projects, or memes for community feedback",
+    "Researching products, games, or services through user discussions"
+  ],
+  "faq": [
+    {"question": "Do I need an account to use Reddit?", "answer": "You can read most public subreddits without an account, but posting, commenting, voting, and subscribing require signing up."},
+    {"question": "Is Reddit free?", "answer": "Reddit is free to use; an optional Premium subscription removes ads and adds monthly coins."},
+    {"question": "How are posts ranked?", "answer": "Posts are sorted by community votes combined with recency, with options like Hot, New, Top, and Rising."},
+    {"question": "Can I create my own subreddit?", "answer": "Yes, registered users in good standing can create and moderate their own communities for free."}
+  ]
 }

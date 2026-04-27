@@ -9,5 +9,29 @@
     "security",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "CyberChef is a browser-based tool for analyzing and transforming data. Users build a recipe by dragging operations such as base64 decoding, AES decryption, regex extraction, or hex-to-text into a pipeline, and the tool runs them top to bottom on the input as it is typed.\n\nIt is widely used by security analysts, incident responders, CTF players, and developers who need to quickly try sequences of decodings, encodings, and parsing steps. The library includes hundreds of operations covering encryption, hashing, compression, networking formats, dates and times, and many file formats.\n\nCyberChef runs entirely in the browser, so data is never uploaded to a server. The project is open source under Apache 2.0 and can be downloaded and run locally, which is the recommended option for sensitive data.",
+  "category": "SecurityApplication",
+  "developer": "GCHQ",
+  "pricing": "Open source / free",
+  "platforms": ["Web"],
+  "features": [
+    {"title": "Recipe pipeline", "description": "Chain operations into a recipe that runs in order, so each step transforms the previous step's output."},
+    {"title": "Hundreds of operations", "description": "Encoding, hashing, encryption, compression, parsing, networking, and date operations are all built in."},
+    {"title": "Runs in the browser", "description": "All processing happens client-side, so input data never leaves your machine."},
+    {"title": "File and binary support", "description": "Drag in files to operate on binary data, including images, archives, and packet captures."},
+    {"title": "Shareable recipes", "description": "Recipes can be saved, exported, or shared via URL so colleagues reproduce the same pipeline."}
+  ],
+  "useCases": [
+    "Decoding suspicious URLs or payloads during incident response",
+    "Solving capture-the-flag challenges that involve nested encodings",
+    "Inspecting and converting between text encodings and file formats",
+    "Hashing, signing, or verifying small pieces of data without writing code"
+  ],
+  "faq": [
+    {"question": "Is CyberChef free?", "answer": "Yes, CyberChef is open source under Apache 2.0 and free to use both online and self-hosted."},
+    {"question": "Is my data uploaded to a server?", "answer": "No, all processing happens in the browser, so input data stays on your machine."},
+    {"question": "Can I run CyberChef offline?", "answer": "Yes, you can download a release from GitHub and open the static HTML file locally."},
+    {"question": "Who maintains CyberChef?", "answer": "CyberChef was created and is maintained by GCHQ, the UK's signals intelligence agency, with contributions from the open-source community."}
+  ]
 }

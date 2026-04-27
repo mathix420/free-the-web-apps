@@ -11,5 +11,63 @@
     "diagram",
     "productivity"
   ],
-  "logoSize": 1024
+  "logoSize": 1024,
+  "longDescription": "Miro is an online collaborative whiteboard where distributed teams can brainstorm, diagram, plan projects, and run workshops on an infinite canvas. Multiple participants can edit the same board at the same time with live cursors, voting, timers, and other facilitation tools.\n\nThe platform ships with a large library of templates for common ceremonies such as retrospectives, customer journey maps, user story mapping, flowcharts, and design sprints. It also includes drawing tools, sticky notes, shapes, mind maps, Kanban frames, and embeds for documents, prototypes, and web content.\n\nMiro is used by product, design, engineering, and consulting teams as a virtual meeting room. It integrates with Slack, Microsoft Teams, Jira, Confluence, Figma, and most major videoconferencing tools, and offers SSO, audit logs, and granular permissions for enterprise customers.",
+  "category": "BusinessApplication",
+  "developer": "Miro",
+  "pricing": "Freemium",
+  "platforms": [
+    "Web",
+    "macOS",
+    "Windows",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    {
+      "title": "Infinite canvas",
+      "description": "Pan and zoom across an unlimited workspace with sticky notes, shapes, drawings, and frames in any layout."
+    },
+    {
+      "title": "Real-time collaboration",
+      "description": "See live cursors, follow other participants, and co-edit with reactions, voting, and a built-in timer."
+    },
+    {
+      "title": "Template library",
+      "description": "Hundreds of ready-made templates for retrospectives, journey maps, brainstorms, and product ceremonies."
+    },
+    {
+      "title": "Diagramming tools",
+      "description": "Build flowcharts, ERDs, BPMN, mind maps, and architecture diagrams with smart connectors and shape libraries."
+    },
+    {
+      "title": "Integrations",
+      "description": "Connect with Jira, Confluence, Asana, Figma, Slack, Teams, and Zoom to bring data and conversations onto the board."
+    }
+  ],
+  "useCases": [
+    "Running remote design sprints and ideation workshops",
+    "Mapping customer journeys and user research findings",
+    "Diagramming system architecture and process flows",
+    "Facilitating retrospectives and team rituals",
+    "Planning roadmaps and dependencies across teams"
+  ],
+  "faq": [
+    {
+      "question": "Is Miro free?",
+      "answer": "Miro has a Free plan with up to three editable boards. Starter, Business, and Enterprise plans unlock unlimited boards and advanced features."
+    },
+    {
+      "question": "How many people can collaborate on a board?",
+      "answer": "Miro supports hundreds of concurrent editors per board on paid plans, with viewer and commenter roles for guests."
+    },
+    {
+      "question": "Can I use Miro offline?",
+      "answer": "Miro requires an internet connection for live collaboration, but the desktop apps offer limited viewing and basic editing of recent boards."
+    },
+    {
+      "question": "Does Miro integrate with Jira and Figma?",
+      "answer": "Yes, Miro has official integrations with Jira, Confluence, Figma, Asana, Slack, Teams, and many other workplace tools."
+    }
+  ]
 }

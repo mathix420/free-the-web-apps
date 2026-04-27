@@ -11,5 +11,30 @@
     "streaming",
     "audio"
   ],
-  "logoSize": 300
+  "logoSize": 300,
+  "longDescription": "Spotify is a music and podcast streaming service with a catalog of tens of millions of tracks from major labels and independent artists. Listeners can search by song, album, artist, or genre, build their own playlists, and follow other users and curators.\n\nIts recommendation engine powers personalized playlists like Discover Weekly, Release Radar, and Daily Mixes, plus algorithmic radio stations that adapt to your listening history. Beyond music, Spotify hosts podcasts, audiobooks in select markets, and exclusive shows.\n\nA free ad-supported tier offers shuffled mobile playback, while Premium plans add on-demand listening, offline downloads, and higher audio quality. Spotify Connect ties the app to speakers, TVs, cars, and game consoles so playback can move between devices without losing the queue.",
+  "category": "MusicApplication",
+  "developer": "Spotify AB",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "Massive music catalog", "description": "Tens of millions of tracks span major-label releases, indie artists, and back catalogs in most genres."},
+    {"title": "Personalized playlists", "description": "Discover Weekly, Release Radar, and Daily Mixes update automatically based on what you listen to."},
+    {"title": "Podcasts and audiobooks", "description": "Spotify hosts a large podcast library and audiobook catalog in supported countries."},
+    {"title": "Spotify Connect", "description": "Stream from the app to speakers, TVs, consoles, and cars while keeping playback synced across devices."},
+    {"title": "Collaborative playlists", "description": "Multiple users can edit the same playlist together, with Blend mixing several friends' tastes."}
+  ],
+  "useCases": [
+    "Listening to music and podcasts at home, in the car, or on the go",
+    "Discovering new artists through algorithmic and editorial playlists",
+    "Building shared playlists with friends or for parties",
+    "Following favorite artists for new release notifications",
+    "Casting music to speakers, TVs, and consoles via Spotify Connect"
+  ],
+  "faq": [
+    {"question": "Is Spotify free?", "answer": "Yes, a free ad-supported tier is available, while Premium subscriptions add ad-free playback, offline downloads, and higher quality audio."},
+    {"question": "Can I listen offline?", "answer": "Premium subscribers can download playlists, albums, and podcasts for offline playback on mobile and desktop."},
+    {"question": "What audio quality does Spotify offer?", "answer": "Free users stream up to 160 kbps, while Premium streams up to 320 kbps with various quality presets in settings."},
+    {"question": "Can I use Spotify on multiple devices?", "answer": "One account works across all your devices, but only one can play music at a time on individual plans."}
+  ]
 }

@@ -10,5 +10,30 @@
     "productivity",
     "tool"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "Google Drive is Google's cloud storage service for files, photos, and documents. Each personal Google account includes 15 GB of storage shared across Drive, Gmail, and Photos, with paid Google One and Workspace plans extending capacity. Files can be uploaded directly or synced through the desktop app, and shared with others using granular per-file permissions.\n\nDrive is the home for Google Docs, Sheets, and Slides, which open in the browser and support real-time collaboration with comments, suggestions, and version history. It also previews dozens of file formats, including PDFs, Office documents, images, and video, without requiring extra software.\n\nFor teams, Shared Drives provide files owned by an organization rather than an individual, so access survives staff changes. Search uses Google's indexing, including OCR over PDFs and images, which makes Drive a practical archive for business and personal documents alike.",
+  "category": "Productivity",
+  "developer": "Google LLC",
+  "pricing": "Freemium",
+  "platforms": ["Web", "macOS", "Windows", "iOS", "Android"],
+  "features": [
+    {"title": "Cloud file storage", "description": "Store any file type in the cloud with 15 GB free per personal account and paid plans for more space."},
+    {"title": "Desktop sync", "description": "Drive for desktop syncs files between local folders and the cloud and supports streaming on demand."},
+    {"title": "Granular sharing", "description": "Share files or folders with view, comment, or edit access per email, group, or link."},
+    {"title": "Docs, Sheets, Slides", "description": "Create and collaborate on documents, spreadsheets, and presentations directly in the browser."},
+    {"title": "Powerful search", "description": "Find files by name, content, owner, or type, with OCR over PDFs and images."},
+    {"title": "Shared Drives", "description": "Workspace teams own files at the organization level so access does not depend on individual accounts."}
+  ],
+  "useCases": [
+    "Backing up personal photos, documents, and projects to the cloud",
+    "Sharing large files with collaborators via a link instead of email attachments",
+    "Collaborating in real time on Docs, Sheets, and Slides with a team",
+    "Storing and searching a long-term archive of business documents"
+  ],
+  "faq": [
+    {"question": "Is Google Drive free?", "answer": "Yes, every Google account includes 15 GB of free storage; Google One and Workspace plans add more space and features."},
+    {"question": "Can I use Google Drive offline?", "answer": "Yes, the mobile and desktop apps support offline access for selected files; web also offers offline mode for Docs, Sheets, and Slides."},
+    {"question": "Can I share files without giving people accounts?", "answer": "Yes, files can be shared with anyone who has the link, and link permissions can be view, comment, or edit."},
+    {"question": "Does Drive work with Microsoft Office files?", "answer": "Yes, Drive can preview, edit, and store .docx, .xlsx, and .pptx files directly without converting them."}
+  ]
 }

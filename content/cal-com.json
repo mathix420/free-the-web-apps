@@ -10,5 +10,29 @@
     "productivity",
     "tool"
   ],
-  "logoSize": 1024
+  "logoSize": 1024,
+  "longDescription": "Cal.com is an open-source scheduling platform that lets people share booking links so others can pick a time on their calendar. Users connect Google, Microsoft, Apple, or CalDAV calendars, define event types with durations and questions, and Cal.com handles availability, time zones, and confirmations.\n\nIt's used by freelancers, sales teams, recruiters, and customer success teams as an alternative to closed-source booking tools. Workflow features include round-robin and collective scheduling for teams, routing forms that send leads to the right person, payments via Stripe for paid bookings, and reminders over email or SMS.\n\nBecause it's open source, Cal.com can be self-hosted on your own infrastructure or used as a managed cloud service. An API, embeds, and webhooks allow it to be integrated into websites, CRMs, and internal tools.",
+  "category": "BusinessApplication",
+  "developer": "Cal.com, Inc.",
+  "pricing": "Open source / free",
+  "platforms": ["Web", "iOS", "Android"],
+  "features": [
+    {"title": "Calendar integrations", "description": "Connect Google, Microsoft, Apple, and CalDAV calendars to pull busy time and write new bookings."},
+    {"title": "Team scheduling", "description": "Round-robin and collective event types route bookings across team members based on availability and rules."},
+    {"title": "Routing forms", "description": "Qualify leads with form questions and direct each booking to the appropriate person or queue."},
+    {"title": "Embeds and API", "description": "Drop a booking widget into any website or call the public API to build custom scheduling flows."},
+    {"title": "Self-hostable", "description": "The codebase is open source under the AGPLv3 license and can be deployed on your own infrastructure."}
+  ],
+  "useCases": [
+    "Letting clients book one-on-one calls without back-and-forth emails",
+    "Routing inbound sales meetings round-robin across an account-executive team",
+    "Selling paid consultations with Stripe-backed bookings",
+    "Self-hosting a scheduling tool that meets internal compliance requirements"
+  ],
+  "faq": [
+    {"question": "Is Cal.com free?", "answer": "Cal.com offers a free individual plan in the cloud, paid Teams and Organizations tiers, and a fully open-source version that can be self-hosted at no license cost."},
+    {"question": "Is Cal.com open source?", "answer": "Yes, the project is licensed under AGPLv3 and the source code is publicly available on GitHub."},
+    {"question": "Which calendars does Cal.com support?", "answer": "It integrates with Google Calendar, Microsoft 365 / Outlook, Apple iCloud, and any CalDAV-compatible calendar service."},
+    {"question": "Can I take payments through Cal.com?", "answer": "Yes, Cal.com supports paid bookings through Stripe for event types that require payment up front."}
+  ]
 }

@@ -11,5 +11,29 @@
     "streaming",
     "entertainment"
   ],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "YouTube is the world's largest video sharing platform, hosting everything from short clips and music videos to tutorials, documentaries, podcasts, and live broadcasts. Anyone can create a channel, upload videos, go live, and reach a global audience for free.\n\nViewers find content through search, recommendations, subscriptions, and the Shorts feed for vertical short-form video. Creators monetize through the YouTube Partner Program, channel memberships, Super Chats during live streams, and Shorts revenue. YouTube Premium offers ad-free viewing, background play, and access to YouTube Music.\n\nOwned by Google, YouTube also serves as a primary platform for music streaming, gaming content, learning, and live events, with apps available across virtually every modern device.",
+  "category": "VideoApplication",
+  "developer": "Google LLC",
+  "pricing": "Free with optional Premium subscription",
+  "platforms": ["Web", "iOS", "Android", "tvOS", "Smart TV", "Game consoles"],
+  "features": [
+    {"title": "Video uploads and streaming", "description": "Upload videos in resolutions up to 8K and stream live to a global audience for free."},
+    {"title": "Shorts", "description": "Create and watch vertical short-form videos in a dedicated feed alongside long-form content."},
+    {"title": "Channels and subscriptions", "description": "Subscribers receive notifications when their favorite creators publish new videos or go live."},
+    {"title": "Monetization", "description": "Eligible creators earn through ads, channel memberships, Super Chats, Super Thanks, and Shorts revenue."},
+    {"title": "YouTube Premium", "description": "An optional subscription removes ads, enables background play, and includes YouTube Music."}
+  ],
+  "useCases": [
+    "Watching tutorials, reviews, news, and entertainment from any creator",
+    "Building an audience as a creator with long-form videos and Shorts",
+    "Streaming live gameplay, events, or podcasts to a global audience",
+    "Listening to music videos and full albums through YouTube or YouTube Music"
+  ],
+  "faq": [
+    {"question": "Is YouTube free?", "answer": "Yes, YouTube is free to watch with ads. YouTube Premium is an optional paid subscription that removes ads and adds extra features."},
+    {"question": "Do I need an account to watch?", "answer": "No, most videos can be watched without an account. A free Google account is required to subscribe, comment, or upload."},
+    {"question": "How do creators get paid?", "answer": "Through the YouTube Partner Program, which shares ad revenue, plus channel memberships, Super Chats, and Shorts revenue once eligibility thresholds are met."},
+    {"question": "Can I watch YouTube offline?", "answer": "YouTube Premium subscribers can download videos for offline viewing in the mobile apps."}
+  ]
 }

@@ -7,5 +7,29 @@
   "macLogo": "/icons/anki/mac.png",
   "screenshot": "/screenshot/anki.png",
   "tags": ["productivity", "todo"],
-  "logoSize": 512
+  "logoSize": 512,
+  "longDescription": "AnkiWeb is the online companion to Anki, a long-running spaced repetition flashcard system. It schedules reviews based on how well you recall each card, showing difficult cards more often and easy cards less often, which is widely used to make memorization more efficient.\n\nThe web app lets you study and edit cards in any browser and keeps your decks in sync with the desktop app and the mobile clients. Decks can include text, images, audio, and cloze deletions, and the open .apkg format means there are large libraries of community-shared decks for languages, medicine, law, and other subjects.\n\nAnki is popular with language learners, medical students, and anyone preparing for exams that require memorizing large amounts of information over time.",
+  "category": "EducationalApplication",
+  "developer": "Damien Elmes",
+  "pricing": "Free with paid plans",
+  "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+  "features": [
+    {"title": "Spaced repetition", "description": "An algorithm schedules each card based on your recall, focusing review time on what you are about to forget."},
+    {"title": "Cross-device sync", "description": "AnkiWeb keeps decks in sync between desktop, mobile, and the browser so you can study anywhere."},
+    {"title": "Rich card content", "description": "Cards can include images, audio, video, LaTeX, and cloze deletions for varied study material."},
+    {"title": "Shared deck library", "description": "Browse and import community-made decks covering languages, medicine, geography, and many other subjects."},
+    {"title": "Customizable scheduling", "description": "Adjust new card limits, intervals, and steps per deck to fit your workload and goals."}
+  ],
+  "useCases": [
+    "Learning vocabulary and grammar for a new language over time",
+    "Memorizing medical, legal, or technical terminology for exams",
+    "Reviewing programming syntax, shortcuts, or API reference cards",
+    "Retaining facts from books and lectures long after reading them"
+  ],
+  "faq": [
+    {"question": "Is AnkiWeb free?", "answer": "AnkiWeb, the desktop app, and Android client are free; the official iOS app is a paid one-time purchase that helps fund development."},
+    {"question": "Do I need an account to use Anki?", "answer": "No, you can use the desktop app entirely offline, but an AnkiWeb account is required to sync between devices and study in the browser."},
+    {"question": "Can I import decks from other apps?", "answer": "Anki imports CSV files and its own .apkg format, and there are community tools to convert from Quizlet and similar services."},
+    {"question": "Where is my data stored?", "answer": "Decks live locally on your devices and are synced through AnkiWeb's servers when you sign in."}
+  ]
 }
