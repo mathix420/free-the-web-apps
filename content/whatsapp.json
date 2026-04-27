@@ -1,0 +1,15 @@
+{
+  "id": "whatsapp",
+  "name": "WhatsApp",
+  "description": "End-to-end encrypted messaging across devices",
+  "url": "https://web.whatsapp.com/",
+  "logo": "https://ftwa.mathix.dev/icons/whatsapp/regular.png",
+  "macLogo": "https://ftwa.mathix.dev/icons/whatsapp/mac.png",
+  "screenshot": "/screenshot/whatsapp.png",
+  "tags": [
+    "communication",
+    "chat",
+    "social"
+  ],
+  "logoSize": 512
+}
